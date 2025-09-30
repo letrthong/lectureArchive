@@ -24,6 +24,9 @@
         }
     </script>
     <style>
+        /* Thiết lập font Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        
         /* CSS cho chế độ SÁNG */
         body {
             font-family: 'Inter', sans-serif;
@@ -64,10 +67,18 @@
         .dark .text-gray-600 { color: #d1d5db; }
         .dark .text-gray-800 { color: #f3f4f6; }
 
+        /* --- STYLE CHO TEMPLATE 2 (TỐI GIẢN) --- */
+        .template-2-title {
+             /* Tăng kích thước tiêu đề chính, nhưng giữ sự cân đối */
+            font-size: clamp(2.5rem, 6vw, 4rem); 
+            line-height: 1.1;
+            font-weight: 800; /* Extra Bold */
+            letter-spacing: -0.02em;
+        }
 
         /* --- Style chung --- */
         #file-upload { display: none; }
-        #slide-detail { max-height: 40vh; overflow-y: auto; padding-right: 0.5rem; }
+        #slide-detail-content { max-height: 40vh; overflow-y: auto; padding-right: 0.5rem; }
         #reference-image, .imageBase64 { max-w-full; max-height: 40vh; object-fit: contain; }
         .modal-overlay { z-index: 1000; }
         .main-content-container { padding-bottom: 7rem; }
@@ -142,31 +153,70 @@
         <!-- Khu vực Hiển thị Slide -->
         <div id="presentation-area" class="hidden">
             
-            <!-- 1. Thông tin Slide (Chỉ còn TITLE) -->
-            <div class="mb-6 p-4 bg-primary/10 rounded-xl bg-primary-10">
-                <h2 id="slide-title" class="text-xl font-extrabold text-gray-600"></h2> 
-            </div>
+            <!-- -------------------------------------------------------- -->
+            <!-- 6. KHU VỰC CHUYÊN DỤNG CHO TEMPLATE 2 (TỐI GIẢN) -->
+            <!-- -------------------------------------------------------- -->
+            <div id="cover-template-2-content" class="min-h-[50vh] flex flex-col justify-center items-center p-4 hidden">
+                <div class="max-w-3xl w-full text-center">
+                    
+                    <!-- Logo/Nhấn mạnh thương hiệu -->
+                    <div class="w-16 h-1 bg-primary mx-auto mb-8 rounded-full shadow-lg transition duration-500 hover:scale-125"></div> 
 
-            <!-- 2. Nội dung chi tiết (DETAIL) -->
-            <div id="slide-detail" class="text-base text-gray-700 leading-relaxed">
-                <!-- Nội dung chi tiết sẽ được chèn vào đây -->
-            </div>
-            
-            <!-- 3. Khu vực Hiển thị Hình ảnh Tham chiếu (referenceImagesBase64) -->
-            <div id="slide-image-container" class="mt-6 pt-1 border-t border-gray-200 hidden">
-                <img id="reference-image" class="max-w-full h-auto rounded-lg shadow-xl mx-auto border border-gray-200" alt="Hình ảnh tham chiếu của slide">
-            </div>
+                    <!-- Tiêu đề Chính CỰC LỚN (Title content) -->
+                    <!-- ĐÃ HOÁN ĐỔI VỊ TRÍ VÀ THAY ĐỔI MARGIN TỪ mb-16 SANG mb-4 -->
+                    <h1 id="t2-title-main" class="template-2-title text-gray-900 dark:text-white mb-4 transition duration-300">
+                        <!-- Nội dung Title sẽ được chèn vào đây -->
+                    </h1>
+                    
+                    <!-- Tiêu đề Phụ (Detail content) -->
+                    <!-- ĐÃ HOÁN ĐỔI VỊ TRÍ VÀ THAY ĐỔI MARGIN TỪ mb-4 SANG mb-16 -->
+                    <p id="t2-detail-top" class="text-lg md:text-xl font-medium text-gray-500 dark:text-gray-400 mb-16 tracking-widest uppercase">
+                        <!-- Nội dung Detail sẽ được chèn vào đây -->
+                    </p>
 
-            <!-- 4. Khu vực Hiển thị Ghi chú cấp cao nhất (NOTES) -->
-            <div id="slide-notes-container" class="mt-6 p-1 border border-gray-200 rounded-lg hidden slide-note-bg">
-                <p id="slide-notes" class="text-sm text-gray-600 italic whitespace-pre-wrap"></p>
-            </div>
 
-            <!-- 5. Khu vực Hiển thị Các Khối Nội dung Bổ sung (ADDITIONAL BLOCKS) -->
-            <div id="secondary-blocks-container" class="mt-8 pt-1 border-t border-gray-200">
-                <h3 class="text-xl font-bold text-gray-800 mb-4 hidden" id="secondary-blocks-title">Nội dung Bổ sung:</h3>
-                <!-- Các block con sẽ được chèn vào đây bởi JS -->
+                    <!-- Ghi chú/Chân trang (Notes content) -->
+                    <div class="inline-flex text-sm text-gray-500 dark:text-gray-400 pt-8 border-t border-gray-200 dark:border-gray-700">
+                        <span id="t2-notes-footer" class="text-base text-gray-600 dark:text-gray-300 italic">
+                             <!-- Nội dung Notes sẽ được chèn vào đây -->
+                        </span>
+                    </div>
+
+                </div>
             </div>
+            <!-- -------------------------------------------------------- -->
+
+            <!-- -------------------------------------------------------- -->
+            <!-- KHU VỰC NỘI DUNG CHUẨN (TEMPLATE 1) -->
+            <!-- -------------------------------------------------------- -->
+            <div id="standard-template-content">
+                 <!-- 1. Thông tin Slide (Chỉ còn TITLE) -->
+                <div class="mb-6 p-4 bg-primary/10 rounded-xl bg-primary-10">
+                    <h2 id="slide-title" class="text-xl font-extrabold text-gray-600"></h2> 
+                </div>
+
+                <!-- 2. Nội dung chi tiết (DETAIL) -->
+                <div id="slide-detail-content" class="text-base text-gray-700 leading-relaxed">
+                    <!-- Nội dung chi tiết sẽ được chèn vào đây -->
+                </div>
+                
+                <!-- 3. Khu vực Hiển thị Hình ảnh Tham chiếu (referenceImagesBase64) -->
+                <div id="slide-image-container" class="mt-6 pt-1 border-t border-gray-200 hidden">
+                    <img id="reference-image" class="max-w-full h-auto rounded-lg shadow-xl mx-auto border border-gray-200" alt="Hình ảnh tham chiếu của slide">
+                </div>
+
+                <!-- 4. Khu vực Hiển thị Ghi chú cấp cao nhất (NOTES) -->
+                <div id="slide-notes-container" class="mt-6 p-1 border border-gray-200 rounded-lg hidden slide-note-bg">
+                    <p id="slide-notes" class="text-sm text-gray-600 italic whitespace-pre-wrap"></p>
+                </div>
+
+                <!-- 5. Khu vực Hiển thị Các Khối Nội dung Bổ sung (ADDITIONAL BLOCKS) -->
+                <div id="secondary-blocks-container" class="mt-8 pt-1 border-t border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 hidden" id="secondary-blocks-title">Nội dung Bổ sung:</h3>
+                    <!-- Các block con sẽ được chèn vào đây bởi JS -->
+                </div>
+            </div>
+            <!-- -------------------------------------------------------- -->
 
             <!-- Khu vực thông báo lỗi -->
             <div id="error-message" class="mt-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-lg hidden"></div>
@@ -175,8 +225,8 @@
     </div>
     
     <!-- Thanh Điều Hướng (Navigation) CỐ ĐỊNH Ở DƯỚI CÙNG MÀN HÌNH (Trong suốt) -->
-    <div id="nav-controls" class="hidden fixed bottom-0 inset-x-0 w-full z-50 py-3 pointer-events-none">
-        <div class="max-w-4xl mx-auto flex justify-between items-center px-6 pointer-events-auto">
+    <div id="nav-controls" class="hidden fixed bottom-0 inset-x-0 w-full z-50 py-3">
+        <div class="max-w-4xl mx-auto flex justify-between items-center px-6">
             
             <!-- Vị trí 1: BÊN TRÁI: Tải Lại (Setup) / Trước (Prev) & Dark Mode Toggle -->
             <div class="flex items-center space-x-3">
@@ -271,34 +321,31 @@
         // Dữ liệu mẫu (Mock data)
         const MOCK_SLIDE_DATA = [
             {
-                // SLIDE 1: Trang Bìa/Trang Kết
+                // SLIDE 1: Trang Bìa/Trang Kết (TEMPLATE 2 - Minimalist Cover)
                 "id": "mock-001",
                 "page": 1,
-                "template": "2",
-                "title": "Trang Bìa/Trang Kết",
-                // Đảm bảo nội dung mẫu này không chứa thẻ HTML
-                "detail": "  nhưng vẫn cần font rõ ràng.",
-                "notes": "Đây là ghi chú chi tiết dành cho người trình bày.", 
-                // 1x1 transparent GIF placeholder - Giả lập imageBase64 có tồn tại
-                "referenceImagesBase64": "" 
-                // Không thêm notes và blocks để mô phỏng file gốc
+                "template": "2", // Template 2: Trang Bìa/Trang Kết
+                "title": "PHÂN TÍCH VÀ ĐỀ XUẤT PHÁT TRIỂN KỶ NGUYÊN SỐ",
+                "detail": "BÁO CÁO CHIẾN LƯỢC NỘI BỘ Q4/2025",
+                "notes": "Tác Giả: Nhóm Dự Án A2 | Ngày Ban Hành: 30 Tháng 09, 2025", 
+                "referenceImagesBase64": "", 
+                "blocks": []
             },
             {
-                // SLIDE 2: Minh họa nội dung chi tiết rất dài, cần cuộn
+                // SLIDE 2: Minh họa nội dung chi tiết rất dài, cần cuộn (TEMPLATE 1)
                 "id": "mock-002",
                 "page": 2,
-                "template": "1", 
-                "title": "Slide Mẫu 2: Kiểm tra chức năng cuộn nội dung",
-                // CHÚ Ý: Nội dung chi tiết được làm sạch để không có định dạng in đậm không mong muốn.
+                "template": "1", // Template 1: Template chuẩn
+                "title": "Slide Mẫu 2 (Template 1): Kiểm tra chức năng cuộn nội dung & Blocks",
                 "detail": "Nội dung chi tiết rất dài nhằm mục đích kiểm tra CSS max-height và overflow-y: auto.\n\nKiểm tra cuộn dọc 1: Tất cả chữ cái đều theo một chuẩn font và không bị in đậm ngẫu nhiên.\n\nKiểm tra cuộn dọc 2: Chúng ta đang sử dụng font 'Inter' với độ dày (weight) tiêu chuẩn (regular/400) cho nội dung chi tiết.\n\nKiểm tra cuộn dọc 3.\n\nKiểm tra cuộn dọc 4.",
-                "referenceImagesBase64": "", // Slide này không có ảnh tham chiếu chính
+                "referenceImagesBase64": "", 
+                "notes": "Slide này có ghi chú và blocks, và tất cả sẽ được hiển thị.",
                 
                 "blocks": [
                     {
-                        // Khối 1
                         "order": 1,
-                        "notes": "Khối A: Nội dung quan trọng", 
-                        "imageBase64": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", 
+                        "notes": "Khối A: Nội dung quan trọng (Block 1)", 
+                        "imageBase64": "", 
                         "content": [
                             { "order": 1, "text": "Đây là mục 1 của Khối A." },
                             { "order": 2, "text": "Đây là mục 2 của Khối A." }
@@ -307,24 +354,23 @@
                 ]
             },
             {
-                // SLIDE 3: Minh họa Nội dung Bổ sung và Ghi chú (Đã thêm notes để kiểm tra theo yêu cầu)
+                // SLIDE 3: Minh họa Nội dung Bổ sung và Ghi chú (TEMPLATE 1)
                 "id": "mock-003",
                 "page": 3,
-                "template": "1", 
-                "title": "Slide Mẫu 3: Minh họa Nội dung Bổ sung và Ghi chú",
+                "template": "1", // Template 1: Template chuẩn
+                "title": "Slide Mẫu 3 (Template 1): Minh họa đầy đủ các thành phần",
                 "detail": "Nội dung Detail vẫn được hiển thị. Đây là nội dung chi tiết ngắn gọn cho slide này.",
-                // SỬ DỤNG CHUỖI NOTES CỦA NGƯỜI DÙNG ĐỂ XÁC MINH RẰNG CODE CHẮN CHẮN HỢP LỆ
                 "notes": "Đây là ghi chú chi tiết dành cho người trình bày.", 
                 "referenceImagesBase64": "",
                 "blocks": [
                     {
                         "order": 1,
-                        "notes": "Điểm nổi bật A",
+                        "notes": "Điểm nổi bật A (Block 1)",
                         "content": [{ "order": 1, "text": "Mục tiêu 1" }, { "order": 2, "text": "Mục tiêu 2" }]
                     },
                     {
                         "order": 2,
-                        "notes": "Điểm nổi bật B",
+                        "notes": "Điểm nổi bật B (Block 2)",
                         "content": [{ "order": 1, "text": "Tính năng X" }, { "order": 2, "text": "Tính năng Y" }]
                     }
                 ]
@@ -339,15 +385,25 @@
         const navControls = document.getElementById('nav-controls');
         const prevButton = document.getElementById('prev-button');
         const nextButton = document.getElementById('next-button');
+        
+        // TEMPLATE 1 ELEMENTS (Standard)
+        const standardTemplateContent = document.getElementById('standard-template-content');
         const slideTitle = document.getElementById('slide-title');
-        const slideDetail = document.getElementById('slide-detail');
-        const slideCounter = document.getElementById('slide-counter'); 
+        const slideDetailContent = document.getElementById('slide-detail-content');
         const referenceImage = document.getElementById('reference-image'); 
         const slideImageContainer = document.getElementById('slide-image-container'); 
         const slideNotes = document.getElementById('slide-notes'); 
         const slideNotesContainer = document.getElementById('slide-notes-container'); 
         const secondaryBlocksContainer = document.getElementById('secondary-blocks-container'); 
         const secondaryBlocksTitle = document.getElementById('secondary-blocks-title'); 
+        
+        // TEMPLATE 2 ELEMENTS (Minimalist Cover)
+        const coverTemplate2Content = document.getElementById('cover-template-2-content');
+        const t2TitleMain = document.getElementById('t2-title-main');
+        const t2DetailTop = document.getElementById('t2-detail-top');
+        const t2NotesFooter = document.getElementById('t2-notes-footer');
+        
+        const slideCounter = document.getElementById('slide-counter'); 
         const errorMessage = document.getElementById('error-message');
         const loadingStatus = document.getElementById('loading-status'); 
         const startMockButton = document.getElementById('start-mock-button'); 
@@ -458,11 +514,15 @@
 
         /**
          * @function clearSlideContent
-         * @description Dọn dẹp tất cả các khu vực nội dung (Detail, Image, Notes, Blocks) và đảm bảo chúng được hiển thị.
+         * @description Dọn dẹp tất cả các khu vực nội dung và đảm bảo chúng được ẩn/hiện đúng.
          */
         function clearSlideContent() {
-            slideDetail.innerHTML = '';
-            slideDetail.classList.remove('hidden'); 
+            // Ẩn nội dung Template 2 và hiện Template 1 (Mặc định)
+            coverTemplate2Content.classList.add('hidden');
+            standardTemplateContent.classList.remove('hidden'); 
+
+            slideTitle.textContent = '';
+            slideDetailContent.innerHTML = '';
             referenceImage.src = '';
             slideImageContainer.classList.add('hidden');
             slideNotes.textContent = '';
@@ -503,7 +563,7 @@
 
                     if (headerText) {
                         const blockHeader = document.createElement('h4');
-                        blockHeader.className = 'text-lg font-bold text-gray-800'; 
+                        blockHeader.className = 'text-lg font-bold text-gray-800 dark:text-gray-200'; // Đảm bảo màu tối đúng
                         blockHeader.textContent = headerText;
                         blockDiv.appendChild(blockHeader);
                         
@@ -527,7 +587,7 @@
                             sortedContent.forEach(item => {
                                 if (item.text && item.text.trim().length > 0) {
                                     const p = document.createElement('p');
-                                    p.className = 'text-base text-gray-700'; 
+                                    p.className = 'text-base text-gray-700 dark:text-gray-300'; // Đảm bảo màu tối đúng
                                     p.textContent = item.text; 
                                     contentContainer.appendChild(p);
                                     hasContentItems = true;
@@ -540,7 +600,7 @@
                             
                         } else if (typeof block.content === 'string' && block.content.trim().length > 0) {
                             const contentP = document.createElement('p');
-                            contentP.className = 'text-base text-gray-700';
+                            contentP.className = 'text-base text-gray-700 dark:text-gray-300';
                             contentP.textContent = block.content;
                             contentP.innerHTML = contentP.textContent.replace(/\n/g, '<br>');
                             blockDiv.appendChild(contentP);
@@ -562,16 +622,19 @@
             }
         }
 
-        /**
-         * @function renderDefaultContent
-         * @description Hiển thị Detail, Image và Notes theo cấu trúc mặc định.
-         * @param {Object} slide - Đối tượng slide hiện tại.
-         */
-        function renderDefaultContent(slide) {
-            let detailContent = slide.detail || "Không có nội dung chi tiết.";
-            slideDetail.classList.remove('hidden');
 
-            slideDetail.innerHTML = ''; 
+        /**
+         * @function renderStandardContent
+         * @description Hàm cơ bản để hiển thị Detail, Image và Notes theo cấu trúc chuẩn.
+         * @param {Object} slide - Đối tượng slide hiện tại.
+         * @param {boolean} shouldRenderImage - Cờ kiểm tra có nên render reference image không.
+         * @param {boolean} shouldRenderNotes - Cờ kiểm tra có nên render notes không.
+         */
+        function renderStandardContent(slide, shouldRenderImage, shouldRenderNotes) {
+            // Logic Detail
+            let detailContent = slide.detail || "Không có nội dung chi tiết.";
+
+            slideDetailContent.innerHTML = ''; 
             
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = detailContent;
@@ -582,20 +645,20 @@
             if (paragraphs.length > 0) {
                 paragraphs.forEach(paragraph => {
                     const p = document.createElement('p');
-                    p.className = 'text-base text-gray-700 mb-3 font-normal'; 
+                    p.className = 'text-base text-gray-700 dark:text-gray-300 mb-3 font-normal'; 
                     p.innerHTML = paragraph.replace(/\n/g, '<br>'); 
-                    slideDetail.appendChild(p);
+                    slideDetailContent.appendChild(p);
                 });
             } else {
                  const p = document.createElement('p');
-                 p.className = 'text-base text-gray-700 font-normal italic';
+                 p.className = 'text-base text-gray-700 dark:text-gray-300 font-normal italic';
                  p.textContent = "Không có nội dung chi tiết.";
-                 slideDetail.appendChild(p);
+                 slideDetailContent.appendChild(p);
             }
 
+            // Logic Image 
             const base64Image = slide.referenceImagesBase64;
-            
-            if (base64Image && base64Image.trim().length > 0) {
+            if (shouldRenderImage && base64Image && base64Image.trim().length > 0) {
                 referenceImage.src = base64Image;
                 slideImageContainer.classList.remove('hidden');
             } else {
@@ -603,9 +666,9 @@
                 slideImageContainer.classList.add('hidden'); 
             }
 
+            // Logic Notes 
             const notesContent = slide.notes;
-            
-            if (notesContent && notesContent.trim().length > 0) {
+            if (shouldRenderNotes && notesContent && notesContent.trim().length > 0) {
                 slideNotes.textContent = notesContent;
                 slideNotesContainer.classList.remove('hidden');
             } else {
@@ -615,8 +678,49 @@
         }
         
         /**
+         * @function renderTemplate1
+         * @description Logic hiển thị cho template chuẩn (Template 1). Hiển thị tất cả: Image, Notes, Blocks.
+         */
+        function renderTemplate1(slide) {
+            standardTemplateContent.classList.remove('hidden'); 
+            coverTemplate2Content.classList.add('hidden');
+
+            // Ẩn Tiêu đề chính (vì nó được hiển thị bên trong standard-template-content)
+            slideTitle.classList.remove('hidden'); 
+            
+            renderStandardContent(slide, true, true); // Hiển thị Image và Notes
+            renderBlocks(slide); // Hiển thị các khối bổ sung
+        }
+
+        /**
+         * @function renderTemplate2
+         * @description Logic hiển thị cho trang bìa/trang kết (Template 2 - Minimalist).
+         */
+        function renderTemplate2(slide) {
+            // Ẩn nội dung Template 1 và hiện Template 2
+            standardTemplateContent.classList.add('hidden');
+            coverTemplate2Content.classList.remove('hidden'); 
+            
+            // Ẩn Tiêu đề chính (vì nó được hiển thị bên trong cover-template-2-content)
+            slideTitle.classList.add('hidden'); 
+
+            // Cập nhật nội dung cho Template 2
+            const titleContent = slide.title || "TIÊU ĐỀ CHÍNH CHƯA ĐƯỢC CUNG CẤP";
+            const detailContent = slide.detail || "Không có mô tả phụ";
+            const notesContent = slide.notes || "Thông tin tác giả và ngày tháng...";
+            
+            // Tiêu đề Chính (Chữ lớn)
+            t2TitleMain.textContent = titleContent.toUpperCase(); 
+            // Tiêu đề Phụ (Detail)
+            t2DetailTop.textContent = detailContent.toUpperCase(); 
+            // Thông tin cuối trang (Notes)
+            t2NotesFooter.textContent = notesContent; 
+        }
+
+
+        /**
          * @function renderSlide
-         * @description Cập nhật giao diện với nội dung của slide hiện tại.
+         * @description Cập nhật giao diện với nội dung của slide hiện tại, dựa trên template.
          */
         function renderSlide() {
             if (slideData.length === 0) return;
@@ -625,7 +729,7 @@
 
             const slide = slideData[currentSlideIndex];
             
-            // 1. Cập nhật Tiêu đề 
+            // 1. Cập nhật Tiêu đề (Chỉ dùng cho Template 1)
             slideTitle.textContent = slide.title || "(Không có Tiêu đề)";
             
             // 2. Cập nhật Chỉ số Slide
@@ -643,9 +747,13 @@
                 setupButton.classList.add('hidden');
             }
             
-            // 4. Hiển thị nội dung
-            renderDefaultContent(slide); 
-            renderBlocks(slide);
+            // 4. HIỂN THỊ NỘI DUNG DỰA TRÊN TEMPLATE
+            if (slide.template === "2") {
+                renderTemplate2(slide);
+            } else {
+                // Mặc định là Template 1 nếu template không được định nghĩa hoặc là giá trị khác
+                renderTemplate1(slide);
+            }
 
             prevButton.disabled = currentSlideIndex === 0; 
         }
