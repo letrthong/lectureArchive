@@ -270,13 +270,65 @@
 
         // Dữ liệu mẫu (Mock data)
         const MOCK_SLIDE_DATA = [
-            { "id": "mock-001", "page": 1, "template": "1", "title": "Giới thiệu & Mục tiêu khóa học", "detail": "Chào mừng đến với bài giảng! Chúng ta sẽ khám phá các khái niệm cơ bản trong buổi học hôm nay." },
-            { "id": "mock-002", "page": 2, "template": "1", "title": "Định nghĩa về Dữ liệu Lớn (Big Data)", "detail": "Dữ liệu lớn là tập hợp dữ liệu phức tạp đến mức các ứng dụng xử lý dữ liệu truyền thống không thể xử lý được. Hãy nhớ 3 V." },
-            { "id": "mock-003", "page": 3, "template": "1", "title": "3 V của Big Data: Volume, Velocity, Variety", "detail": "Cần nắm rõ 3 đặc trưng cốt lõi này để hiểu rõ bản chất của Big Data." },
-            { "id": "mock-004", "page": 4, "template": "1", "title": "Kiến trúc Hadoop và MapReduce", "detail": "Hadoop là khung công tác phần mềm mã nguồn mở cho phép lưu trữ và xử lý dữ liệu lớn. MapReduce là mô hình lập trình cốt lõi của Hadoop." },
-            { "id": "mock-005", "page": 5, "template": "1", "title": "Thảo luận và Hỏi đáp", "detail": "Đây là phần cuối cùng, dành cho việc tóm tắt và trả lời các thắc mắc của người học." }
+            {
+                // SLIDE 1: Cấu trúc mô phỏng file upload (chỉ chứa các trường bắt buộc)
+                "id": "mock-001",
+                "page": 1,
+                "template": "1",
+                "title": "Slide Mẫu 1: Nội dung chi tiết ngắn gọn",
+                // Đảm bảo nội dung mẫu này không chứa thẻ HTML
+                "detail": "Nội dung chi tiết của slide này rất ngắn. Đây là template 1 (cơ bản) với Title, Detail, và Image chính. Dù ngắn nhưng vẫn cần font rõ ràng.",
+                // 1x1 transparent GIF placeholder - Giả lập imageBase64 có tồn tại
+                "referenceImagesBase64": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", 
+                // Không thêm notes và blocks để mô phỏng file gốc
+            },
+            {
+                // SLIDE 2: Minh họa nội dung chi tiết rất dài, cần cuộn
+                "id": "mock-002",
+                "page": 2,
+                "template": "1", 
+                "title": "Slide Mẫu 2: Kiểm tra chức năng cuộn nội dung",
+                // CHÚ Ý: Nội dung chi tiết được làm sạch để không có định dạng in đậm không mong muốn.
+                "detail": "Nội dung chi tiết rất dài nhằm mục đích kiểm tra CSS max-height và overflow-y: auto.\n\nKiểm tra cuộn dọc 1: Tất cả chữ cái đều theo một chuẩn font và không bị in đậm ngẫu nhiên.\n\nKiểm tra cuộn dọc 2: Chúng ta đang sử dụng font 'Inter' với độ dày (weight) tiêu chuẩn (regular/400) cho nội dung chi tiết.\n\nKiểm tra cuộn dọc 3.\n\nKiểm tra cuộn dọc 4.",
+                "referenceImagesBase64": "", // Slide này không có ảnh tham chiếu chính
+                
+                "blocks": [
+                    {
+                        // Khối 1
+                        "order": 1,
+                        "notes": "Khối A: Nội dung quan trọng", 
+                        "imageBase64": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", 
+                        "content": [
+                            { "order": 1, "text": "Đây là mục 1 của Khối A." },
+                            { "order": 2, "text": "Đây là mục 2 của Khối A." }
+                        ]
+                    }
+                ]
+            },
+            {
+                // SLIDE 3: Minh họa Nội dung Bổ sung và Ghi chú (Đã thêm notes để kiểm tra theo yêu cầu)
+                "id": "mock-003",
+                "page": 3,
+                "template": "1", 
+                "title": "Slide Mẫu 3: Minh họa Nội dung Bổ sung và Ghi chú",
+                "detail": "Nội dung Detail vẫn được hiển thị. Đây là nội dung chi tiết ngắn gọn cho slide này.",
+                // SỬ DỤNG CHUỖI NOTES CỦA NGƯỜI DÙNG ĐỂ XÁC MINH RẰNG CODE CHẮN CHẮN HỢP LỆ
+                "notes": "Đây là ghi chú chi tiết dành cho người trình bày.", 
+                "referenceImagesBase64": "",
+                "blocks": [
+                    {
+                        "order": 1,
+                        "notes": "Điểm nổi bật A",
+                        "content": [{ "order": 1, "text": "Mục tiêu 1" }, { "order": 2, "text": "Mục tiêu 2" }]
+                    },
+                    {
+                        "order": 2,
+                        "notes": "Điểm nổi bật B",
+                        "content": [{ "order": 1, "text": "Tính năng X" }, { "order": 2, "text": "Tính năng Y" }]
+                    }
+                ]
+            }
         ];
-
 
         // Lấy các phần tử DOM
         const fileUpload = document.getElementById('file-upload');
