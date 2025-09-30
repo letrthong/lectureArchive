@@ -39,7 +39,17 @@
             color: #1f2937; /* text-gray-800 */
         }
         /* Các slide sections */
-        #slide-title { color: #4b5563; } /* text-gray-600 */
+        #slide-title { 
+            color: #4b5563; /* text-gray-600 */
+            /* Style cho tiêu đề Template 1/3/4/5 */
+            text-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+            padding: 1rem;
+            background-color: #d1f7f5; /* bg-primary/10 */
+            border-radius: 0.75rem; /* rounded-xl */
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 800; /* font-extrabold */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
         #slide-detail { color: #4b5563; } /* text-gray-700 */
         .bg-primary-10 { background-color: #d1f7f5; } /* bg-primary/10 */
         .slide-note-bg { background-color: #f9fafb; border-color: #e5e7eb; } /* bg-gray-50, border-gray-200 */
@@ -57,7 +67,11 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
         }
         /* Các slide sections trong Dark Mode */
-        .dark #slide-title { color: #e5e7eb; } /* text-gray-200 */
+        .dark #slide-title { 
+            color: #e5e7eb; /* text-gray-200 */
+            background-color: #0d4440; /* Darker primary background */
+            text-shadow: none;
+        } 
         .dark #slide-detail { color: #d1d5db; } /* text-gray-300 */
         .dark .bg-primary-10 { background-color: #0d4440; } /* Darker primary background */
         .dark .slide-note-bg { background-color: #4b5563; border-color: #6b7280; } /* Darker notes background */
@@ -76,9 +90,49 @@
             letter-spacing: -0.02em;
         }
 
+        /* --- STYLE CHO TEMPLATE 3, 4, 5 (DANH SÁCH & CHIA CỘT) --- */
+        .list-container-t3, .list-container-t4 {
+             padding-top: 1rem; 
+        }
+        .list-item-style {
+            position: relative;
+            padding-left: 2rem; /* Khoảng cách cho dấu gạch đầu dòng tùy chỉnh */
+            font-size: clamp(1.1rem, 2vw, 1.4rem); /* Kích thước chữ lớn */
+            font-weight: 500;
+            line-height: 1.6;
+        }
+        .list-item-style::before {
+            content: '•'; /* Dấu gạch đầu dòng (bullet) */
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.5em; /* Kích thước dấu chấm lớn hơn */
+            color: #14B8A6; /* Secondary color */
+            font-weight: 900;
+        }
+        
+        /* Style cho Template 4 - Tách giữa các cột */
+        .column-divider {
+            /* Đường phân cách dọc chỉ hiện trên màn hình lớn */
+            border-left: 2px solid #e5e7eb; /* border-gray-200 */
+        }
+        .dark .column-divider {
+            border-left: 2px solid #4b5563; /* border-gray-600 */
+        }
+        /* Đảm bảo có khoảng cách an toàn trên mobile */
+        .column-separator-mobile {
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e5e7eb; /* Dùng đường ngang tạm thời trên mobile */
+        }
+        .dark .column-separator-mobile {
+            border-bottom: 2px solid #4b5563;
+        }
+
         /* --- Style chung --- */
         #file-upload { display: none; }
-        #slide-detail-content { max-height: 40vh; overflow-y: auto; padding-right: 0.5rem; }
+        /* Tùy chỉnh max-height cho Detail Content - có thể cuộn */
+        #slide-detail-content { max-height: 40vh; overflow-y: auto; padding-right: 0.5rem; } 
         #reference-image, .imageBase64 { max-w-full; max-height: 40vh; object-fit: contain; }
         .modal-overlay { z-index: 1000; }
         .main-content-container { padding-bottom: 7rem; }
@@ -154,26 +208,24 @@
         <div id="presentation-area" class="hidden">
             
             <!-- -------------------------------------------------------- -->
-            <!-- 6. KHU VỰC CHUYÊN DỤNG CHO TEMPLATE 2 (TỐI GIẢN) -->
+            <!-- KHU VỰC NỘI DUNG CHUYÊN DỤNG (Template 2) -->
             <!-- -------------------------------------------------------- -->
+            
+            <!-- Template 2 (Trang Bìa/Tối Giản) -->
             <div id="cover-template-2-content" class="min-h-[50vh] flex flex-col justify-center items-center p-4 hidden">
                 <div class="max-w-3xl w-full text-center">
                     
-                    <!-- Logo/Nhấn mạnh thương hiệu -->
                     <div class="w-16 h-1 bg-primary mx-auto mb-8 rounded-full shadow-lg transition duration-500 hover:scale-125"></div> 
 
                     <!-- Tiêu đề Chính CỰC LỚN (Title content) -->
-                    <!-- ĐÃ HOÁN ĐỔI VỊ TRÍ VÀ THAY ĐỔI MARGIN TỪ mb-16 SANG mb-4 -->
                     <h1 id="t2-title-main" class="template-2-title text-gray-900 dark:text-white mb-4 transition duration-300">
                         <!-- Nội dung Title sẽ được chèn vào đây -->
                     </h1>
                     
                     <!-- Tiêu đề Phụ (Detail content) -->
-                    <!-- ĐÃ HOÁN ĐỔI VỊ TRÍ VÀ THAY ĐỔI MARGIN TỪ mb-4 SANG mb-16 -->
                     <p id="t2-detail-top" class="text-lg md:text-xl font-medium text-gray-500 dark:text-gray-400 mb-16 tracking-widest uppercase">
                         <!-- Nội dung Detail sẽ được chèn vào đây -->
                     </p>
-
 
                     <!-- Ghi chú/Chân trang (Notes content) -->
                     <div class="inline-flex text-sm text-gray-500 dark:text-gray-400 pt-8 border-t border-gray-200 dark:border-gray-700">
@@ -184,21 +236,55 @@
 
                 </div>
             </div>
-            <!-- -------------------------------------------------------- -->
 
             <!-- -------------------------------------------------------- -->
-            <!-- KHU VỰC NỘI DUNG CHUẨN (TEMPLATE 1) -->
+            <!-- KHU VỰC NỘI DUNG CHUẨN (TEMPLATE 1, 3, 4, VÀ 5) -->
             <!-- -------------------------------------------------------- -->
             <div id="standard-template-content">
-                 <!-- 1. Thông tin Slide (Chỉ còn TITLE) -->
-                <div class="mb-6 p-4 bg-primary/10 rounded-xl bg-primary-10">
-                    <h2 id="slide-title" class="text-xl font-extrabold text-gray-600"></h2> 
-                </div>
+                 <!-- 1. Thông tin Slide (TITLE) - Dùng chung cho Template 1, 3, 4, 5 -->
+                <h2 id="slide-title" class="text-xl font-extrabold text-gray-600"></h2> 
 
-                <!-- 2. Nội dung chi tiết (DETAIL) -->
-                <div id="slide-detail-content" class="text-base text-gray-700 leading-relaxed">
+                <!-- 2. Nội dung chi tiết (DETAIL) - VỊ TRÍ MỚI (Đã di chuyển lên) -->
+                <!-- Vị trí này phù hợp cho T1 (Detail -> Blocks) và T5 (Detail -> List) -->
+                <div id="slide-detail-content" class="text-base text-gray-700 leading-relaxed mb-6">
                     <!-- Nội dung chi tiết sẽ được chèn vào đây -->
                 </div>
+
+                <!-- 
+                    Template 3 & 5 (Danh Sách Đơn Giản) - Danh sách 1 cột
+                -->
+                <div id="list-template-3-content" class="min-h-[40vh] flex flex-col justify-start items-start pt-4 hidden">
+                    <div class="max-w-4xl w-full list-container-t3">
+                        <!-- Danh sách Items -->
+                        <ul id="t3-content-list" class="space-y-6 text-gray-800 dark:text-gray-200">
+                            <!-- Các mục danh sách sẽ được chèn vào đây -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 
+                    Template 4 (Danh Sách 2 Cột) - Danh sách chia màn hình
+                -->
+                <div id="columns-template-4-content" class="min-h-[40vh] flex flex-col justify-start items-start pt-4 hidden">
+                    <div class="max-w-4xl w-full list-container-t4">
+                        <!-- Chia thành 2 cột trên màn hình lớn (sm:grid-cols-2) -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                            <!-- Cột Trái -->
+                            <div class="sm:pr-4 sm:border-r column-divider column-separator-mobile sm:border-r-0">
+                                <ul id="t4-content-left" class="space-y-6 text-gray-800 dark:text-gray-200">
+                                    <!-- Items cột trái -->
+                                </ul>
+                            </div>
+                            <!-- Cột Phải -->
+                            <div class="sm:pl-4">
+                                <ul id="t4-content-right" class="space-y-6 text-gray-800 dark:text-gray-200">
+                                    <!-- Items cột phải -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 
                 <!-- 3. Khu vực Hiển thị Hình ảnh Tham chiếu (referenceImagesBase64) -->
                 <div id="slide-image-container" class="mt-6 pt-1 border-t border-gray-200 hidden">
@@ -354,26 +440,55 @@
                 ]
             },
             {
-                // SLIDE 3: Minh họa Nội dung Bổ sung và Ghi chú (TEMPLATE 1)
+                // SLIDE 3: Minh họa Template 3 (Danh sách đơn giản)
                 "id": "mock-003",
                 "page": 3,
-                "template": "1", // Template 1: Template chuẩn
-                "title": "Slide Mẫu 3 (Template 1): Minh họa đầy đủ các thành phần",
-                "detail": "Nội dung Detail vẫn được hiển thị. Đây là nội dung chi tiết ngắn gọn cho slide này.",
-                "notes": "Đây là ghi chú chi tiết dành cho người trình bày.", 
-                "referenceImagesBase64": "",
-                "blocks": [
-                    {
-                        "order": 1,
-                        "notes": "Điểm nổi bật A (Block 1)",
-                        "content": [{ "order": 1, "text": "Mục tiêu 1" }, { "order": 2, "text": "Mục tiêu 2" }]
-                    },
-                    {
-                        "order": 2,
-                        "notes": "Điểm nổi bật B (Block 2)",
-                        "content": [{ "order": 1, "text": "Tính năng X" }, { "order": 2, "text": "Tính năng Y" }]
-                    }
-                ]
+                "template": "3", 
+                "title": "BỐN ĐỘNG LỰC PHÁT TRIỂN CHÍNH TRONG NĂM 2026 (TEMPLATE 3)",
+                "content": [
+                    { "order": 1, "text": "Động lực 1: Tối ưu hóa trải nghiệm người dùng trên các nền tảng di động." },
+                    { "order": 2, "text": "Động lực 2: Mở rộng thị trường mục tiêu sang khu vực Đông Nam Á." },
+                    { "order": 3, "text": "Động lực 3: Đầu tư mạnh vào công nghệ AI để tự động hóa quy trình nội bộ." },
+                    { "order": 4, "text": "Động lực 4: Xây dựng quan hệ đối tác chiến lược với các nhà cung cấp lớn." }
+                ],
+                "detail": "Template 3 chỉ hiển thị Title và Content (danh sách 1 cột). Detail/Notes/Image sẽ bị bỏ qua."
+            },
+            {
+                 // SLIDE 4: Minh họa Template 4: Hai cột nội dung
+                "id": "mock-004",
+                "page": 4,
+                "template": "4", 
+                "title": "SO SÁNH CÁC KÊNH PHÂN PHỐI SẢN PHẨM (TEMPLATE 4)",
+                "contentLeft": [
+                    { "order": 1, "text": "Kênh A: Phân phối truyền thống (Giá cao, Độ phủ thấp)." },
+                    { "order": 2, "text": "Kênh B: Thương mại điện tử (Giá trung bình, Độ phủ toàn cầu)." },
+                    { "order": 3, "text": "Kênh C: Mạng xã hội (Chi phí quảng cáo thấp, Tương tác trực tiếp)." },
+                    { "order": 4, "text": "Kênh D: Bán hàng trực tiếp (Tùy chỉnh cao, Chi phí vận hành lớn)." }
+                ],
+                "contentRight": [
+                    { "order": 1, "text": "Đối tượng A: Khách hàng lớn tuổi, thích trải nghiệm vật lý." },
+                    { "order": 2, "text": "Đối tượng B: Người trẻ, thành thị, sử dụng smartphone thường xuyên." },
+                    { "order": 3, "text": "Đối tượng C: Nhóm khách hàng tìm kiếm thông tin theo cảm xúc và xu hướng." },
+                    { "order": 4, "text": "Đối tượng D: Khách hàng doanh nghiệp (B2B) cần tư vấn chuyên sâu." }
+                ],
+                "detail": "Template 4 hiển thị Title và Content (danh sách 2 cột: contentLeft và contentRight)."
+            },
+            {
+                // SLIDE 5: Minh họa Template 5: Chi tiết trước và Danh sách (Yêu cầu MỚI)
+                "id": "mock-005", 
+                "page": 5, 
+                "template": "5", 
+                "title": "TỔNG QUAN VÀ CHI TIẾT CÁC ĐỘNG LỰC PHÁT TRIỂN (TEMPLATE 5)", 
+                "detail": "Định hướng chiến lược năm 2026 tập trung vào **chuyển đổi số toàn diện** và thâm nhập các thị trường mới. Phần detail này sẽ được hiển thị ngay trên danh sách nội dung, đóng vai trò là phần giới thiệu hoặc tóm tắt ý chính. Sử dụng style nhấn mạnh Teal/Xanh Ngọc Bích cho khối Detail.", 
+                "content": [ 
+                    { "order": 1, "text": "Động lực 1: Tối ưu hóa trải nghiệm người dùng trên các nền tảng di động." }, 
+                    { "order": 2, "text": "Động lực 2: Mở rộng thị trường mục tiêu sang khu vực Đông Nam Á." }, 
+                    { "order": 3, "text": "Động lực 3: Đầu tư mạnh vào công nghệ AI để tự động hóa quy trình nội bộ." }, 
+                    { "order": 4, "text": "Động lực 4: Xây dựng quan hệ đối tác chiến lược với các nhà cung cấp lớn." } 
+                ],
+                "notes": "Template 5: Title, Detail (trước) được làm nổi bật, và Content List 1 cột.",
+                "referenceImagesBase64": "", 
+                "blocks": []
             }
         ];
 
@@ -386,7 +501,7 @@
         const prevButton = document.getElementById('prev-button');
         const nextButton = document.getElementById('next-button');
         
-        // TEMPLATE 1 ELEMENTS (Standard)
+        // TEMPLATE 1/3/4/5 ELEMENTS (Standard)
         const standardTemplateContent = document.getElementById('standard-template-content');
         const slideTitle = document.getElementById('slide-title');
         const slideDetailContent = document.getElementById('slide-detail-content');
@@ -403,6 +518,16 @@
         const t2DetailTop = document.getElementById('t2-detail-top');
         const t2NotesFooter = document.getElementById('t2-notes-footer');
         
+        // TEMPLATE 3 & 5 ELEMENTS (Simple List)
+        const listTemplate3Content = document.getElementById('list-template-3-content'); 
+        const t3ContentList = document.getElementById('t3-content-list');
+        
+        // TEMPLATE 4 ELEMENTS (2 Columns List)
+        const columnsTemplate4Content = document.getElementById('columns-template-4-content');
+        const t4ContentLeft = document.getElementById('t4-content-left');
+        const t4ContentRight = document.getElementById('t4-content-right');
+
+
         const slideCounter = document.getElementById('slide-counter'); 
         const errorMessage = document.getElementById('error-message');
         const loadingStatus = document.getElementById('loading-status'); 
@@ -517,18 +642,26 @@
          * @description Dọn dẹp tất cả các khu vực nội dung và đảm bảo chúng được ẩn/hiện đúng.
          */
         function clearSlideContent() {
-            // Ẩn nội dung Template 2 và hiện Template 1 (Mặc định)
+            // Ẩn nội dung Template 2, T3 list, T4 columns
             coverTemplate2Content.classList.add('hidden');
+            listTemplate3Content.classList.add('hidden'); 
+            columnsTemplate4Content.classList.add('hidden'); 
+            
+            // Hiện Template 1 (Mặc định)
             standardTemplateContent.classList.remove('hidden'); 
 
             slideTitle.textContent = '';
             slideDetailContent.innerHTML = '';
+            slideDetailContent.classList.remove('hidden'); 
             referenceImage.src = '';
             slideImageContainer.classList.add('hidden');
             slideNotes.textContent = '';
             slideNotesContainer.classList.add('hidden');
             secondaryBlocksContainer.innerHTML = '';
             secondaryBlocksTitle.classList.add('hidden');
+            
+            // QUAN TRỌNG: Loại bỏ style đặc trưng của T5 khỏi Detail Content (Dọn dẹp)
+            slideDetailContent.classList.remove('bg-primary-10', 'p-5', 'rounded-xl', 'shadow-md', 'mb-6', 'border-l-4', 'border-primary', 'font-semibold', 'text-lg');
         }
 
 
@@ -636,16 +769,17 @@
 
             slideDetailContent.innerHTML = ''; 
             
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = detailContent;
-            const cleanText = tempDiv.textContent || tempDiv.innerText || detailContent;
+            // Xử lý Markdown đơn giản (chỉ in đậm **)
+            const detailedText = (slide.detail || "Không có nội dung chi tiết.").replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             
-            const paragraphs = cleanText.split('\n\n').map(p => p.trim()).filter(p => p.length > 0);
+            const paragraphs = detailedText.split('\n\n').map(p => p.trim()).filter(p => p.length > 0);
             
             if (paragraphs.length > 0) {
                 paragraphs.forEach(paragraph => {
                     const p = document.createElement('p');
-                    p.className = 'text-base text-gray-700 dark:text-gray-300 mb-3 font-normal'; 
+                    // Tùy chọn: Thêm class font-medium nếu đang ở T5
+                    p.className = 'text-base text-gray-700 dark:text-gray-300 mb-3 font-normal';
+                    // Chỉ dùng innerHTML nếu đã xử lý markdown
                     p.innerHTML = paragraph.replace(/\n/g, '<br>'); 
                     slideDetailContent.appendChild(p);
                 });
@@ -679,15 +813,21 @@
         
         /**
          * @function renderTemplate1
-         * @description Logic hiển thị cho template chuẩn (Template 1). Hiển thị tất cả: Image, Notes, Blocks.
+         * @description Logic hiển thị cho template chuẩn (Template 1). Hiển thị tất cả: Detail, Image, Notes, Blocks.
          */
         function renderTemplate1(slide) {
-            standardTemplateContent.classList.remove('hidden'); 
+            // Dọn dẹp chung (đã ẩn T2, T3, T4 list)
             coverTemplate2Content.classList.add('hidden');
+            listTemplate3Content.classList.add('hidden'); 
+            columnsTemplate4Content.classList.add('hidden'); 
 
-            // Ẩn Tiêu đề chính (vì nó được hiển thị bên trong standard-template-content)
+            // Hiển thị các phần tử của Template 1
             slideTitle.classList.remove('hidden'); 
-            
+            slideDetailContent.classList.remove('hidden'); 
+
+            // Đảm bảo không có style đặc trưng của T5
+            slideDetailContent.classList.remove('bg-primary-10', 'p-5', 'rounded-xl', 'shadow-md', 'mb-6', 'border-l-4', 'border-primary', 'font-semibold', 'text-lg');
+
             renderStandardContent(slide, true, true); // Hiển thị Image và Notes
             renderBlocks(slide); // Hiển thị các khối bổ sung
         }
@@ -697,11 +837,11 @@
          * @description Logic hiển thị cho trang bìa/trang kết (Template 2 - Minimalist).
          */
         function renderTemplate2(slide) {
-            // Ẩn nội dung Template 1 và hiện Template 2
+            // Ẩn nội dung Template 1 (chỉ cần div chứa) và hiện Template 2
             standardTemplateContent.classList.add('hidden');
             coverTemplate2Content.classList.remove('hidden'); 
             
-            // Ẩn Tiêu đề chính (vì nó được hiển thị bên trong cover-template-2-content)
+            // Ẩn Tiêu đề chính của Template 1 (dù T1 đã bị ẩn)
             slideTitle.classList.add('hidden'); 
 
             // Cập nhật nội dung cho Template 2
@@ -717,6 +857,130 @@
             t2NotesFooter.textContent = notesContent; 
         }
 
+        /**
+         * @function renderListItems
+         * @description Hàm tiện ích để tạo danh sách <li> cho Template 3, 4 và 5.
+         * @param {Array<Object>} contentItems - Mảng các đối tượng {order, text}.
+         * @param {HTMLElement} targetUl - Phần tử UL để chèn vào.
+         */
+        function renderListItems(contentItems, targetUl) {
+            targetUl.innerHTML = '';
+
+            if (Array.isArray(contentItems) && contentItems.length > 0) {
+                const sortedItems = contentItems.sort((a, b) => (a.order || 0) - (b.order || 0));
+                
+                sortedItems.forEach(item => {
+                    if (item.text && item.text.trim().length > 0) {
+                        const listItem = document.createElement('li');
+                        // Sử dụng class chung cho style danh sách bullet
+                        listItem.className = 'list-item-style dark:text-gray-200'; 
+                        listItem.textContent = item.text;
+                        targetUl.appendChild(listItem);
+                    }
+                });
+            } else {
+                 const listItem = document.createElement('li');
+                 listItem.className = 'text-lg text-gray-500 italic';
+                 listItem.textContent = "(Không có mục nào trong danh sách)";
+                 targetUl.appendChild(listItem);
+            }
+        }
+
+
+        /**
+         * @function renderTemplate3
+         * @description Logic hiển thị cho Danh Sách Đơn Giản (Template 3). Chỉ hiển thị Title và Content List (1 cột).
+         */
+        function renderTemplate3(slide) {
+            // Ẩn Template 2 và T4
+            coverTemplate2Content.classList.add('hidden');
+            columnsTemplate4Content.classList.add('hidden');
+
+            // 1. Hiển thị Tiêu đề (Sử dụng style Template 1)
+            slideTitle.classList.remove('hidden'); 
+            slideTitle.textContent = slide.title || "TIÊU ĐỀ CỦA DANH SÁCH";
+
+            // 2. Ẩn các phần tử không cần thiết của Template 1
+            slideDetailContent.classList.add('hidden'); // Ẩn Detail
+            slideImageContainer.classList.add('hidden'); 
+            slideNotesContainer.classList.add('hidden'); 
+            secondaryBlocksTitle.classList.add('hidden'); 
+            secondaryBlocksContainer.innerHTML = '';
+            
+            // Đảm bảo không có style đặc trưng của T5
+            slideDetailContent.classList.remove('bg-primary-10', 'p-5', 'rounded-xl', 'shadow-md', 'mb-6', 'border-l-4', 'border-primary', 'font-semibold', 'text-lg');
+            
+            // HIỆN LIST CONTAINER (quan trọng)
+            listTemplate3Content.classList.remove('hidden'); 
+
+            // 3. Cập nhật Danh sách Items
+            renderListItems(slide.content, t3ContentList);
+        }
+        
+        /**
+         * @function renderTemplate4
+         * @description Logic hiển thị cho Danh Sách Chia Cột (Template 4). Chỉ hiển thị Title và 2 cột Content List.
+         */
+        function renderTemplate4(slide) {
+            // Ẩn Template 2 và T3
+            coverTemplate2Content.classList.add('hidden');
+            listTemplate3Content.classList.add('hidden');
+
+            // 1. Hiển thị Tiêu đề 
+            slideTitle.classList.remove('hidden'); 
+            slideTitle.textContent = slide.title || "TIÊU ĐỀ CỦA DANH SÁCH CHIA CỘT";
+
+            // 2. Ẩn các phần tử không cần thiết của Template 1
+            slideDetailContent.classList.add('hidden'); 
+            slideImageContainer.classList.add('hidden'); 
+            slideNotesContainer.classList.add('hidden'); 
+            secondaryBlocksTitle.classList.add('hidden'); 
+            secondaryBlocksContainer.innerHTML = '';
+            
+            // Đảm bảo không có style đặc trưng của T5
+            slideDetailContent.classList.remove('bg-primary-10', 'p-5', 'rounded-xl', 'shadow-md', 'mb-6', 'border-l-4', 'border-primary', 'font-semibold', 'text-lg');
+
+            // HIỆN COLUMNS CONTAINER (quan trọng)
+            columnsTemplate4Content.classList.remove('hidden'); 
+
+            // 3. Cập nhật Danh sách Items cho cột trái và cột phải
+            renderListItems(slide.contentLeft, t4ContentLeft);
+            renderListItems(slide.contentRight, t4ContentRight);
+        }
+
+        /**
+         * @function renderTemplate5
+         * @description Logic hiển thị cho Danh Sách Chi Tiết Trước (Template 5). Hiển thị Title, Detail (VỚI STYLE NHẤN MẠNH), và Content List (1 cột).
+         */
+        function renderTemplate5(slide) {
+            // Ẩn Template 2, T4 và các thành phần phụ của T1
+            coverTemplate2Content.classList.add('hidden');
+            columnsTemplate4Content.classList.add('hidden');
+            slideImageContainer.classList.add('hidden'); 
+            slideNotesContainer.classList.add('hidden'); 
+            secondaryBlocksTitle.classList.add('hidden'); 
+            secondaryBlocksContainer.innerHTML = '';
+            
+            // 1. Hiển thị Tiêu đề 
+            slideTitle.classList.remove('hidden'); 
+            slideTitle.textContent = slide.title || "TIÊU ĐỀ CỦA DANH SÁCH CHI TIẾT TRƯỚC";
+
+            // 2. Hiển thị và Style Detail Content (Vị trí đã được sửa trong HTML)
+            slideDetailContent.classList.remove('hidden'); 
+            
+            // Áp dụng style đặc trưng cho Detail của T5 (nhấn mạnh Teal/Xanh Ngọc Bích)
+            slideDetailContent.classList.add('bg-primary-10', 'p-5', 'rounded-xl', 'shadow-md', 'mb-6', 'border-l-4', 'border-primary', 'font-semibold', 'text-lg');
+            
+            // Render Detail content (chúng ta không cần renderBlocks hay Image/Notes)
+            renderStandardContent(slide, false, false);
+            
+            // 3. HIỆN LIST CONTAINER (T3)
+            listTemplate3Content.classList.remove('hidden'); 
+
+            // 4. Cập nhật Danh sách Items
+            renderListItems(slide.content, t3ContentList);
+        }
+
 
         /**
          * @function renderSlide
@@ -729,7 +993,7 @@
 
             const slide = slideData[currentSlideIndex];
             
-            // 1. Cập nhật Tiêu đề (Chỉ dùng cho Template 1)
+            // 1. Cập nhật Tiêu đề (Chỉ dùng cho Template 1/3/4/5)
             slideTitle.textContent = slide.title || "(Không có Tiêu đề)";
             
             // 2. Cập nhật Chỉ số Slide
@@ -748,13 +1012,25 @@
             }
             
             // 4. HIỂN THỊ NỘI DUNG DỰA TRÊN TEMPLATE
-            if (slide.template === "2") {
-                renderTemplate2(slide);
-            } else {
-                // Mặc định là Template 1 nếu template không được định nghĩa hoặc là giá trị khác
-                renderTemplate1(slide);
+            switch (slide.template) {
+                case "2":
+                    renderTemplate2(slide);
+                    break;
+                case "3":
+                    renderTemplate3(slide);
+                    break;
+                case "4": 
+                    renderTemplate4(slide);
+                    break;
+                case "5": // TEMPLATE 5 MỚI
+                    renderTemplate5(slide);
+                    break;
+                case "1":
+                default:
+                    renderTemplate1(slide);
+                    break;
             }
-
+            
             prevButton.disabled = currentSlideIndex === 0; 
         }
 
@@ -871,6 +1147,27 @@
          * @description Tải dữ liệu mẫu vào slideData và bắt đầu trình chiếu.
          */
         function loadMockData() {
+            // Cập nhật slide 4 trong mock data theo yêu cầu mới
+            MOCK_SLIDE_DATA.splice(3, 1, {
+                "id": "mock-004",
+                "page": 4,
+                "template": "4", 
+                "title": "SO SÁNH CÁC KÊNH PHÂN PHỐI SẢN PHẨM (TEMPLATE 4)",
+                "contentLeft": [
+                    { "order": 1, "text": "Kênh A: Phân phối truyền thống (Giá cao, Độ phủ thấp)." },
+                    { "order": 2, "text": "Kênh B: Thương mại điện tử (Giá trung bình, Độ phủ toàn cầu)." },
+                    { "order": 3, "text": "Kênh C: Mạng xã hội (Chi phí quảng cáo thấp, Tương tác trực tiếp)." },
+                    { "order": 4, "text": "Kênh D: Bán hàng trực tiếp (Tùy chỉnh cao, Chi phí vận hành lớn)." }
+                ],
+                "contentRight": [
+                    { "order": 1, "text": "Đối tượng A: Khách hàng lớn tuổi, thích trải nghiệm vật lý." },
+                    { "order": 2, "text": "Người trẻ, thành thị, sử dụng smartphone thường xuyên." },
+                    { "order": 3, "text": "Nhóm khách hàng tìm kiếm thông tin theo cảm xúc và xu hướng." },
+                    { "order": 4, "text": "Khách hàng doanh nghiệp (B2B) cần tư vấn chuyên sâu." }
+                ],
+                "detail": "Template 4 hiển thị Title và Content (danh sách 2 cột: contentLeft và contentRight)."
+            });
+
             slideData = MOCK_SLIDE_DATA.map((slide, index) => ({
                 ...slide,
                 id: slide.id || `auto-id-${index}` 
