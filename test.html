@@ -26,6 +26,8 @@
         body {
             font-family: 'Inter', sans-serif;
             transition: background-color 0.3s;
+            /* Khoảng đệm tổng thể cho thanh nav cố định */
+            padding-bottom: 7rem; 
         }
         /* Style cho nút Tải file */
         .file-input-label {
@@ -47,7 +49,7 @@
             padding-right: 0.5rem; /* Tạo khoảng cách cho thanh cuộn */
         }
         
-        /* --- CSS TÙY CHỈNH CHO IMAGE HEIGHT (Đã khôi phục) --- */
+        /* --- CSS TÙY CHỈNH CHO IMAGE HEIGHT --- */
         #reference-image, .imageBase64 {
             max-height: 40vh; /* Giới hạn chiều cao tối đa 30% chiều cao viewport */
             object-fit: contain; /* Đảm bảo hình ảnh được chứa trọn vẹn trong khung */
@@ -57,22 +59,30 @@
         .modal-overlay {
             z-index: 1000;
         }
+
+        /* Thêm khoảng đệm cho nội dung chính để tránh bị thanh fixed footer che phủ */
+        .main-content-container {
+            padding-bottom: 7rem; /* Khoảng đệm lớn hơn chiều cao thanh nav cố định */
+        }
         
         /* Đảm bảo nút điều hướng có kích thước lớn cho cảm ứng */
-        #nav-controls button {
-             padding: 0.75rem; /* Tăng padding mặc định cho mobile */
+        .nav-button {
+            width: 3.5rem; /* 56px */
+            height: 3.5rem; /* 56px */
+            font-size: 1.5rem;
         }
-        @media (min-width: 640px) {
-             #nav-controls button {
-                padding: 0.5rem 1rem; /* Giảm padding một chút trên desktop/tablet */
-            }
+        
+        /* Custom: Đảm bảo các nút menu/tải lại có màu nền rõ ràng vì thanh nav là trong suốt */
+        .nav-icon-bg-dark {
+            background-color: rgba(13, 148, 136, 0.95); /* Primary color slightly opaque */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen p-4 sm:p-8 flex flex-col items-center">
 
-    <!-- Thẻ chứa chính -->
-    <div class="w-full max-w-4xl bg-white shadow-xl rounded-2xl p-1 sm:p-10 space-y-6 pb-1">
+    <!-- Thẻ chứa chính (Đã thêm class main-content-container để điều chỉnh khoảng đệm) -->
+    <div class="w-full max-w-4xl bg-white shadow-xl rounded-2xl p-1 sm:p-10 space-y-6 pb-20 main-content-container">
 
         <!-- Khu vực Tải File & Bắt Đầu -->
         <div id="setup-area" class="hidden flex flex-col items-center justify-center space-y-4 pt-6 pb-6 border-b border-gray-200">
@@ -136,42 +146,44 @@
             <div id="error-message" class="hidden mt-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-lg"></div>
         </div>
 
-        <!-- Lưu ý: Thanh nav cố định sẽ nằm ngoài luồng cuộn của khối nội dung chính -->
     </div>
     
-    <!-- Thanh Điều Hướng (Navigation) CỐ ĐỊNH Ở CUỐI MÀN HÌNH -->
-    <div id="nav-controls" class="hidden fixed bottom-0 inset-x-0 flex justify-center py-4 px-4 bg-white border-t border-gray-200 shadow-2xl">
-        <div class="flex justify-between items-center w-full max-w-4xl px-4">
+    <!-- Thanh Điều Hướng (Navigation) CỐ ĐỊNH Ở DƯỚI CÙNG MÀN HÌNH -->
+    <!-- Đã xóa bg-white, border-t, shadow-2xl để làm cho nó trong suốt -->
+    <div id="nav-controls" class="hidden fixed bottom-0 inset-x-0 w-full z-50 py-3">
+        <div class="max-w-4xl mx-auto flex justify-between items-center px-6">
             
-            <!-- Nút Tải Lại/Setup (Icon đã thay đổi) -->
-            <button id="setup-button" title="Quay lại màn hình Tải file" class="flex items-center bg-gray-500 text-white font-semibold rounded-lg shadow-md hover:bg-gray-600 transition transform active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed hidden">
-                <!-- Icon Tải lại / Refresh (DÙNG ICON MỚI RÕ HƠN) -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.836 5l.002.002M20.354 15.354A9 9 0 0112 21v2a11 11 0 008.354-3.646l-2.002-2.002zM3.646 8.646A9 9 0 0112 3v-2a11 11 0 00-8.354 3.646l2.002 2.002z" />
-                </svg>
-            </button>
-
-            <!-- Nút Trước (Icon thay thế cho chữ "Trước") -->
-            <button id="prev-button" title="Slide Trước" class="flex items-center bg-secondary text-white font-semibold rounded-lg shadow-md hover:bg-secondary/90 transition transform active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed">
-                <!-- Chevron trái -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-            </button>
-            
-            <!-- Vị trí mới cho số trang & Index Button -->
-            <div class="flex items-center space-x-4">
-                <!-- Nút Index/Menu -->
-                <button id="index-button" title="Mục lục Slide" class="text-primary hover:text-primary/80 transition p-2 rounded-full hover:bg-primary/10">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+            <!-- Vị trí 1: Nút Tải Lại (Setup) hoặc Trước (Prev) - Chồng lên nhau -->
+            <div class="relative w-14 h-14"> 
+                <!-- Nút Tải Lại/Setup (Icon - Đổi màu nổi bật cho Reset) -->
+                <!-- Sử dụng class nav-icon-bg-dark để đảm bảo màu nền nút không bị trong suốt theo thanh nav -->
+                <button id="setup-button" title="Quay lại màn hình Tải file" class="nav-button absolute inset-0 flex items-center justify-center p-3 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600 transition transform active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed hidden">
+                    <!-- Icon Tải lại / Refresh -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.836 5l.002.002M20.354 15.354A9 9 0 0112 21v2a11 11 0 008.354-3.646l-2.002-2.002zM3.646 8.646A9 9 0 0112 3v-2a11 11 0 00-8.354 3.646l2.002 2.002z" />
                     </svg>
                 </button>
-                <span id="slide-page" class="text-xl font-bold text-primary"></span>
+                <!-- Nút Trước (Icon) -->
+                <!-- Sử dụng class nav-icon-bg-dark để đảm bảo màu nền nút không bị trong suốt theo thanh nav -->
+                <button id="prev-button" title="Slide Trước" class="nav-button absolute inset-0 flex items-center justify-center p-3 nav-icon-bg-dark text-white rounded-full shadow-lg hover:bg-secondary/90 transition transform active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed">
+                    <!-- Chevron trái -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </button>
             </div>
             
-            <!-- Nút Tiếp (Icon thay thế cho chữ "Tiếp") -->
-            <button id="next-button" title="Slide Tiếp" class="flex items-center bg-secondary text-white font-semibold rounded-lg shadow-md hover:bg-secondary/90 transition transform active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed">
+            <!-- Vị trí 2: Nút Index/Menu -->
+            <!-- Sử dụng class nav-icon-bg-dark để đảm bảo màu nền nút không bị trong suốt theo thanh nav -->
+            <button id="index-button" title="Mục lục Slide" class="nav-button flex items-center justify-center p-3 nav-icon-bg-dark text-white rounded-full shadow-lg hover:opacity-80 transition transform active:scale-95">
+                <svg xmlns="http://www.w3.000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            
+            <!-- Vị trí 3: Nút Tiếp (Next) -->
+            <!-- Sử dụng class nav-icon-bg-dark để đảm bảo màu nền nút không bị trong suốt theo thanh nav -->
+            <button id="next-button" title="Slide Tiếp" class="nav-button flex items-center justify-center p-3 nav-icon-bg-dark text-white rounded-full shadow-lg hover:opacity-80 transition transform active:scale-95 disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed">
                 <!-- Chevron phải -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -236,7 +248,6 @@
         const prevButton = document.getElementById('prev-button');
         const nextButton = document.getElementById('next-button');
         const slideTitle = document.getElementById('slide-title');
-        const slidePage = document.getElementById('slide-page');
         const slideDetail = document.getElementById('slide-detail');
         const referenceImage = document.getElementById('reference-image'); 
         const slideImageContainer = document.getElementById('slide-image-container'); 
@@ -482,23 +493,14 @@
 
             const slide = slideData[currentSlideIndex];
             
-            // 1. Cập nhật Tiêu đề và Trang
+            // 1. Cập nhật Tiêu đề 
             slideTitle.textContent = slide.title || "(Không có Tiêu đề)";
-            const pageNum = slide.page !== undefined ? slide.page : (currentSlideIndex + 1);
-            slidePage.textContent = `${pageNum} / ${slideData.length}`; 
             
-            
-            // Hiển thị nội dung mặc định (Detail, Image, Notes)
-            renderDefaultContent(slide); 
-
-            // Hiển thị các khối bổ sung (Blocks)
-            renderBlocks(slide);
-
             // Cập nhật trạng thái của các nút điều hướng
-            prevButton.disabled = currentSlideIndex === 0;
+            // Nút Tiếp (Next)
             nextButton.disabled = currentSlideIndex === slideData.length - 1;
 
-            // Xử lý nút "Trước" và nút "Tải lại"
+            // Xử lý nút "Trước" và nút "Tải lại" (chồng lên nhau)
             if (currentSlideIndex === 0) {
                 prevButton.classList.add('hidden');
                 setupButton.classList.remove('hidden');
@@ -506,6 +508,16 @@
                 prevButton.classList.remove('hidden');
                 setupButton.classList.add('hidden');
             }
+            
+            // Hiển thị nội dung mặc định (Detail, Image, Notes)
+            renderDefaultContent(slide); 
+
+            // Hiển thị các khối bổ sung (Blocks)
+            renderBlocks(slide);
+
+            // Đảm bảo nút "Trước" bị vô hiệu hóa khi ở slide đầu tiên
+            // (Đã xử lý trong logic ẩn/hiện, nhưng vẫn cần vô hiệu hóa nút ẩn)
+            prevButton.disabled = currentSlideIndex === 0; 
         }
 
         /**
@@ -542,7 +554,7 @@
                 const pageNum = item.page !== undefined ? item.page : (indexInSlideData + 1);
                 listItem.innerHTML = `
                     <span class="text-gray-800 truncate">${item.title || `(Không có Tiêu đề - Trang ${pageNum})`}</span>
-                    <span class="text-sm text-primary font-semibold">Trang ${pageNum}</span>
+                    <span class="text-sm text-primary font-semibold">Trang ${pageNum} / ${slideData.length}</span>
                 `;
 
                 // Thêm sự kiện click để nhảy slide
