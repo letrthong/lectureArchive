@@ -3,9 +3,9 @@
 		"id": "mock-001x",
 		"page": 1,
 		"template": "9",
-		"title": "Bài Giảng Về Toán lớp 6",
-		"detai":  "$$x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}$$",
-		"notes": " https://nongphu.vn @ 2025",
+		"title": "Bài Giảng Về ƯCLN Toán lớp 6",
+		"detail":  "$$x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}$$",
+		"notes": "https://nongphu.vn @ 2025",
 		"referenceImagesBase64": ""
 	},
 	{
