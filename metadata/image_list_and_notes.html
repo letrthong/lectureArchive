@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Images with Tailwind</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+	 <script src="./gemini.js"></script>
+    <!-- Configure Tailwind for the Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Target container for the slide content -->
+    <div id="id_slide" class="w-full max-w-5xl">
+
+    </div>
+
+    <script>
+        
+
+        // --- DEMO CALL ---
+        const slideId = 'id_slide';
+        
+        // --- Cập nhật dữ liệu để dễ dàng tạo 2 slide theo yêu cầu mới ---
+        
+        // Slide 1 (Giữ nguyên)
+        const imageLeftUrl = 'https://placehold.co/450x300/3B82F6/ffffff?text=EU+Delivery+Van';
+        const contentLeft = `
+            <p class="text-xl font-bold mt-2">EU Region - Logistics</p>
+            <p>Manufacturer: <strong class="text-black">Mercedes-Benz</strong></p>
+            <p>Vehicle Model: <strong class="text-black">Sprinter 519</strong></p>
+            <p>Year of manufacturing: 2023</p>
+        `;
+
+        // Slide 2 (Dữ liệu đã được cập nhật)
+        const imageRightUrl = 'https://placehold.co/450x300/F59E0B/ffffff?text=NA+Heavy+Hauler';
+        const contentRight = `
+            <p class="text-xl font-bold mt-2">NA Region - Heavy Duty</p>
+            <p>Manufacturer: <strong class="text-black">Kenworth</strong></p>
+            <p>Vehicle Model: <strong class="text-black">W990 Classic</strong></p>
+            <p>Year of manufacturing: 2024</p>
+        `;
+
+        // Tạo mảng slidesData từ các biến trên
+        const slidesData = [
+            createSlideData(imageLeftUrl, contentLeft),
+            createSlideData(imageRightUrl, contentRight)
+        ];
+
+        // Nội dung Ghi chú/Context (phần box dưới cùng)
+        const notesText = `
+            <p>Sự khác biệt về mẫu xe phản ánh nhu cầu và quy định giao thông khác nhau giữa các khu vực Châu Âu (EU) và Bắc Mỹ (NA). 
+            Các thông số kỹ thuật chính (nhà sản xuất, mẫu xe, năm sản xuất) là dữ liệu quan trọng để theo dõi.</p>
+        `;
+
+        // Gọi hàm với các tham số mới: ID, Danh sách dữ liệu Slides, và Ghi chú
+         addImageListAndNoteText(slideId, slidesData, notesText);
+    </script>
+
+</body>
+</html>

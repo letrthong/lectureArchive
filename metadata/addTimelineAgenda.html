@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Images with Tailwind</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+	 <script src="./gemini.js"></script>
+    <!-- Configure Tailwind for the Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Target container for the slide content -->
+    <div id="id_slide" class="w-full max-w-5xl">
+
+    </div>
+
+    <script>
+          const slideId = 'id_slide';
+
+         const agendaTitle = "Chương Trình Nghị Sự: Phát Triển Phần Mềm";
+        const agendaData = [
+            "Giới thiệu: Bối cảnh và Mục tiêu",
+            "Mô hình Waterfall: Quy trình và Hạn chế",
+            "Mô hình Agile/Scrum: Nguyên tắc và Lợi ích",
+            "Phân tích: Áp dụng cho Dự án của chúng ta",
+            "Phần Hỏi & Đáp (Q&A)"
+        ];
+
+        // Gọi hàm addTimelineAgenda
+        addTimelineAgenda(slideId, agendaData, agendaTitle); 
+    </script>
+
+</body>
+</html>
