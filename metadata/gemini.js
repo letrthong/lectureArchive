@@ -466,3 +466,62 @@ function addTimelineAgenda(containerId, agendaItems, title) {
 
 	container.appendChild(timelineDiv);
 }
+
+
+ /**
+ * Function to create a simple, clean section header/transition slide.
+ * @param {string} containerId - The ID of the target HTML element.
+ * @param {string} sectionNumber - The number of the section (e.g., '01').
+ * @param {string} sectionTitle - The title of the section (e.g., 'Tổng quan Dự án và Mục tiêu').
+ * @param {string} [sectionNote='Chúng ta sẽ đi sâu vào phạm vi và mục đích cốt lõi của dự án.'] - Optional subtitle/note for the section.
+ */
+function addSectionHeader(containerId, sectionNumber, sectionTitle, sectionNote) {
+	const container = document.getElementById(containerId);
+
+	if (!container) {
+		console.error(`Container with ID '${containerId}' not found.`);
+		return;
+	}
+
+	container.innerHTML = '';
+	// Reset container classes, set max-w-2xl (Narrower, focused container)
+	container.classList.remove('max-w-5xl', 'max-w-xl');
+	container.classList.add('mt-20', 'w-full', 'max-w-2xl', 'mx-auto', 'p-6');
+
+	// --- Main Content Block ---
+	const contentDiv = document.createElement('div');
+	// Centered, large, rounded block with shadow
+	contentDiv.className = 'bg-white p-10 rounded-xl shadow-2xl flex flex-col items-center justify-center text-center relative overflow-hidden';
+
+	// 1. Large, subtle Section Number (Background element)
+	const numberDiv = document.createElement('div');
+	// Absolute position, large font, light teal, subtle shadow
+	numberDiv.className = 'absolute top-0 right-0 text-[10rem] sm:text-[15rem] font-extrabold text-teal-100 opacity-70 leading-none pointer-events-none transform translate-x-1/4 -translate-y-1/4';
+	numberDiv.textContent = sectionNumber;
+	
+	// 2. Main Title (Foreground element)
+	const titleElement = document.createElement('h2');
+	// Bold, large text, slightly elevated z-index
+	titleElement.className = 'text-4xl sm:text-5xl font-extrabold text-gray-800 relative z-10 mb-4';
+	titleElement.textContent = sectionTitle;
+
+	// 3. Teal Separator Line
+	const separator = document.createElement('div');
+	separator.className = 'w-24 h-1 bg-teal-500 rounded-full mb-4 relative z-10';
+
+	// 4. Subtitle/Context (optional, now uses passed parameter)
+	
+	// Sử dụng ghi chú truyền vào, nếu rỗng hoặc null, dùng ghi chú mặc định.
+	const finalNote = sectionNote  
+
+	const subTitle = document.createElement('p');
+	subTitle.className = 'text-lg text-gray-600 relative z-10';
+	subTitle.textContent = finalNote;
+	
+	contentDiv.appendChild(numberDiv);
+	contentDiv.appendChild(separator);
+	contentDiv.appendChild(titleElement);
+	contentDiv.appendChild(subTitle);
+	
+	container.appendChild(contentDiv);
+}
