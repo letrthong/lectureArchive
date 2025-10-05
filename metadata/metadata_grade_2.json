@@ -1,0 +1,12 @@
+[
+	{
+	  "url":"https://telua.co/edu/question_bank",
+	  "text": " Bảng cửu chương ",
+	  "fileName":"math/grade_2/question_grade_2_multiplication_table.json"
+	},
+	{
+		"url": "https://telua.co/edu/question_bank",
+		"text": " Đang chuẩn bị hỗ trợ ",
+		"fileName": "math/grade_2/question_grade_2_basic.json"
+	}
+]
