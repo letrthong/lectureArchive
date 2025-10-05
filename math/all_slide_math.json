@@ -2,7 +2,7 @@
 	{
 		"id": "mock-001x",
 		"page": 1,
-		"template": "9",
+		"template": "01",
 		"title": "Bài Giảng Về ƯCLN Toán lớp 6",
 		"detail":  "$$x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}$$",
 		"notes": "https://nongphu.vn @ 2025",
@@ -11,7 +11,7 @@
 	{
 	  "id": "67a9e6cb-65a7-4f73-a3a1-f57d7f3bdde5",
 	  "page": 2,
-	  "template": "11",
+	  "template": "20",
 	  "title": "Vấn đề thực tế thường thấy ",
 	  "detail": " ",
 	  "notes": "Vậy làm sao giải quyết ? ",
@@ -24,7 +24,7 @@
 	{
 	  "id": "67a9e6cb-65a7-4f73-a3a1-f57d7f3bdde5",
 	  "page": 3,
-	  "template": "10",
+	  "template": "40",
 	  "title": "Chọn loại gạch hình vuông ?",
 	  "detail": "Để đơn giản chúng ta sẽ làm  với kích thước 4X6",
 	  "notes": "",
@@ -34,7 +34,7 @@
 	{
 	  "id": "67a9e6cb-65a7-4f73-a3a1-f57d7f3bdde5",
 	  "page": 4,
-	  "template": "10",
+	  "template": "40",
 	  "title": "Ví dụ minh họa",
 	  "detail": " Số 4 và số 6 ",
 	  "notes": "",
@@ -43,7 +43,7 @@
 	{
 	  "id": "67a9e6cb-65a7-4f73-a3a1-f57d7f3bdde5",
 	  "page": 4,
-	  "template": "10",
+	  "template": "40",
 	  "title": "Ví dụ minh họa",
 	  "detail": " Số 360 và số 700 ",
 	  "notes": "",
@@ -52,7 +52,7 @@
 	{
 		"id": "mock-008xx",
 		"page": 5,
-		"template": "8",
+		"template": "10",
 		"title": " Dùng thừa số nguyên tố để tìm ƯCLN ",
 		"detail": " Ước số chung lớn nhất của hai hay nhiều số là số lớn nhất mà các số đều chia hết cho. Để tìm ƯCLN của hai hay nhiều số ta thực hiện",
 		"content": [
@@ -68,7 +68,7 @@
 	 {
 		"id": "mock-007xx",
 		"page": 3,
-		"template": "7",
+		"template": "10",
 		"title": "Ví dụ 1: Tìm ƯCLN của 24 và 60 ",
 		"content": [
 			{ "order": 1, "text": "24= $2^3$ x3 và 60= $2^2$ x3x5" },
@@ -81,7 +81,7 @@
 	{
 		"id": "mock-007xxy",
 		"page": 4,
-		"template": "7",
+		"template": "10",
 		"title": "Ví dụ 2: Tìm ƯCLN của 360 và 700",
 		"content": [
 			{ "order": 1, "text": "36 = $2^3$ x$3^2$ x5 và 700= $2^2$ x$5^2$ x7" },
@@ -94,7 +94,7 @@
 	{
 		"id": "mock-001xx",
 		"page": 6,
-		"template": "9",
+		"template": "03",
 		"title": "",
 		"detail":  "Cảm ơn đã theo dõi ",
 		"notes": "https://telua.co/",
