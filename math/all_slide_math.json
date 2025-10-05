@@ -52,7 +52,7 @@
 	{
 		"id": "mock-008xx",
 		"page": 5,
-		"template": "10",
+		"template": "11",
 		"title": " Dùng thừa số nguyên tố để tìm ƯCLN ",
 		"detail": " Ước số chung lớn nhất của hai hay nhiều số là số lớn nhất mà các số đều chia hết cho. Để tìm ƯCLN của hai hay nhiều số ta thực hiện",
 		"content": [
@@ -68,7 +68,7 @@
 	 {
 		"id": "mock-007xx",
 		"page": 3,
-		"template": "10",
+		"template": "11",
 		"title": "Ví dụ 1: Tìm ƯCLN của 24 và 60 ",
 		"content": [
 			{ "order": 1, "text": "24= $2^3$ x3 và 60= $2^2$ x3x5" },
