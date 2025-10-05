@@ -61,14 +61,14 @@
 			{ "order": 3, "text": "Xác định bậc nhỏ nhất của các thừa số chung vừa chọn" },
 			{ "order": 4, "text": "Nhân chứng lại với nhau và viết kết quả dưới dạng số bình thường, ta được ƯCLN" }
 		],
-		"notes": "Template này lý tưởng cho việc giới thiệu một tổng quan (Detail) sau đó liệt kê các bước cụ thể theo thứ tự (Content List - số thứ tự).",
+		"notes": "Template 11.",
 		"referenceImagesBase64": "",
 		"blocks": []
 	},
 	 {
 		"id": "mock-007xx",
 		"page": 3,
-		"template": "11",
+		"template": "12",
 		"title": "Ví dụ 1: Tìm ƯCLN của 24 và 60 ",
 		"content": [
 			{ "order": 1, "text": "24= $2^3$ x3 và 60= $2^2$ x3x5" },
@@ -76,7 +76,7 @@
 			{ "order": 3, "text": "Bậc nhỏ nhất của 2 là 2, của 3 là 1" },
 			{ "order": 4, "text": "Vậy, ƯCLN của 24 và 60 bằng   $2^2$ x3 = 4x3 =12" }
 		],
-		"detail": "Template 7 tương tự Template 3/6 nhưng sử dụng số thứ tự tùy chỉnh, rất phù hợp để trình bày quy trình hoặc các bước tuần tự."
+		"detail": "Template 11  "
 	},
 	{
 		"id": "mock-007xxy",
@@ -89,7 +89,7 @@
 			{ "order": 3, "text": "Bậc nhỏ nhất của 2 là 2, của 5 là 1" },
 			{ "order": 4, "text": "Vậy, ƯCLN của 360 và 700 bằng   $2^2$ x5 = 4x5 =20" }
 		],
-		"detail": "Template 7 tương tự Template 3/6 nhưng sử dụng số thứ tự tùy chỉnh, rất phù hợp để trình bày quy trình hoặc các bước tuần tự."
+		"detail": "Template 10  "
 	},
 	{
 		"id": "mock-001xx",
