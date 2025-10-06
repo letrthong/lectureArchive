@@ -2,7 +2,7 @@
 	{
 		"id": "mock-001x",
 		"page": 1,
-		"template": "01",
+		"template": "1",
 		"title": "Bài Giảng Về ƯCLN Toán lớp 6",
 		"detail":  "$$x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a}$$",
 		"notes": "https://nongphu.vn @ 2025",
@@ -94,7 +94,7 @@
 	{
 		"id": "mock-001xx",
 		"page": 6,
-		"template": "03",
+		"template": "3",
 		"title": "",
 		"detail":  "Cảm ơn đã theo dõi ",
 		"notes": "https://telua.co/",
