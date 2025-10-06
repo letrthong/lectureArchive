@@ -2,7 +2,7 @@
 	{
 		"id": "mock-001x",
 		"page": 1,
-		"template": "9",
+		"template": "02",
 		"title": " Networking",
 		"detail":  " ",
 		"notes": "https://nongphu.vn @ 2025",
@@ -11,7 +11,7 @@
 	{
 	  "id": "67a9e6cb-65a7-4f73-a3a1-f57d7f3bdde5",
 	  "page": 2,
-	  "template": "10",
+	  "template": "40",
 	  "title": "Internet Protocol Stack",
 	  "detail": "  ",
 	  "notes": "",
@@ -20,7 +20,7 @@
 	{
 	  "id": "67a9e6cb-67a7-4f73-a3a1-f57d7f3bdde5",
 	  "page": 3,
-	  "template": "10",
+	  "template": "40",
 	  "title": "IEEE 802.3 Popular Versions",
 	  "detail": "  ",
 	  "notes": "",
@@ -29,7 +29,7 @@
 	 {
 		"id": "mock-007xxy-9787",
 		"page": 4,
-		"template": "7",
+		"template": "10",
 		"title": "IEEE 802.3ac",
 		"content": [
 			{ "order": 1, "text": "..." },
@@ -40,7 +40,7 @@
 	{
 		"id": "mock-007xxy",
 		"page": 3,
-		"template": "7",
+		"template": "10",
 		"title": "Reference links",
 		"content": [
 			{ "order": 1, "text": "https://www.wireshark.org/" },
