@@ -147,5 +147,21 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+   {
+    "id": "acd8bef5-0681-4299-934b-9364a183e8ec",
+    "template": "12",
+    "title": "The shell script",
+    "page": 21,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://github.com/letrthong/shell_script/tree/main/file_system"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
