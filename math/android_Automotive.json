@@ -9,7 +9,7 @@
     "referenceImagesBase64": "",
     "blocks": []
   },
-   {
+  {
     "id": "44c773e7-cb81-4114-bd40-f5907a334487",
     "template": "40",
     "title": "Android Automotive OS",
@@ -34,7 +34,7 @@
     "template": "16",
     "title": "ConnectivityManager ",
     "page": 22,
-    "detail": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/core/java/android/net/IConnectivityManager.aidl",
+    "detail": "...",
     "notes": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/core/java/android/net/IConnectivityManager.aidl",
     "referenceImagesBase64": "",
     "blocks": []
