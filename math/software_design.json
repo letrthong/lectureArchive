@@ -2,7 +2,7 @@
   {
     "id": "1b09faa3-d845-4a89-a508-7992ee148fcf",
     "template": "2",
-    "title": "Design pattern in C++",
+    "title": "Design pattern",
     "page": 1,
     "detail": "...",
     "notes": "https://nongphu.vn @ 2025",
@@ -12,7 +12,7 @@
   {
     "id": "558bf042-741e-49a3-b5d7-14a8ac2f0e07",
     "template": "40",
-    "title": "Software-Design ",
+    "title": "Software Design ",
     "page": 2,
     "detail": "",
     "notes": "",
@@ -22,7 +22,7 @@
   {
     "id": "f5962b39-c77e-4957-8d7b-1ce76adad90e",
     "template": "40",
-    "title": "All design Patterns ",
+    "title": "Design Patterns ",
     "page": 3,
     "detail": "",
     "notes": "",
@@ -32,7 +32,7 @@
   {
     "id": "4c3a5d94-c8f0-47e4-9ebe-073f9e05d0ce",
     "template": "13",
-    "title": "Factory Pattern với Factory Registry ",
+    "title": "Factory Pattern & Factory Registry ",
     "page": 4,
     "description": "",
     "detail": "..",
