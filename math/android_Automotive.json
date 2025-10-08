@@ -20,6 +20,22 @@
     "blocks": []
   },
   {
+    "id": "537c2c4c-b484-476c-91bb-f0c3bbc4348e",
+    "template": "10",
+    "title": "Reference links",
+    "page": 20,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://github.com/letrthong/android/tree/main/src/java"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "ce1ac1e2-edf5-4364-9e6e-ee25853f9d55",
     "template": "40",
     "title": "App to check Internet Connection Status ",
