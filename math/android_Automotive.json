@@ -462,6 +462,37 @@
     "blocks": []
   },
   {
+    "id": "d1a941c2-3618-4086-a9bf-3c0db4922f17",
+    "template": "23",
+    "title": " systemd và Android init",
+    "page": 101,
+    "detail": "",
+    "notes": "",
+    "headerLeft": "systemd (Linux  )",
+    "listLeft": [
+      "Khởi tạo hệ thống, quản lý dịch vụ, song song hóa tác vụ để tăng tốc độ boot và cung cấp các tính năng quản lý nâng cao.",
+      "Unit Files (.service, .socket, .mount) dựa trên cú pháp key-value (ini-style).",
+      "Rất mạnh mẽ. Sử dụng socket/DBus activation để khởi chạy dịch vụ cùng lúc khi cần.",
+      "Quản lý vòng đời dịch vụ tinh vi, tích hợp với cgroups để giới hạn tài nguyên.",
+      "Tích hợp Journald mạnh mẽ để thu thập, nén và phân tích log hệ thống.",
+      "DBus (Inter-Process Communication Bus).",
+      "Linux Desktop, Server, Cloud.",
+      "Rất phức tạp và nhiều tính năng; có thể thay thế nhiều daemon hệ thống cũ."
+    ],
+    "headerRight": "Android init (Android/AOSP)",
+    "listRight": [
+      "Khởi động hệ thống nhanh chóng và tối giản cho môi trường di động/nhúng, tập trung vào việc khởi chạy Android Runtime.",
+      "Run Commands Files (.rc) với cú pháp đơn giản, mệnh lệnh (ví dụ: service, on property, exec).",
+      "Hạn chế. Khởi chạy chủ yếu theo thứ tự tuần tự hoặc dựa trên các sự kiện (events/properties).",
+      "Quản lý vòng đời đơn giản (start/stop/restart) dựa trên việc giám sát tiến trình.",
+      "Ghi log đơn giản (thường là qua logcat hoặc dmesg). Không có hệ thống loging riêng biệt phức tạp.",
+      "Binder (cơ chế IPC của Android) và Socket (cho các daemon như netd, wpa_supplicant).",
+      "Android và các thiết bị nhúng dựa trên AOSP.",
+      "Đơn giản, mã nguồn nhỏ gọn; chỉ tập trung vào chức năng khởi động cơ bản."
+    ],
+    "blocks": []
+  },
+  {
     "id": "995d53e2-c0f3-49c3-bd11-5e4bf04d8841",
     "template": "10",
     "title": "Reference links",
