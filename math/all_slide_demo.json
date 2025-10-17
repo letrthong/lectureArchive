@@ -34,6 +34,16 @@
     "blocks": []
   },
   {
+    "id": "01b2ebe2-e078-4f64-87e0-25abdb592a97",
+    "template": "4",
+    "title": "2",
+    "page": 9,
+    "detail": "Lý Sơn ",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "2bbeb8a0-4b93-44a4-9d80-fabbb2b7bb07",
     "template": "50",
     "title": "Slide về bảng",
@@ -87,16 +97,6 @@
     "textLeft": "",
     "textRight": "Đảo Lý Sơn (hay còn gọi là Cù Lao Ré) là một huyện đảo tiền tiêu thuộc tỉnh Quảng Ngãi, miền Trung Việt Nam. Nằm cách đất liền khoảng 15 hải lý (khoảng 30km), Lý Sơn nổi tiếng với vẻ đẹp hoang sơ, hùng vĩ của địa hình núi lửa cùng với những giá trị văn hóa lịch sử độc đáo.",
     "textRightExtra": "Đặc sản Tỏi Lý Sơn: Được mệnh danh là \"vàng trắng\" với hương vị thơm, cay nhẹ, đặc biệt là món Tỏi cô đơn (tỏi một tép) rất quý và hiếm.\n\nHải sản: Với lợi thế giáp biển, hải sản Lý Sơn vô cùng phong phú và tươi ngon, nổi tiếng với ốc xà cừ, nhum biển (cầu gai), gỏi tỏi, gỏi rong biển.",
-    "blocks": []
-  },
-  {
-    "id": "01b2ebe2-e078-4f64-87e0-25abdb592a97",
-    "template": "4",
-    "title": "2",
-    "page": 9,
-    "detail": "Lý Sơn ",
-    "notes": "",
-    "referenceImagesBase64": "",
     "blocks": []
   }
 ]
