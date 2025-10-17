@@ -34,21 +34,11 @@
     "blocks": []
   },
   {
-    "id": "01b2ebe2-e078-4f64-87e0-25abdb592a97",
-    "template": "4",
-    "title": "2",
-    "page": 3,
-    "detail": "Lý Sơn ",
-    "notes": "",
-    "referenceImagesBase64": "",
-    "blocks": []
-  },
-  {
     "id": "2bbeb8a0-4b93-44a4-9d80-fabbb2b7bb07",
     "template": "50",
     "title": "Slide về bảng",
     "page": 4,
-    "detail": "WwogICAgICAgICAgICB7IAogICAgICAgICAgICAgICAgImNvbDEiOiAiTmfDtG4gbmfhu68iLAogICAgICAgICAgICAgICAgImNvbDIiOiAiTeG7pWMgxJHDrWNoIGNow61uaCIsCiAgICAgICAgICAgICAgICAiY29sMyI6ICLEkOG6t2MgxJFp4buDbSBu4buVaSBi4bqtdCIsCiAgICAgICAgICAgICAgICAiY29sNCI6ICJOxINtIHJhIG3huq90IiAKICAgICAgICAgICAgfSwKICAgICAgICAgICAgeyAKICAgICAgICAgICAgICAgICJjb2wxIjogIlB5dGhvbiIsIAogICAgICAgICAgICAgICAgImNvbDIiOiAiS2hvYSBo4buNYyBE4buvIGxp4buHdSwgQUkvTUwsIFBow6F0IHRyaeG7g24gV2ViIChCYWNrZW5kKSIsIAogICAgICAgICAgICAgICAgImNvbDMiOiAiQ8O6IHBow6FwIGThu4UgxJHhu41jLCBj4buZbmcgxJHhu5NuZyBs4bubbiwgdGjGsCB2aeG7h24gxJHhu5Mgc+G7mSAoTnVtUHksIFBhbmRhcywgVGVuc29yRmxvdykiLAogICAgICAgICAgICAgICAgImNvbDQiOiAiMTk5MSIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgeyAKICAgICAgICAgICAgICAgICJjb2wxIjogIkphdmFTY3JpcHQiLCAKICAgICAgICAgICAgICAgICJjb2wyIjogIlBow6F0IHRyaeG7g24gV2ViIChGcm9udGVuZC9CYWNrZW5kKSwg4buobmcgZOG7pW5nIGRpIMSR4buZbmcgKFJlYWN0IE5hdGl2ZSkiLCAKICAgICAgICAgICAgICAgICJjb2wzIjogIk5nw7RuIG5n4buvIGR1eSBuaOG6pXQgY2jhuqF5IHRyw6puIHRyw6xuaCBkdXnhu4d0LCBs4bqtcCB0csOsbmggYuG6pXQgxJHhu5NuZyBi4buZIG3huqFuaCBt4bq9IiwKICAgICAgICAgICAgICAgICJjb2w0IjogIjE5OTUiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsgCiAgICAgICAgICAgICAgICAiY29sMSI6ICJKYXZhIiwgCiAgICAgICAgICAgICAgICAiY29sMiI6ICJQaMOhdCB0cmnhu4NuIOG7qG5nIGThu6VuZyBEb2FuaCBuZ2hp4buHcCAoRW50ZXJwcmlzZSksIEFuZHJvaWQsIEjhu4cgdGjhu5FuZyBs4bubbiIsIAogICAgICAgICAgICAgICAgImNvbDMiOiAiSG/huqF0IMSR4buZbmcgdHLDqm4gbeG7jWkgbuG7gW4gdOG6o25nICgnV3JpdGUgT25jZSwgUnVuIEFueXdoZXJlJyksIG3huqFuaCBt4bq9IHbhu4EgT09QIiwKICAgICAgICAgICAgICAgICJjb2w0IjogIjE5OTUiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJjb2wxIjogIlNRTCIsCiAgICAgICAgICAgICAgICAiY29sMiI6ICJRdeG6o24gbMO9IHbDoCB0cnV5IHbhuqVuIGPGoSBz4bufIGThu68gbGnhu4d1IiwKICAgICAgICAgICAgICAgICJjb2wzIjogIk5nw7RuIG5n4buvIGNodeG6qW4gxJHhu4MgbMOgbSB2aeG7h2MgduG7m2kgZOG7ryBsaeG7h3UgcXVhbiBo4buHLCBk4buFIGjhu41jLCBoaeG7h3Ugc3XhuqV0IGNhbyIKICAgICAgICAgICAgfQpd",
+    "detail": "WwogIHsKICAgICJjb2wxIjogIk5nw7RuIG5n4buvIiwKICAgICJjb2wyIjogIk3hu6VjIMSRw61jaCBjaMOtbmgiLAogICAgImNvbDMiOiAixJDhurdjIMSRaeG7g20gbuG7lWkgYuG6rXQiLAogICAgImNvbDQiOiAiTsSDbSByYSBt4bqvdCIKICB9LAogIHsKICAgICJjb2wxIjogIlB5dGhvbiIsCiAgICAiY29sMiI6ICJLaG9hIGjhu41jIEThu68gbGnhu4d1LCBBSS9NTCwgUGjDoXQgdHJp4buDbiBXZWIgKEJhY2tlbmQpIiwKICAgICJjb2wzIjogIkPDuiBwaMOhcCBk4buFIMSR4buNYywgY+G7mW5nIMSR4buTbmcgbOG7m24sIHRoxrAgdmnhu4duIMSR4buTIHPhu5kgKE51bVB5LCBQYW5kYXMsIFRlbnNvckZsb3cpIiwKICAgICJjb2w0IjogIjE5OTEiCiAgfSwKICB7CiAgICAiY29sMSI6ICJKYXZhU2NyaXB0IiwKICAgICJjb2wyIjogIlBow6F0IHRyaeG7g24gV2ViIChGcm9udGVuZC9CYWNrZW5kKSwg4buobmcgZOG7pW5nIGRpIMSR4buZbmcgKFJlYWN0IE5hdGl2ZSkiLAogICAgImNvbDMiOiAiTmfDtG4gbmfhu68gZHV5IG5o4bqldCBjaOG6oXkgdHLDqm4gdHLDrG5oIGR1eeG7h3QsIGzhuq1wIHRyw6xuaCBi4bqldCDEkeG7k25nIGLhu5kgbeG6oW5oIG3hur0iLAogICAgImNvbDQiOiAiMTk5NSIKICB9LAogIHsKICAgICJjb2wxIjogIkphdmEiLAogICAgImNvbDIiOiAiUGjDoXQgdHJp4buDbiDhu6huZyBk4bulbmcgRG9hbmggbmdoaeG7h3AgKEVudGVycHJpc2UpLCBBbmRyb2lkLCBI4buHIHRo4buRbmcgbOG7m24iLAogICAgImNvbDMiOiAiSG/huqF0IMSR4buZbmcgdHLDqm4gbeG7jWkgbuG7gW4gdOG6o25nICgnV3JpdGUgT25jZSwgUnVuIEFueXdoZXJlJyksIG3huqFuaCBt4bq9IHbhu4EgT09QIiwKICAgICJjb2w0IjogIjE5OTUiCiAgfSwKICB7CiAgICAiY29sMSI6ICJTUUwiLAogICAgImNvbDIiOiAiUXXhuqNuIGzDvSB2w6AgdHJ1eSB24bqlbiBjxqEgc+G7nyBk4buvIGxp4buHdSIsCiAgICAiY29sMyI6ICJOZ8O0biBuZ+G7ryBjaHXhuqluIMSR4buDIGzDoG0gdmnhu4djIHbhu5tpIGThu68gbGnhu4d1IHF1YW4gaOG7hywgZOG7hSBo4buNYywgaGnhu4d1IHN14bqldCBjYW8iCiAgfQpd",
     "notes": "So sánh Ngôn ngữ Lập trình",
     "referenceImagesBase64": "",
     "blocks": []
@@ -97,6 +87,16 @@
     "textLeft": "",
     "textRight": "Đảo Lý Sơn (hay còn gọi là Cù Lao Ré) là một huyện đảo tiền tiêu thuộc tỉnh Quảng Ngãi, miền Trung Việt Nam. Nằm cách đất liền khoảng 15 hải lý (khoảng 30km), Lý Sơn nổi tiếng với vẻ đẹp hoang sơ, hùng vĩ của địa hình núi lửa cùng với những giá trị văn hóa lịch sử độc đáo.",
     "textRightExtra": "Đặc sản Tỏi Lý Sơn: Được mệnh danh là \"vàng trắng\" với hương vị thơm, cay nhẹ, đặc biệt là món Tỏi cô đơn (tỏi một tép) rất quý và hiếm.\n\nHải sản: Với lợi thế giáp biển, hải sản Lý Sơn vô cùng phong phú và tươi ngon, nổi tiếng với ốc xà cừ, nhum biển (cầu gai), gỏi tỏi, gỏi rong biển.",
+    "blocks": []
+  },
+  {
+    "id": "01b2ebe2-e078-4f64-87e0-25abdb592a97",
+    "template": "4",
+    "title": "2",
+    "page": 9,
+    "detail": "Lý Sơn ",
+    "notes": "",
+    "referenceImagesBase64": "",
     "blocks": []
   }
 ]
