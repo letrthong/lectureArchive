@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c2bfdcc2-3577-4941-be87-de4d6fbd236e",
+    "template": "2",
+    "title": "Tailwind CSS",
+    "page": 1,
+    "detail": "https://telua.co/ @2025",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "cd0ebb42-d53d-48b3-a49a-853fb7e8f467",
+    "template": "17",
+    "title": " Áp dụng cho màn hình nhỏ hơn hoặc bằng 768px (điện thoại và tablet dọc) ",
+    "page": 2,
+    "detail": "Lm5hdi1idXR0b24geyB3aWR0aDogMy41cmVtOyBoZWlnaHQ6IDMuNXJlbTsgZm9udC1zaXplOiAxLjVyZW07IH0KQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgICAgLm5hdi1idXR0b24geyB3aWR0aDogM3JlbTsgaGVpZ2h0OiAzcmVtOyBmb250LXNpemU6IDFyZW19OyAKfQoKI3RlbXBsYXRlLTEwLWltYWdlIHsKCW1heC13aWR0aDogMTAwJTsgICAKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CgkjdGVtcGxhdGUtMTAtaW1hZ2UgewoJCW1heC13aWR0aDogODB2dzsgICAgICAgCgl9Cn0=",
+    "notes": "@media (max-width: 768px) {}",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "23c927f0-10cf-48c6-93c0-fb76dd86291a",
+    "template": "17",
+    "title": "Cho phép ngắt dòng giữa các ký tự để tránh tràn nội dung.",
+    "page": 3,
+    "detail": "IHN0eWxlPSJtYXgtd2lkdGg6IDk1JTsgd29yZC1icmVhazogYnJlYWstYWxsOyIgCgovL1RhaWx3aW5kIENTUwpjbGFzcz0ibWF4LXctWzk1JV0gYnJlYWstYWxsIg==",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  }
+]
