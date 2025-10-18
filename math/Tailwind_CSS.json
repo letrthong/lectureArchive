@@ -28,5 +28,15 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "375355a4-b43b-473a-862b-c6c49802d3ca",
+    "template": "17",
+    "title": "Tailwind CSS ",
+    "page": 4,
+    "detail": "IDxkaXYgIHN0eWxlPSJkaXNwbGF5OiBub25lOz4KCjwvZGl2Pg==",
+    "notes": "Dấu một div",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
