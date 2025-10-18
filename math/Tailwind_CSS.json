@@ -14,7 +14,7 @@
     "template": "19",
     "title": " Áp dụng cho màn hình nhỏ hơn hoặc bằng 768px (điện thoại và tablet dọc) ",
     "page": 2,
-    "detail": "Lm5hdi1idXR0b24geyB3aWR0aDogMy41cmVtOyBoZWlnaHQ6IDMuNXJlbTsgZm9udC1zaXplOiAxLjVyZW07IH0KQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgICAgLm5hdi1idXR0b24geyB3aWR0aDogM3JlbTsgaGVpZ2h0OiAzcmVtOyBmb250LXNpemU6IDFyZW19OyAKfQogPHN0eWxlPgogICAjdGVtcGxhdGUtMTAtaW1hZ2UgewoJIG1heC13aWR0aDogMTAwJTsgICAKICB9CgogIEBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgewoJICN0ZW1wbGF0ZS0xMC1pbWFnZSB7CgkJIG1heC13aWR0aDogODB2dzsgICAgICAgCgkgfQogIH0KIDwvc3R5bGU+",
+    "detail": "IDxzdHlsZT4KICAgIC5uYXYtYnV0dG9uIHsgd2lkdGg6IDMuNXJlbTsgaGVpZ2h0OiAzLjVyZW07IGZvbnQtc2l6ZTogMS41cmVtOyB9CiAgICBAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAgICAgIC5uYXYtYnV0dG9uIHsgd2lkdGg6IDNyZW07IGhlaWdodDogM3JlbTsgZm9udC1zaXplOiAxcmVtfTsgCiAgIH0KCiAgICN0ZW1wbGF0ZS0xMC1pbWFnZSB7CgkgbWF4LXdpZHRoOiAxMDAlOyAgIAogIH0KCiAgQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CgkgI3RlbXBsYXRlLTEwLWltYWdlIHsKCQkgbWF4LXdpZHRoOiA4MHZ3OyAgICAgICAKCSB9CiAgfQogPC9zdHlsZT4=",
     "notes": "@media (max-width: 768px) {}",
     "referenceImagesBase64": "",
     "blocks": []
