@@ -98,5 +98,37 @@
     "textRight": "Đảo Lý Sơn (hay còn gọi là Cù Lao Ré) là một huyện đảo tiền tiêu thuộc tỉnh Quảng Ngãi, miền Trung Việt Nam. Nằm cách đất liền khoảng 15 hải lý (khoảng 30km), Lý Sơn nổi tiếng với vẻ đẹp hoang sơ, hùng vĩ của địa hình núi lửa cùng với những giá trị văn hóa lịch sử độc đáo.",
     "textRightExtra": "Đặc sản Tỏi Lý Sơn: Được mệnh danh là \"vàng trắng\" với hương vị thơm, cay nhẹ, đặc biệt là món Tỏi cô đơn (tỏi một tép) rất quý và hiếm.\n\nHải sản: Với lợi thế giáp biển, hải sản Lý Sơn vô cùng phong phú và tươi ngon, nổi tiếng với ốc xà cừ, nhum biển (cầu gai), gỏi tỏi, gỏi rong biển.",
     "blocks": []
+  },
+  {
+    "id": "fb8084e1-be86-4ad5-a3f6-76477d1a72d7",
+    "template": "10",
+    "title": "Ưu điểm của Trí tuệ Nhân tạo (AI)",
+    "page": 9,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Tự động hóa và Nâng cao Hiệu suất"
+      },
+      {
+        "order": 2,
+        "text": "Phân tích Dữ liệu Chuyên sâu"
+      },
+      {
+        "order": 3,
+        "text": "Giảm thiểu Sai sót và Tăng độ Chính xác"
+      },
+      {
+        "order": 4,
+        "text": "Khả năng Học hỏi và Thích ứng liên tục"
+      },
+      {
+        "order": 5,
+        "text": "Giải quyết các vấn đề Phức tạp"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
