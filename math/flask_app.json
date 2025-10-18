@@ -2,10 +2,30 @@
   {
     "id": "72ac1e29-93fc-4868-90dc-e449e1c786b9",
     "template": "3",
-    "title": "Cảm ơn đã theo dõi",
+    "title": "Flask in Python",
     "page": 1,
     "detail": "",
     "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "7b841395-61b5-49e2-b470-572b3e26933d",
+    "template": "17",
+    "title": "Jinja2 trong Flask",
+    "page": 2,
+    "detail": "CmZyb20gZmxhc2sgaW1wb3J0IEZsYXNrLCByZW5kZXJfdGVtcGxhdGUKZnJvbSBkb3RlbnYgaW1wb3J0IGxvYWRfZG90ZW52CmltcG9ydCBvcwoKbG9hZF9kb3RlbnYoKQoKYXBwID0gRmxhc2soX19uYW1lX18pCgpAYXBwLnJvdXRlKCIvIikKZGVmIGluZGV4KCk6CiAgICB0ZWx1YV91cmwgPSBvcy5nZXRlbnYoIlRFTFVBX1VSTCIsICJodHRwczovL2RlZmF1bHQudXJsIikKICAgIHJldHVybiByZW5kZXJfdGVtcGxhdGUoImluZGV4Lmh0bWwiLCB0ZWx1YV91cmw9dGVsdWFfdXJsKQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGFwcC5ydW4oZGVidWc9VHJ1ZSkK",
+    "notes": "Jinja2: \n- Truyền dữ liệu từ Python vào HTML\n- Thực hiện Logic cơ bản trong HTML\n- Kế thừa Template",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "e73296ed-1d4b-472c-9a7f-0ab741aa7cbb",
+    "template": "19",
+    "title": "Jinja2 index.html",
+    "page": 3,
+    "detail": "PCFET0NUWVBFIGh0bWw+CjxodG1sPgogIDxoZWFkPgogICAgPHRpdGxlPkZsYXNrICsgSlMgRXhhbXBsZTwvdGl0bGU+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPGgxPldlbGNvbWUgdG8gRmxhc2sgQXBwPC9oMT4KICAgIDxwPlRoaXMgcGFnZSB1c2VzIFRFTFVBX1VSTCBmcm9tIGVudmlyb25tZW50LjwvcD4KCiAgICA8c2NyaXB0PgogICAgICBjb25zdCB1cmwgPSAie3sgdGVsdWFfdXJsIH19IjsKICAgICAgY29uc29sZS5sb2coIlRFTFVBX1VSTCBmcm9tIEZsYXNrOiIsIHVybCk7CiAgICA8L3NjcmlwdD4KICA8L2JvZHk+CjwvaHRtbD4K",
+    "notes": "Jinja2 : \n- Biến: {{ variable }\n- Điều kiện: {% if condition %}...{% endif %}\n- https://github.com/letrthong/python/tree/master/flask/flask_app/flask_app",
     "referenceImagesBase64": "",
     "blocks": []
   }
