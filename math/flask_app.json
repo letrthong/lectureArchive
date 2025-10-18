@@ -30,6 +30,16 @@
     "blocks": []
   },
   {
+    "id": "7a580b62-2e4b-4f6d-b7a6-fe3faacdc47c",
+    "template": "17",
+    "title": "Jinja2 ",
+    "page": 4,
+    "detail": "ZnJvbSBmbGFzayBpbXBvcnQgRmxhc2ssIHJlbmRlcl90ZW1wbGF0ZQoKYXBwID0gRmxhc2soX19uYW1lX18pCgpAYXBwLnJvdXRlKCcvJykKZGVmIGhvbWUoKToKICAgICMgVHJ1eeG7gW4gYmnhur9uICd0aXRsZScgdsOgIGRhbmggc8OhY2ggJ2l0ZW1zJyB2w6BvIHRlbXBsYXRlCiAgICBwYWdlX3RpdGxlID0gIlRyYW5nIENo4bunIEZsYXNrIgogICAgZGF0YV9saXN0ID0gWyJpdGVtIEEiLCAiaXRlbSBCIiwgIml0ZW0gQyJdCiAgICByZXR1cm4gcmVuZGVyX3RlbXBsYXRlKCdpbmRleC5odG1sJywgdGl0bGU9cGFnZV90aXRsZSwgaXRlbXM9ZGF0YV9saXN0KQ==",
+    "notes": "https://flask.palletsprojects.com/en/stable/",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "72ac1e29-93fc-4868-90dc-e449e1c786b9",
     "template": "3",
     "title": "Cảm ơn",
