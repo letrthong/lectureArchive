@@ -11,7 +11,7 @@
   },
   {
     "id": "cd0ebb42-d53d-48b3-a49a-853fb7e8f467",
-    "template": "17",
+    "template": "19",
     "title": " Áp dụng cho màn hình nhỏ hơn hoặc bằng 768px (điện thoại và tablet dọc) ",
     "page": 2,
     "detail": "Lm5hdi1idXR0b24geyB3aWR0aDogMy41cmVtOyBoZWlnaHQ6IDMuNXJlbTsgZm9udC1zaXplOiAxLjVyZW07IH0KQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgICAgLm5hdi1idXR0b24geyB3aWR0aDogM3JlbTsgaGVpZ2h0OiAzcmVtOyBmb250LXNpemU6IDFyZW19OyAKfQoKI3RlbXBsYXRlLTEwLWltYWdlIHsKCW1heC13aWR0aDogMTAwJTsgICAKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CgkjdGVtcGxhdGUtMTAtaW1hZ2UgewoJCW1heC13aWR0aDogODB2dzsgICAgICAgCgl9Cn0=",
@@ -21,7 +21,7 @@
   },
   {
     "id": "23c927f0-10cf-48c6-93c0-fb76dd86291a",
-    "template": "17",
+    "template": "19",
     "title": "Cho phép ngắt dòng giữa các ký tự để tránh tràn nội dung.",
     "page": 3,
     "detail": "IHN0eWxlPSJtYXgtd2lkdGg6IDk1JTsgd29yZC1icmVhazogYnJlYWstYWxsOyIgCgovL1RhaWx3aW5kIENTUwpjbGFzcz0ibWF4LXctWzk1JV0gYnJlYWstYWxsIg==",
@@ -31,10 +31,10 @@
   },
   {
     "id": "375355a4-b43b-473a-862b-c6c49802d3ca",
-    "template": "17",
+    "template": "19",
     "title": "Tailwind CSS ",
     "page": 4,
-    "detail": "IDxkaXYgIHN0eWxlPSJkaXNwbGF5OiBub25lOz4KCjwvZGl2Pg==",
+    "detail": "IDxkaXYgIHN0eWxlPSJkaXNwbGF5OiBub25lOyI+Cgo8L2Rpdj4=",
     "notes": "Dấu một div",
     "referenceImagesBase64": "",
     "blocks": []
