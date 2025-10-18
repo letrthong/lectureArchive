@@ -34,8 +34,18 @@
     "template": "19",
     "title": "Tailwind CSS ",
     "page": 4,
-    "detail": "PGRpdiAgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KPC9kaXY+Cgo8c2NyaXB0PgogICB0ZXh0VXBDb250YWluZXIuY2xhc3NOYW1lID0gInRleHQtbGVmdCI7IAo8L3NjcmlwdD4=",
+    "detail": "PGRpdiAgc3R5bGU9ImRpc3BsYXk6IG5vbmU7Ij4KPC9kaXY+CiA=",
     "notes": "Dấu một div",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "d3ce0f5a-f3de-4c22-a975-8de9cc094f5d",
+    "template": "17",
+    "title": "JS",
+    "page": 5,
+    "detail": "ICB0ZXh0VXBDb250YWluZXIuY2xhc3NOYW1lID0gInRleHQtbGVmdCI7IA==",
+    "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
   }
