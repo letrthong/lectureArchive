@@ -42,19 +42,9 @@
   {
     "id": "6fee242f-0470-4003-b6ae-87846688a967",
     "template": "17",
-    "title": "base64  cho Unicode trên JS",
+    "title": "encode decode  trong Javascript",
     "page": 5,
-    "detail": "YnRvYSAtPiBlbmNvZGVCYXNlNjQKYXRvYiAtPiBkZWNvZGVCYXNlNjQ=",
-    "notes": "",
-    "referenceImagesBase64": "",
-    "blocks": []
-  },
-  {
-    "id": "76ee0d7d-14f5-490c-9b73-c00e511b60de",
-    "template": "17",
-    "title": "encode decode URI trong Javascript",
-    "page": 6,
-    "detail": "LSBlbmNvZGVVUklDb21wb25lbnQoKSDihpIgY2h1eeG7g24gY2h14buXaSB0aMOgbmggZOG6oW5nIGFuIHRvw6BuIGNobyBVUkwKLSBkZWNvZGVVUklDb21wb25lbnQoKSDihpIga2jDtGkgcGjhu6VjIGzhuqFpIGNodeG7l2kgZ+G7kWMgdOG7qyBk4bqhbmcgxJHDoyBtw6MgaMOzYQo=",
+    "detail": "RW5jb2RlIGRlY29kZSBiYXNlNjQgduG7m2kgdW5pY29kZQpidG9hIC0+IGVuY29kZUJhc2U2NAphdG9iIC0+IGRlY29kZUJhc2U2NAoKRW5jb2RlIGRlY29kZSBVUiAKLSBlbmNvZGVVUklDb21wb25lbnQoKSDihpIgY2h1eeG7g24gY2h14buXaSB0aMOgbmggZOG6oW5nIGFuIHRvw6BuIGNobyBVUkwKLSBkZWNvZGVVUklDb21wb25lbnQoKSDihpIga2jDtGkgcGjhu6VjIGzhuqFpIGNodeG7l2kgZ+G7kWMgdOG7qyBk4bqhbmcgxJHDoyBtw6MgaMOzYQ==",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
