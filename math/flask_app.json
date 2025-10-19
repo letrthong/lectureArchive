@@ -25,7 +25,7 @@
     "title": "Jinja2 với  index.html",
     "page": 3,
     "detail": "PCFET0NUWVBFIGh0bWw+CjxodG1sPgogIDxoZWFkPgogICAgPHRpdGxlPkZsYXNrICsgSlMgRXhhbXBsZTwvdGl0bGU+CiAgPC9oZWFkPgogIDxib2R5PgogICAgPGgxPldlbGNvbWUgdG8gRmxhc2sgQXBwPC9oMT4KICAgIDxwPlRoaXMgcGFnZSB1c2VzIFRFTFVBX1VSTCBmcm9tIGVudmlyb25tZW50LjwvcD4KICAgICA8cD51cmwgPSAge3sgdGVsdWFfdXJsIH19IDwvcD4KICA8L2JvZHk+CjwvaHRtbD4K",
-    "notes": "Jinja2 : \n- Biến: {{ variable }\n- Điều kiện: {% if condition %}...{% endif %}\n- https://github.com/letrthong/python/tree/master/flask/flask_app/flask_app",
+    "notes": " https://github.com/letrthong/python/tree/master/flask/flask_app/flask_app",
     "referenceImagesBase64": "",
     "blocks": []
   },
