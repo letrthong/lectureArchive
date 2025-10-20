@@ -1,0 +1,65 @@
+[
+  {
+    "id": "463b1c29-31b1-42dd-ae00-584a33d35da4",
+    "template": "2",
+    "title": "Dòng tiền là sự chuyển động của tiền ra vào doanh nghiệp",
+    "page": 1,
+    "detail": " ",
+    "notes": "https://telua.co/ @ 2025 !",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "662e4ca4-c912-4263-9d9c-b916b09f6d71",
+    "template": "11",
+    "title": "The Boutique- Greg Alexander",
+    "page": 2,
+    "description": "",
+    "detail": "10 câu hỏi kiểm tra sức khỏe dòng tiền  ?\n",
+    "content": [
+      {
+        "order": 1,
+        "text": "Nếu bạn nhân đôi quy mô công ty, bạn có cần vay nợ ngắn hạn nhiều không?"
+      },
+      {
+        "order": 2,
+        "text": "Liệu các khoản chi tiền mặt có vượt quá thu nhập tiền mặt nếu bạn nhân đôi quy mô?"
+      },
+      {
+        "order": 3,
+        "text": "Tăng trưởng chi phí nhân sự có vượt quá tăng trưởng các khoản phải thu không?"
+      },
+      {
+        "order": 4,
+        "text": "Khách hàng có thanh toán chậm hơn khi bạn mở rộng quy mô không?"
+      },
+      {
+        "order": 5,
+        "text": "Bạn có phải trả tiền cho nhà cung cấp trước khi nhận được tiền từ khách hàng không?"
+      },
+      {
+        "order": 6,
+        "text": "Bạn có cần đầu tư lớn vào công nghệ, văn phòng, hoặc thiết bị để mở rộng không?"
+      },
+      {
+        "order": 7,
+        "text": "Bạn có thể duy trì tỷ lệ lợi nhuận hiện tại khi mở rộng không?"
+      },
+      {
+        "order": 8,
+        "text": "Bạn có đủ tiền mặt để duy trì hoạt động trong ít nhất 6 tháng không?"
+      },
+      {
+        "order": 9,
+        "text": "Bạn có thể dự đoán chính xác dòng tiền trong 3–6 tháng tới không?"
+      },
+      {
+        "order": 10,
+        "text": "Bạn có kế hoạch rõ ràng để xử lý khi dòng tiền bị gián đoạn không?"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  }
+]
