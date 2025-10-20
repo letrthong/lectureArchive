@@ -14,8 +14,8 @@
     "template": "16",
     "title": "Thừa số nguyên tố",
     "page": 2,
-    "detail": "",
-    "notes": "",
+    "detail": "Số nguyên tố là số tự nhiên lớn hơn 1 và chỉ có hai ước số khác nhau là 1 và chính nó. <br><br>\nNhững số nguyên còn lại (tức là các số nguyên tố được gọi là Hợp số. Ta có thể phân tích một hợp số thành thừa số bằng cách biểu diễn nó dưới dạng tích các thừa số nguyên tố.",
+    "notes": "Dạng phân tích thành thừa số nguyên tố của một số nguyên dương là một biểu thức biểu diễn các thừa số nguyên tố của nó cùng với lũy thừa của mỗi thừa số.   <br><br>\nCây thừa số giúp ta nhìn thấy cách mà một hợp số được phân tích thành các thừa số nguyên tố. Chúng ta có thể tìm ra các thừa số nguyên tố bằng cách tìm xem những số nào mà hợp số có thể chia hết cho. Bắt đầu với từng số một, từ số nguyên tố nhỏ nhất cho tới khi xác định được tất cả các thừa số nguyên tố của hợp số đó.",
     "referenceImagesBase64": "",
     "blocks": []
   },
