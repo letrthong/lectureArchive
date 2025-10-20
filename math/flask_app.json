@@ -50,6 +50,16 @@
     "blocks": []
   },
   {
+    "id": "37aeb99b-5802-4e09-ac38-bd5e5cdab57e",
+    "template": "17",
+    "title": "Code in Javascript",
+    "page": 6,
+    "detail": "Y29uc3QgaG9zdG5hbWUgPSB3aW5kb3cubG9jYXRpb24uaG9zdG5hbWU7Ci8vIEtp4buDbSB0cmEgbuG6v3UgxJFhbmcgY2jhuqF5IGPhu6VjIGLhu5kgKGxvY2FsaG9zdCwgMTI3LjAuMC4xLCBob+G6t2MgdOG7qyBmaWxlIHN5c3RlbSkKaWYgKGhvc3RuYW1lID09PSAnbG9jYWxob3N0JyB8fCBob3N0bmFtZSA9PT0gJzEyNy4wLjAuMScgfHwgaG9zdG5hbWUgPT09ICcnKSB7CgkKfSBlbHNlIHsKCQp9",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "72ac1e29-93fc-4868-90dc-e449e1c786b9",
     "template": "3",
     "title": "...",
