@@ -66,7 +66,7 @@
 		"blocks": []
 	},
 	 {
-		"id": "mock-007xx",
+		"id": "13f02e38-8662-48fe-a28e-782ecd16a894",
 		"page": 3,
 		"template": "12",
 		"title": "Ví dụ 1: Tìm ƯCLN của 24 và 60 ",
@@ -79,7 +79,7 @@
 		"detail": "Template 11  "
 	},
 	{
-		"id": "mock-007xxy",
+		"id": "3b239b82-a916-4963-a6fe-03f909dcb120",
 		"page": 4,
 		"template": "10",
 		"title": "Ví dụ 2: Tìm ƯCLN của 360 và 700",
@@ -92,10 +92,10 @@
 		"detail": "Template 10  "
 	},
 	{
-		"id": "mock-001xx",
+		"id": "3d870ff7-6285-4a24-8c19-e7b176514309",
 		"page": 6,
 		"template": "3",
-		"title": "",
+		"title": "...",
 		"detail":  "Cảm ơn đã theo dõi ",
 		"notes": "https://telua.co/",
 		"referenceImagesBase64": ""
