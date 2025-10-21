@@ -1,4 +1,4 @@
 [
-	{ pathSegment: "all_slide_math_gcf", title: " UCLN" },
-	{ pathSegment: "all_slide_math_prime_factors", title: " Thứa số nguyên tố " }
+	{ "pathSegment": "all_slide_math_gcf", "title": " UCLN" },
+	{ "pathSegment": "all_slide_math_prime_factors", "title": " Thứa số nguyên tố " }
 ]
