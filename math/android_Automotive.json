@@ -33,7 +33,7 @@
     "id": "a434085c-56dd-45fd-b44f-92f54eeac2fd",
     "template": "18",
     "title": "ConnectivityManager",
-    "page": 23,
+    "page": 22,
     "detail": "LyoqCiAqIEludGVyZmFjZSB0aGF0IGFuc3dlcnMgcXVlcmllcyBhYm91dCwgYW5kIGFsbG93cyBjaGFuZ2luZywgdGhlCiAqIHN0YXRlIG9mIG5ldHdvcmsgY29ubmVjdGl2aXR5LgogKi8KLyoqIHtAaGlkZX0gKi8KaW50ZXJmYWNlIElDb25uZWN0aXZpdHlNYW5hZ2VyCnsKICAgIE5ldHdvcmsgZ2V0QWN0aXZlTmV0d29yaygpOwogICAgTmV0d29yayBnZXRBY3RpdmVOZXR3b3JrRm9yVWlkKGludCB1aWQsIGJvb2xlYW4gaWdub3JlQmxvY2tlZCk7CiAgICBOZXR3b3JrSW5mbyBnZXRBY3RpdmVOZXR3b3JrSW5mbygpOwogICAgTmV0d29ya0luZm8gZ2V0QWN0aXZlTmV0d29ya0luZm9Gb3JVaWQoaW50IHVpZCwgYm9vbGVhbiBpZ25vcmVCbG9ja2VkKTsKICAgIE5ldHdvcmtJbmZvIGdldE5ldHdvcmtJbmZvKGludCBuZXR3b3JrVHlwZSk7CiAgICBOZXR3b3JrSW5mbyBnZXROZXR3b3JrSW5mb0ZvclVpZChpbiBOZXR3b3JrIG5ldHdvcmssIGludCB1aWQsIGJvb2xlYW4gaWdub3JlQmxvY2tlZCk7CiAgICBOZXR3b3JrSW5mb1tdIGdldEFsbE5ldHdvcmtJbmZvKCk7CiAgICBOZXR3b3JrIGdldE5ldHdvcmtGb3JUeXBlKGludCBuZXR3b3JrVHlwZSk7CiAgICBOZXR3b3JrW10gZ2V0QWxsTmV0d29ya3MoKTsKfQ==",
     "notes": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/core/java/android/net/IConnectivityManager.aidl",
     "referenceImagesBase64": "",
@@ -43,7 +43,7 @@
     "id": "5969b2be-07bd-4b07-8b75-fb6e1dfac101",
     "template": "18",
     "title": "ConnectivityService.java",
-    "page": 25,
+    "page": 23,
     "detail": "IC8qKgogICAgICogUmV0dXJuIE5ldHdvcmtJbmZvIGZvciB0aGUgYWN0aXZlIChpLmUuLCBjb25uZWN0ZWQpIG5ldHdvcmsgaW50ZXJmYWNlLgogICAgICogSXQgaXMgYXNzdW1lZCB0aGF0IGF0IG1vc3Qgb25lIG5ldHdvcmsgaXMgYWN0aXZlIGF0IGEgdGltZS4gSWYgbW9yZQogICAgICogdGhhbiBvbmUgaXMgYWN0aXZlLCBpdCBpcyBpbmRldGVybWluYXRlIHdoaWNoIHdpbGwgYmUgcmV0dXJuZWQuCiAgICAgKiBAcmV0dXJuIHRoZSBpbmZvIGZvciB0aGUgYWN0aXZlIG5ldHdvcmssIG9yIHtAY29kZSBudWxsfSBpZiBub25lIGlzCiAgICAgKiBhY3RpdmUKICAgICAqLwogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgTmV0d29ya0luZm8gZ2V0QWN0aXZlTmV0d29ya0luZm8oKSB7CiAgICAgICAgZW5mb3JjZUFjY2Vzc1Blcm1pc3Npb24oKTsKICAgICAgICBmaW5hbCBpbnQgdWlkID0gQmluZGVyLmdldENhbGxpbmdVaWQoKTsKICAgICAgICBmaW5hbCBOZXR3b3JrU3RhdGUgc3RhdGUgPSBnZXRVbmZpbHRlcmVkQWN0aXZlTmV0d29ya1N0YXRlKHVpZCk7CiAgICAgICAgZmlsdGVyTmV0d29ya1N0YXRlRm9yVWlkKHN0YXRlLCB1aWQsIGZhbHNlKTsKICAgICAgICBtYXliZUxvZ0Jsb2NrZWROZXR3b3JrSW5mbyhzdGF0ZS5uZXR3b3JrSW5mbywgdWlkKTsKICAgICAgICByZXR1cm4gc3RhdGUubmV0d29ya0luZm87CiAgICB9Cg==",
     "notes": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/services/core/java/com/android/server/ConnectivityService.java\n",
     "referenceImagesBase64": "",
@@ -53,7 +53,7 @@
     "id": "eae56ef9-e2c2-4ec6-b817-54a7d471eb86",
     "template": "23",
     "title": "Handler - https://developer.android.com/reference/android/os/Handler",
-    "page": 26,
+    "page": 24,
     "detail": "",
     "notes": "https://developer.android.com/reference/android/os/Handler",
     "headerLeft": "void handleMessage (Message msg)",
@@ -68,6 +68,16 @@
       "Called explicitly by the developer",
       "Can be called from any thread"
     ],
+    "blocks": []
+  },
+  {
+    "id": "c7ed1db1-c0d4-4f82-9666-d17ed872c0b1",
+    "template": "18",
+    "title": "handleMessage (Message msg)",
+    "page": 25,
+    "detail": "ICAgIHByaXZhdGUgdm9pZCBoYW5kbGVSZWdpc3Rlck5ldHdvcmtBZ2VudChOZXR3b3JrQWdlbnRJbmZvIG5hKSB7CiAgICAgICAgaWYgKFZEQkcpIGxvZygiR290IE5ldHdvcmtBZ2VudCBNZXNzZW5nZXIiKTsKICAgICAgICBtTmV0d29ya0FnZW50SW5mb3MucHV0KG5hLm1lc3NlbmdlciwgbmEpOwogICAgICAgIHN5bmNocm9uaXplZCAobU5ldHdvcmtGb3JOZXRJZCkgewogICAgICAgICAgICBtTmV0d29ya0Zvck5ldElkLnB1dChuYS5uZXR3b3JrLm5ldElkLCBuYSk7CiAgICAgICAgfQogICAgICAgIG5hLmFzeW5jQ2hhbm5lbC5jb25uZWN0KG1Db250ZXh0LCBtVHJhY2tlckhhbmRsZXIsIG5hLm1lc3Nlbmdlcik7CiAgICAgICAgTmV0d29ya0luZm8gbmV0d29ya0luZm8gPSBuYS5uZXR3b3JrSW5mbzsKICAgICAgICBuYS5uZXR3b3JrSW5mbyA9IG51bGw7CiAgICAgICAgdXBkYXRlTmV0d29ya0luZm8obmEsIG5ldHdvcmtJbmZvKTsKICAgIH0=",
+    "notes": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/services/core/java/com/android/server/ConnectivityService.java",
+    "referenceImagesBase64": "",
     "blocks": []
   },
   {
