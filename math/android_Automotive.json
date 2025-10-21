@@ -171,6 +171,16 @@
     "blocks": []
   },
   {
+    "id": "7505b848-8b6d-49cb-acfa-2da164b74f3e",
+    "template": "50",
+    "title": "Phân tích Chi tiết Luồng",
+    "page": 38,
+    "detail": "WwogIHsKICAgICJjb2wxIjogIkLGsOG7m2MiLAogICAgImNvbDIiOiAiVGjDoG5oIHBo4bqnbiIsCiAgICAiY29sMyI6ICJDaGkgdGnhur90IiwKICAgICJjb2w0IjogIkdpYW8gdGnhur9wIgogIH0sCiAgewogICAgImNvbDEiOiAiMS0yIiwKICAgICJjb2wyIjogIkFwcCDihpIgQ29ubmVjdGl2aXR5TWFuYWdlciDihpIgUHJveHkiLAogICAgImNvbDMiOiAi4buobmcgZOG7pW5nIGfhu41pIGdldEFjdGl2ZU5ldHdvcmtJbmZvKCkuIENvbm5lY3Rpdml0eU1hbmFnZXIgY2h1eeG7g24gY3Xhu5ljIGfhu41pIMSR4bq/biDEkeG7kWkgdMaw4bujbmcgSUNvbm5lY3Rpdml0eU1hbmFnZXIuU3R1Yi5Qcm94eSAoQ2xpZW50LXNpZGUgQmluZGVyKS4iLAogICAgImNvbDQiOiAiSmF2YSBDYWxsIgogIH0sCiAgewogICAgImNvbDEiOiAiMyIsCiAgICAiY29sMiI6ICJQcm94eSDihpIgc3lzdGVtX3NlcnZlciIsCiAgICAiY29sMyI6ICJQcm94eSDEkcOzbmcgZ8OzaSB5w6p1IGPhuqd1IHbDoG8gUGFyY2VsIChtYXJzaGFsaW5nKSB2w6Agc+G7rSBk4bulbmcgQmluZGVyIElQQyDEkeG7gyBn4butaSDEkeG6v24gdGnhur9uIHRyw6xuaCBzeXN0ZW1fc2VydmVyLiIsCiAgICAiY29sNCI6ICJCaW5kZXIgSVBDIgogIH0sCiAgewogICAgImNvbDEiOiAiNC02IiwKICAgICJjb2wyIjogIlN0dWIg4oaSIENvbm5lY3Rpdml0eVNlcnZpY2UiLAogICAgImNvbDMiOiAiQmluZGVyIERyaXZlciBjaHV54buDbiBQYXJjZWwgdOG7m2kgc3lzdGVtX3NlcnZlci4gUGjGsMahbmcgdGjhu6ljIElDb25uZWN0aXZpdHlNYW5hZ2VyLlN0dWIub25UcmFuc2FjdCgpIG5o4bqtbiB2w6AgY2h1eeG7g24gZ2lhbyBk4buLY2ggxJHhur9uIGzhu5twIENvbm5lY3Rpdml0eVNlcnZpY2UgdGjhu7FjIHThur8uIiwKICAgICJjb2w0IjogIkJpbmRlciBJUEMiCiAgfQpd",
+    "notes": "Giai đoạn I: Ứng dụng gọi và Giao tiếp Binder (Client to Server)",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "41abf518-93f2-4eb5-bdd3-cec8deb73340",
     "template": "40",
     "title": "Phân tích Chi tiết Luồng",
