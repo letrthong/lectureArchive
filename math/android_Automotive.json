@@ -91,6 +91,16 @@
     "blocks": []
   },
   {
+    "id": "9a95e998-fad6-42bf-bb0d-dbda9b803094",
+    "template": "18",
+    "title": "import android.net.NetworkAgent ",
+    "page": 27,
+    "detail": "aW1wb3J0IGFuZHJvaWQubmV0Lk5ldHdvcms7CmltcG9ydCBhbmRyb2lkLm5ldC5OZXR3b3JrQWdlbnQ7CmltcG9ydCBhbmRyb2lkLm5ldC5OZXR3b3JrQ2FwYWJpbGl0aWVzOwppbXBvcnQgYW5kcm9pZC5uZXQuTmV0d29ya0NvbmZpZzsKaW1wb3J0IGFuZHJvaWQubmV0Lk5ldHdvcmtJbmZvOwppbXBvcnQgYW5kcm9pZC5uZXQuTmV0d29ya0luZm8uRGV0YWlsZWRTdGF0ZTsKaW1wb3J0IGFuZHJvaWQubmV0Lk5ldHdvcmtNaXNjOwppbXBvcnQgYW5kcm9pZC5uZXQuTmV0d29ya1F1b3RhSW5mbzsKaW1wb3J0IGFuZHJvaWQubmV0Lk5ldHdvcmtSZXF1ZXN0OwppbXBvcnQgYW5kcm9pZC5uZXQuTmV0d29ya1N0YXRlOw==",
+    "notes": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/services/core/java/com/android/server/ConnectivityService.java",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "345ec094-cc59-406c-ba49-aef8263e3877",
     "template": "40",
     "title": "NetworkAgent.java",
