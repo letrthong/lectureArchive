@@ -111,6 +111,26 @@
     "blocks": []
   },
   {
+    "id": "065ad0ba-a133-469d-a7d7-a46841470d9d",
+    "template": "18",
+    "title": "Context.CONNECTIVITY_SERVICE",
+    "page": 31,
+    "detail": "LyoqIEBoaWRlICovCkBTdHJpbmdEZWYoewoJCVBPV0VSX1NFUlZJQ0UsCgkJV0lORE9XX1NFUlZJQ0UsCgkJTEFZT1VUX0lORkxBVEVSX1NFUlZJQ0UsCgkJQUNDT1VOVF9TRVJWSUNFLAoJCUFDVElWSVRZX1NFUlZJQ0UsCgkJU0VBUkNIX1NFUlZJQ0UsCgkJU0VOU09SX1NFUlZJQ0UsCgkJU1RPUkFHRV9TRVJWSUNFLAoJCVdBTExQQVBFUl9TRVJWSUNFLAoJCVZJQlJBVE9SX1NFUlZJQ0UsCgkJLy9AaGlkZTogU1RBVFVTX0JBUl9TRVJWSUNFLAoJCUNPTk5FQ1RJVklUWV9TRVJWSUNFCiAgfSk=",
+    "notes": "https://android.googlesource.com/platform/frameworks/base/+/android-7.1.2_r1/core/java/android/content/Context.java",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "737ecc40-0a7f-4cee-becb-3a6c6629fcb1",
+    "template": "4",
+    "title": "03",
+    "page": 33,
+    "detail": "CONNECTIVITY SERVICE",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "d3c8d461-2c2e-486d-ae9f-3f23ad9e9c7f",
     "template": "40",
     "title": "WifiService ",
