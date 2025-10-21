@@ -235,8 +235,18 @@
     "template": "18",
     "title": "Android Interface Definition Language (AIDL)",
     "page": 51,
-    "detail": "",
+    "detail": "IC8qKgogICogU3RlcDE6IEFkZCBuZXcgbWV0aG9kIGluIGFpZGwgZmlsZQogICogSVRlc3RTZXJ2aWNlLmFpZGwKICAqIE1ldGhvZCB0byBhZGQgTmV3IE1ldGhvZAogICovCiAgIGludCAgYWRkTmV3TWV0aG9kKCkKCi8qKgogICogU3RlcDI6ICBJbXBsZW1lbnQgc2VydmljZQogICogVGVzdFNlcnZpY2VTdHViLmphdmEKICAqIE1ldGhvZCB0byBhZGQgTmV3IE1ldGhvZAogICovCkBPdmVycmlkZQpwdWJsaWMgaW50IGFkZE5ld01ldGhvZCgpIHRocm93cyBSZW1vdGVFeGNlcHRpb24KewogICBpbnQgc3RhdHVzID0gMTsKICAgc3luY2hyb25pemVkIChzZXJ2aWNlTG9jaykKICAgewogICB9CiAgIHJldHVybiBzdGF0dXM7Cn0=",
     "notes": "https://developer.android.com/develop/background-work/services/aidl",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "78c99caa-f0b0-49ec-a28c-a5469e6db950",
+    "template": "18",
+    "title": "Android Interface Definition Language (AIDL)",
+    "page": 52,
+    "detail": "Ly9UZXN0TmV3TWV0aG9kVGVzdC5jcHAKQFRlc3QKcHVibGljIHZvaWQgdGVzdFRlc3ROZXdNZXRob2QoKSB0aHJvd3MgUmVtb3RlRXhjZXB0aW9uCnsKTG9nLmQoVEFHLCAidGVzdFRlc3ROZXdNZXRob2QiKTsKCmludCByZXN1bHQ9IG1UZXN0U2VydmljZS5kdHZBZGROZXdNZXRob2QoKTsKTG9nLmQoVEFHLCAidGVzdFRlc3ROZXdNZXRob2Q6IHJlc3VsdD0iICsgcmVzdWx0KTsgCn0KLy8gUnVuIHRoZSB0ZXN0Y2FzZQpydW4gY3RzIC0tbW9kdWxlIEN0c1Rlc3RTZXJ2aWNlSVRUZXN0IC10IGNvbS52ZW5kb3JYeXoueHl6LnNlcnZpY2UuY3RzLnRlc3RzdWl0ZS5UZXN0TmV3TW90aG9kVGVzdA==",
+    "notes": "cts-tradefed ",
     "referenceImagesBase64": "",
     "blocks": []
   },
