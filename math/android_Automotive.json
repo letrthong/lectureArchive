@@ -50,6 +50,27 @@
     "blocks": []
   },
   {
+    "id": "eae56ef9-e2c2-4ec6-b817-54a7d471eb86",
+    "template": "23",
+    "title": "Handler - https://developer.android.com/reference/android/os/Handler",
+    "page": 26,
+    "detail": "",
+    "notes": "https://developer.android.com/reference/android/os/Handler",
+    "headerLeft": "void handleMessage (Message msg)",
+    "listLeft": [
+      "Processes the message",
+      "Automatically called by the Handler.",
+      "Runs on the thread associated with the Handler"
+    ],
+    "headerRight": "boolean sendMessage (Message msg)",
+    "listRight": [
+      "Sends a message to the Handler",
+      "Called explicitly by the developer",
+      "Can be called from any thread"
+    ],
+    "blocks": []
+  },
+  {
     "id": "e12360e4-1b62-4fbd-a1c4-49c901147c77",
     "template": "40",
     "title": "handleMessage(Message msg)",
