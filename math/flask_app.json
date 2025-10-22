@@ -60,6 +60,16 @@
     "blocks": []
   },
   {
+    "id": "44b9c09b-9c9e-4497-a922-b405b6351d5e",
+    "template": "19",
+    "title": "Code trong Python",
+    "page": 7,
+    "detail": "QGFwcC5yb3V0ZSgnL2FwaS92MS9kZW1vLzxyZXNvdXJjZT4nLCBtZXRob2RzPVsnUE9TVCddKQpkZWYgcG9zdF9yZXNvdXJjZV9kZW1vKHJlc291cmNlKToKICAgICMgZmlsZV9uYW1lID0gcmVzb3VyY2UKICAgIHJldHVybiB7fQ==",
+    "notes": "@app.route('/api/v1/demo/<resource>', methods=['POST'])",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "72ac1e29-93fc-4868-90dc-e449e1c786b9",
     "template": "3",
     "title": "...",
