@@ -12,10 +12,20 @@
   {
     "id": "f8f04606-8c60-48e1-a78c-64e6014be55b",
     "template": "16",
-    "title": "docker-compose.yml",
+    "title": "Sync files via docker-compose.yml",
     "page": 4,
-    "detail": " volumes: <br>\n      - './app/src:/app/src'",
-    "notes": "",
+    "detail": "Share files between Linux OS and Docker",
+    "notes": " volumes: <br>\n      - './app/src:/app/src'",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "49ebbcb4-7343-4cbc-9d69-f06f94609546",
+    "template": "16",
+    "title": "Connect to Docker via docker-compose.yml",
+    "page": 5,
+    "detail": "Connect to docker from Linux OS <br>\n# docker exec -it telua_nodejs bash",
+    "notes": " ubuntu_node: <br>\n      container_name: telua_nodejs <br>  <br>\n\n -  https://github.com/letrthong/docker/tree/master/ubuntu_nodejs",
     "referenceImagesBase64": "",
     "blocks": []
   },
