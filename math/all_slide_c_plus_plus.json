@@ -60,6 +60,16 @@
     "blocks": []
   },
   {
+    "id": "f9e7d5ae-d71d-43c7-a06e-81830735b90a",
+    "template": "19",
+    "title": "C++11  Shared Pointer",
+    "page": 13,
+    "detail": "CmNsYXNzIE15Q2xhc3MgewpwdWJsaWM6CiAgICBNeUNsYXNzKGludCB4KSA6IHZhbHVlKHgpIHsKICAgICAgICBzdGQ6OmNvdXQgPDwgIk15Q2xhc3MgY29uc3RydWN0ZWQgd2l0aCB2YWx1ZSAiIDw8IHZhbHVlIDw8IHN0ZDo6ZW5kbDsKICAgIH0KICAgIH5NeUNsYXNzKCkgewogICAgICAgIHN0ZDo6Y291dCA8PCAiTXlDbGFzcyBkZXN0cm95ZWQiIDw8IHN0ZDo6ZW5kbDsKICAgIH0KICAgIHZvaWQgc2hvdygpIGNvbnN0IHsKICAgICAgICBzdGQ6OmNvdXQgPDwgIlZhbHVlOiAiIDw8IHZhbHVlIDw8IHN0ZDo6ZW5kbDsKICAgIH0KcHJpdmF0ZToKICAgIGludCB2YWx1ZTsKfTsKCmludCBtYWluKCkgewogICAgLy8gQ3JlYXRlIGEgc2hhcmVkIHBvaW50ZXIgdXNpbmcgbWFrZV9zaGFyZWQKICAgIHN0ZDo6c2hhcmVkX3B0cjxNeUNsYXNzPiBwdHIgPSBzdGQ6Om1ha2Vfc2hhcmVkPE15Q2xhc3M+KDQyKTsKCiAgICAvLyBVc2UgdGhlIG9iamVjdAogICAgcHRyLT5zaG93KCk7CgogICAgLy8gU2hhcmVkIHBvaW50ZXIgYXV0b21hdGljYWxseSBkZWxldGVzIHRoZSBvYmplY3Qgd2hlbiBubyBsb25nZXIgdXNlZAogICAgcmV0dXJuIDA7Cn0K",
+    "notes": "https://github.com/letrthong/DesignPatterns/blob/master/03.C%2B%2B11/shared_pointer/Shared_Pointer.cpp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "a6289d4c-77ac-4191-ad08-418418f820d9",
     "template": "4",
     "title": "2",
