@@ -18,6 +18,10 @@
     "content": [
       {
         "order": 1,
+        "text": "C++ 11"
+      },
+      {
+        "order": 2,
         "text": "C++ 17"
       }
     ],
@@ -26,10 +30,40 @@
     "blocks": []
   },
   {
-    "id": "a6289d4c-77ac-4191-ad08-418418f820d9",
+    "id": "86cbe74b-ea7e-441b-8262-24f08e358e55",
     "template": "4",
     "title": "1",
     "page": 10,
+    "detail": "C++11",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "c53b68e1-52c4-4106-aaa5-9172e443b707",
+    "template": "17",
+    "title": "C++11 atomic",
+    "page": 11,
+    "detail": "CmludCBtYWluKCkgewogICAgc3RkOjphdG9taWM8aW50PiBjb3VudGVyKDApOwoKICAgIGNvdW50ZXIrKzsgIC8vIGF0b21pYyBpbmNyZW1lbnQKICAgIHN0ZDo6Y291dCA8PCAiQ291bnRlcjogIiA8PCBjb3VudGVyLmxvYWQoKSA8PCBzdGQ6OmVuZGw7CgogICAgcmV0dXJuIDA7Cn0K",
+    "notes": "https://github.com/letrthong/DesignPatterns/blob/master/03.C++11/atomic.cpp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "ec75fdc1-8b7f-4197-ae96-78d1ff931f13",
+    "template": "17",
+    "title": "C++11 override ",
+    "page": 12,
+    "detail": "Y2xhc3MgQQp7CnB1YmxpYzoKICAgIEEoKXt9CiAgICB+QSgpe30KCQoJdmlydHVhbCAgdm9pZCBmdW5jKCkKCXsKCQlzdGQ6OmNvdXQ8PCJBIGZ1bmMgIjw8IHN0ZDo6ZW5kbDsKCX0KCnByaXZhdGU6CiAgICAgCiAgICAKfTsKCgpjbGFzcyBCIDogcHVibGljICBBCnsKCnB1YmxpYzogCgl2b2lkIGZ1bmMoKSBvdmVycmlkZSAKCXsKCQlzdGQ6OmNvdXQ8PCIgQiBmdW5jICI8PCBzdGQ6OmVuZGw7Cgl9Cn07",
+    "notes": "https://github.com/letrthong/DesignPatterns/blob/master/03.C%2B%2B11/override/override.cpp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "a6289d4c-77ac-4191-ad08-418418f820d9",
+    "template": "4",
+    "title": "2",
+    "page": 30,
     "detail": "C++ 17",
     "notes": "",
     "referenceImagesBase64": "",
@@ -39,7 +73,7 @@
     "id": "c1d34979-55ab-4017-8adc-e04cc174ddb8",
     "template": "17",
     "title": " C++17 std::optional",
-    "page": 11,
+    "page": 31,
     "detail": "IHN0ZDo6b3B0aW9uYWw8ZG91YmxlPiBudW1iZXIgPSAgbWF4TWl4LmlzVmFsaWROdW1iZXIoNSk7CiBpZihudW1iZXIpewogICAgICAgIHN0ZDo6Y291dDw8ICAgc3RkOjp0b19zdHJpbmcoKm51bWJlcikgOwogIH0KLy9odHRwczovL2dpdGh1Yi5jb20vbGV0cnRob25nL0NwbHVzcGx1cy9ibG9iL21hc3Rlci9jMTcvdXNpbmdfb3B0aW9uYWwuY3Bw",
     "notes": "",
     "referenceImagesBase64": "",
@@ -49,7 +83,7 @@
     "id": "5f7aea9d-0fa1-4485-a248-e6dd7e4b2473",
     "template": "17",
     "title": "C++17  if",
-    "page": 12,
+    "page": 32,
     "detail": "aWYoIGludCBpID0gMTA7IGkgPCA1KQp7CiAgICAgICAgc3RkOjpjb3V0PDwiSGVsbG8gV29ybGQiOwp9CmVsc2UgCnsKICAgICAgICBzdGQ6OmNvdXQ8PCJIZWxsbyBXb3JsZCAgaT0iIDw8IGk7Cn0=",
     "notes": "",
     "referenceImagesBase64": "",
@@ -59,7 +93,7 @@
     "id": "eb2e6eec-908f-4ea8-b1a6-3bea73ff4b68",
     "template": "17",
     "title": "C++17 file system",
-    "page": 13,
+    "page": 33,
     "detail": "bmFtZXNwYWNlIGZzID0gIHN0ZDo6ZmlsZXN5c3RlbTsKdXNpbmcgc3RkOjpmaWxlc3lzdGVtOjpkaXJlY3RvcnlfaXRlcmF0b3I7CgoKaW50IG1haW4oKSB7CiAgICBjb3V0PDwgImhlbGxvIHdvcmxkICI8PGVuZGw7CiAgICBzdGQ6OnN0cmluZyBwYXRoID0iL29wdCI7CiAgICBmb3IgKGNvbnN0IGF1dG8gJmZpbGU6IGRpcmVjdG9yeV9pdGVyYXRvcihwYXRoKSkgewogICAgICAgIHN0ZDo6c3RyaW5nIGZpbGVfcGF0aD0gIGZpbGUucGF0aCgpOwogICAgICAgIGlmICggZnM6OmlzX2RpcmVjdG9yeShmaWxlX3BhdGgpICkgewogICAgICAgICAgICBjb3V0PDwiZGlyID0iPDwgZmlsZS5wYXRoKCkgOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICBjb3V0PDwiZmlsZT0iPDwgZmlsZS5wYXRoKCkgOwogICAgICAgIH0KICAgIH0gCiAgICByZXR1cm4gMDsKfQo=",
     "notes": "https://github.com/letrthong/Cplusplus/blob/master/c17/main.cpp",
     "referenceImagesBase64": "",
