@@ -10,6 +10,16 @@
     "blocks": []
   },
   {
+    "id": "dae7d1f8-8a97-4af9-befd-c1a10c13f8bf",
+    "template": "16",
+    "title": ".gitconfig",
+    "page": 3,
+    "detail": "[url \"ssh://UserId@github.com:29418/\"]\n\tinsteadOf = ssh://github.com:29418/",
+    "notes": "insteadOf   & pushInsteadOf",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "1003c021-3775-40e9-ba40-03d6342aab5e",
     "template": "16",
     "title": "large files",
