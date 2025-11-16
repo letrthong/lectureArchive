@@ -72,6 +72,26 @@
     "blocks": []
   },
   {
+    "id": "3e2c8553-b631-47e8-b0e1-466fbc6b4fa8",
+    "template": "10",
+    "title": "Mô hình kinh doanh ",
+    "page": 12,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Giai đoạn 1:  Bán lẻ trực tiếp tới người dùng cuối"
+      },
+      {
+        "order": 2,
+        "text": "Giai đoạn 2: Tiếp cận các cửa hàng, nhà hàng"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "81de1a6c-011d-4a11-85fc-8726f39a8e4d",
     "template": "4",
     "title": "2",
