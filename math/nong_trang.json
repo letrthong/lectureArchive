@@ -52,6 +52,26 @@
     "blocks": []
   },
   {
+    "id": "b742fcd6-5f0e-47a6-b96c-bddae11a9c90",
+    "template": "10",
+    "title": "Các mặt hàng cần bán trên Nông Trang",
+    "page": 11,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Các mặt hàng nông sản ( Chanh,  tỏi, rau, etc)"
+      },
+      {
+        "order": 2,
+        "text": "Các thiết bị tự động cho chăn nuôi và trồng rau"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "81de1a6c-011d-4a11-85fc-8726f39a8e4d",
     "template": "4",
     "title": "2",
