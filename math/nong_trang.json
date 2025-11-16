@@ -135,6 +135,10 @@
       {
         "order": 3,
         "text": "Cần  chuẩn bị kho hàng ?"
+      },
+      {
+        "order": 4,
+        "text": "Khi nào bắt đầu ?"
       }
     ],
     "notes": "",
