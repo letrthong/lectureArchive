@@ -8,5 +8,33 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "492cc697-688d-4c91-9f17-dfd6975c8186",
+    "template": "5",
+    "title": "Agenda",
+    "page": 2,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Làm sao quảng cáo nongtrang.vn"
+      },
+      {
+        "order": 2,
+        "text": "Giải Pháp nongtrang.vn"
+      },
+      {
+        "order": 3,
+        "text": "Sử dụng shopee"
+      },
+      {
+        "order": 4,
+        "text": "Kết quả thực tế sau 3 tháng"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
