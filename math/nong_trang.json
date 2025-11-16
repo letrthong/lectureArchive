@@ -92,10 +92,20 @@
     "blocks": []
   },
   {
+    "id": "81de1a6c-011d-4a11-85fc-8726f39a8e4d",
+    "template": "4",
+    "title": "2",
+    "page": 20,
+    "detail": "Giải Pháp nongtrang.vn",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "12c589c3-5782-44a6-88d2-433a0fa29ee2",
     "template": "10",
     "title": "Làm sao để khách hàng mua hàng ở Nông Trang ?",
-    "page": 13,
+    "page": 21,
     "description": "",
     "content": [
       {
@@ -108,11 +118,25 @@
     "blocks": []
   },
   {
-    "id": "81de1a6c-011d-4a11-85fc-8726f39a8e4d",
-    "template": "4",
-    "title": "2",
-    "page": 20,
-    "detail": "Giải Pháp nongtrang.vn",
+    "id": "3b512081-b110-43c3-8e65-bfebddb5b615",
+    "template": "10",
+    "title": "Làm sao thực hiện ?",
+    "page": 22,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Cần bao lâu ?"
+      },
+      {
+        "order": 2,
+        "text": "Cần bao nhiều tài nguyên?"
+      },
+      {
+        "order": 3,
+        "text": "Cần  chuẩn bị kho hàng ?"
+      }
+    ],
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
