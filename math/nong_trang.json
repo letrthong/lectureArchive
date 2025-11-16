@@ -92,6 +92,22 @@
     "blocks": []
   },
   {
+    "id": "12c589c3-5782-44a6-88d2-433a0fa29ee2",
+    "template": "10",
+    "title": "Làm sao để khách hàng mua hàng ở Nông Trang ?",
+    "page": 13,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": ".............."
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "81de1a6c-011d-4a11-85fc-8726f39a8e4d",
     "template": "4",
     "title": "2",
