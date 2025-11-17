@@ -10,10 +10,30 @@
     "blocks": []
   },
   {
+    "id": "d6657a84-c5a2-4919-8264-317d1b89d08c",
+    "template": "12",
+    "title": "Yêu cầu giai đoạn 1",
+    "page": 2,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Sử dụng Business-to-Consumer (B2C)"
+      },
+      {
+        "order": 2,
+        "text": "Sử dụng mô hình kết nối trực tiếp từ trang trại tới người tiêu dùng Direct-to-Consumer (D2C)"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "492cc697-688d-4c91-9f17-dfd6975c8186",
     "template": "5",
     "title": "Agenda",
-    "page": 2,
+    "page": 3,
     "description": "",
     "content": [
       {
