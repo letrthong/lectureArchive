@@ -92,10 +92,30 @@
     "blocks": []
   },
   {
+    "id": "772a9849-3534-40cd-9e71-ea23908fc520",
+    "template": "50",
+    "title": "Các loại nông sản",
+    "page": 12,
+    "detail": "WwogIHsKICAgICJjb2wxIjogIlTDqm4gU+G6o24gcGjhuqltIiwKICAgICJjb2wyIjogIkdpw6Egc+G6o24gcGjDom0iLAogICAgImNvbDMiOiAiVGjDtG5nIHRpbiBjaGkgdGnDqnQiCiAgfSwKICB7CiAgICAiY29sMSI6ICJTcHIyNi4xXzEiLAogICAgImNvbDIiOiAiU3ByMjYuMl8xIiwKICAgICJjb2wzIjogIlNwcjI2LjNfMSIKICB9Cl0=",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "a1693d9f-802f-4712-b457-c3785ee96c3e",
+    "template": "50",
+    "title": "Thiết bị điện và tự động",
+    "page": 13,
+    "detail": "WwogIHsKICAgICJjb2wxIjogIlTDqm4gU+G6o24gcGjhuqltIiwKICAgICJjb2wyIjogIkdpw6Egc+G6o24gcGjDom0iLAogICAgImNvbDMiOiAiVGjDtG5nIHRpbiBjaGkgdGnDqnQiCiAgfSwKICB7CiAgICAiY29sMSI6ICJTcHIyNi4xXzEiLAogICAgImNvbDIiOiAiU3ByMjYuMl8xIiwKICAgICJjb2wzIjogIlNwcjI2LjNfMSIKICB9Cl0=",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "3e2c8553-b631-47e8-b0e1-466fbc6b4fa8",
     "template": "10",
     "title": "Mô hình kinh doanh ",
-    "page": 12,
+    "page": 16,
     "description": "",
     "content": [
       {
