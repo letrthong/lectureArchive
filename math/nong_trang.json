@@ -100,11 +100,15 @@
     "content": [
       {
         "order": 1,
-        "text": "Giai đoạn 1:  Bán lẻ trực tiếp tới người dùng cuối"
+        "text": "Giai đoạn 1:  Bán lẻ trực tiếp tới người dùng cuối ( 2.5 tháng)"
       },
       {
         "order": 2,
-        "text": "Giai đoạn 2: Tiếp cận các cửa hàng, nhà hàng"
+        "text": "Giai đoạn 2: Tiếp cận các cửa hàng, nhà hàng  ( 2.5 tháng)"
+      },
+      {
+        "order": 3,
+        "text": "Giai đoạn 3: Tiếp cận doanh nghiệp lớn ( 2.5 tháng)"
       }
     ],
     "notes": "",
