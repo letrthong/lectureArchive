@@ -8,5 +8,29 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "2cabd386-842b-4946-9ef5-608ecc3c2cbe",
+    "template": "5",
+    "title": "Agenda",
+    "page": 2,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Linux Kernel"
+      },
+      {
+        "order": 2,
+        "text": "Driver"
+      },
+      {
+        "order": 3,
+        "text": "Service"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
