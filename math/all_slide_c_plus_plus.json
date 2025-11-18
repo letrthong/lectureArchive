@@ -110,12 +110,22 @@
     "blocks": []
   },
   {
-    "id": "1003c021-3775-40e9-ba40-03d6342aab5e",
-    "template": "16",
+    "id": "1994669e-183e-437b-b33d-479469360566",
+    "template": "10",
     "title": "Repo",
     "page": 50,
-    "detail": "https://github.com/letrthong/DesignPatterns <br>\nhttps://github.com/letrthong/Cplusplus",
-    "notes": " C++",
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://github.com/letrthong/DesignPatterns"
+      },
+      {
+        "order": 2,
+        "text": "https://github.com/letrthong/Cplusplus"
+      }
+    ],
+    "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
   }
