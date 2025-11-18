@@ -80,12 +80,26 @@
     "blocks": []
   },
   {
-    "id": "1003c021-3775-40e9-ba40-03d6342aab5e",
-    "template": "16",
+    "id": "7091d9bb-e451-4a18-88a4-aa673efd9336",
+    "template": "10",
     "title": "Links",
     "page": 100,
-    "detail": "https://denrak.com/  <br>\nhttps://www.deere.com/en/index.html",
-    "notes": " https://www.bigdutchman.asia/",
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://denrak.com/"
+      },
+      {
+        "order": 2,
+        "text": "https://www.deere.com/en/index.html"
+      },
+      {
+        "order": 3,
+        "text": "https://www.bigdutchman.asia/"
+      }
+    ],
+    "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
   }
