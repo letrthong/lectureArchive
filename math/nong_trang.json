@@ -218,5 +218,25 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "57c605a4-576e-4150-85bd-a3d39f66e159",
+    "template": "10",
+    "title": "Links",
+    "page": 100,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://telua.co/task/calendar_work"
+      },
+      {
+        "order": 2,
+        "text": "https://telua.co/task/calendar_week"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
