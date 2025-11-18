@@ -22,7 +22,7 @@
   {
     "id": "2242929d-7084-493c-9fb7-fb17e4ebb7cb",
     "template": "16",
-    "title": "Time Synchronization with Linux Precision Time Protocol",
+    "title": "gPTP - Time Synchronization with Linux Precision Time Protocol",
     "page": 10,
     "detail": "https://free5gc.org/blog/20250709/20250709/",
     "notes": "https://tsn.readthedocs.io/timesync.html",
