@@ -110,6 +110,23 @@
     "blocks": []
   },
   {
+    "id": "f9464d01-260c-48b0-8bf6-ffc19983df0a",
+    "template": "23",
+    "title": "C++17 std::move(x)",
+    "page": 40,
+    "detail": "",
+    "notes": "",
+    "headerLeft": "shallow copy",
+    "listLeft": [
+      "............"
+    ],
+    "headerRight": "deep copies",
+    "listRight": [
+      "..........."
+    ],
+    "blocks": []
+  },
+  {
     "id": "1994669e-183e-437b-b33d-479469360566",
     "template": "10",
     "title": "Repo",
