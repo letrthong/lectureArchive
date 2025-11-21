@@ -39,6 +39,10 @@
       {
         "order": 1,
         "text": "https://eci.intel.com/docs/3.3/development/performance/tsnrefsw/tsn-overview.html"
+      },
+      {
+        "order": 2,
+        "text": "https://www.qnx.com/developers/docs/8.0/com.qnx.doc.neutrino.utilities/topic/p/ptpd2.html"
       }
     ],
     "notes": "",
