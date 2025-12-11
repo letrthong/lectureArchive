@@ -28,5 +28,25 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "90bed34e-9eec-4d76-9ddd-98ae3beb3145",
+    "template": "10",
+    "title": "repo sync",
+    "page": 10,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Step1: repo init -b commit_hash"
+      },
+      {
+        "order": 2,
+        "text": "Step2: repo sync"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
