@@ -32,7 +32,7 @@
   {
     "id": "90bed34e-9eec-4d76-9ddd-98ae3beb3145",
     "template": "10",
-    "title": "repo sync",
+    "title": "repo sync to commit hash",
     "page": 10,
     "description": "",
     "content": [
@@ -43,6 +43,22 @@
       {
         "order": 2,
         "text": "Step2: repo sync"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "faeddea2-3e11-45c1-aa56-4be9ed4d857d",
+    "template": "10",
+    "title": "Repo sync and pull ",
+    "page": 11,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "repo sync -d"
       }
     ],
     "notes": "",
