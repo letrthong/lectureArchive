@@ -40,6 +40,16 @@
     "blocks": []
   },
   {
+    "id": "fbd5d258-35f9-432f-aeb9-7c311a9ee42e",
+    "template": "16",
+    "title": "qgptp ",
+    "page": 11,
+    "detail": "https://docs.nvidia.com/drive/drive_os_5.1.6.1L/nvvib_docs/index.html#page/DRIVE_OS_Linux_SDK_Development_Guide/MCU%20Setup%20and%20Configuration/mcu_time_sync.html",
+    "notes": "https://www.qnx.com/developers/docs/7.0.0/index.html#com.qnx.doc.adas.system_services/topic/ptp_using.html",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "fc9efc0b-39a3-4e21-bc90-47975af3a9db",
     "template": "10",
     "title": "Links",
