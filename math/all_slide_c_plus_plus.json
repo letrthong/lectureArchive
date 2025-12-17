@@ -118,7 +118,7 @@
     "notes": "",
     "headerLeft": "shallow copy",
     "listLeft": [
-      "............"
+      "std::move thực chất là Shallow Copy An Toàn"
     ],
     "headerRight": "deep copies",
     "listRight": [
