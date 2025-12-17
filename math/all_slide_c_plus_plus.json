@@ -127,6 +127,16 @@
     "blocks": []
   },
   {
+    "id": "744b23da-9456-409c-b0c3-5a2adf2caacb",
+    "template": "16",
+    "title": "std::make_unique ",
+    "page": 41,
+    "detail": "std::make_unique   std::move",
+    "notes": "https://github.com/letrthong/Cplusplus/blob/master/c17/make_unique.cpp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "1994669e-183e-437b-b33d-479469360566",
     "template": "10",
     "title": "Repos",
