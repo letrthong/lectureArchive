@@ -131,7 +131,7 @@
     "template": "16",
     "title": "std::make_unique ",
     "page": 41,
-    "detail": "std::make_unique   std::move",
+    "detail": "std::make_unique </br>\nstd::move </br>\n</br>\nint x = 10;</br>\nint y = std::move(x);</br>\n</br>\n// Kết quả: </br>\n// y = 10 </br>\n// x = 10 (Vẫn giữ nguyên, KHÔNG bị biến thành 0)",
     "notes": "https://github.com/letrthong/Cplusplus/blob/master/c17/make_unique.cpp",
     "referenceImagesBase64": "",
     "blocks": []
