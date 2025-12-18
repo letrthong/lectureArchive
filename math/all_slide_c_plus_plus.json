@@ -90,6 +90,16 @@
     "blocks": []
   },
   {
+    "id": "e5233378-54d9-403d-8e87-710b5e71eb21",
+    "template": "16",
+    "title": "allocate_shared",
+    "page": 17,
+    "detail": "class Task {\npublic:\n    int id;\n    Task(int i) : id(i) {\n        std::cout << \"[Constructor]: Task \" << id << \" allocated.\\n\";\n    }\n    ~Task() {\n        std::cout << \"[Destructor]: Task \" << id << \" deallocated.\\n\";\n    }\n};\n\nint main() {\n    // 1. Create a standard allocator for Task objects\n    std::allocator<Task> myAlloc;\n\n    // 2. Use allocate_shared instead of make_shared\n    // Syntax: std::allocate_shared<Type>(Allocator, Constructor_Args...)\n    auto taskPtr = std::allocate_shared<Task>(myAlloc, 101);\n\n    std::cout << \"Task ID: \" << taskPtr->id << \"\\n\";\n    std::cout << \"Usage count: \" << taskPtr.use_count() << \"\\n\";\n\n    return 0;\n}",
+    "notes": "https://github.com/letrthong/DesignPatterns/blob/master/03.C%2B%2B11/allocate_shared.cpp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "a6289d4c-77ac-4191-ad08-418418f820d9",
     "template": "4",
     "title": "2",
