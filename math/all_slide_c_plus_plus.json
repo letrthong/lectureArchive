@@ -137,6 +137,26 @@
     "blocks": []
   },
   {
+    "id": "023ab290-5e60-4138-9e02-c84e580f753f",
+    "template": "16",
+    "title": "C++17  std::string_view",
+    "page": 45,
+    "detail": "const std::string_view ",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "e3f273f2-c2ec-497d-b84a-1a6929de2e5e",
+    "template": "17",
+    "title": "vector emplace_back",
+    "page": 46,
+    "detail": "c3RydWN0IE1hcmtlciB7CiAgICBpbnQgaWQ7CiAgICBzdGQ6OnN0cmluZyBsYWJlbDsKICAgIE1hcmtlcigpIDogaWQoMCksIGxhYmVsKCJub25lIikge30gLy8gRGVmYXVsdCBjb25zdHJ1Y3RvcgogICAgTWFya2VyKGludCBpLCBzdGQ6OnN0cmluZyBsKSA6IGlkKGkpLCBsYWJlbChsKSB7fSAvLyBQYXJhbWV0cml6ZWQKfTsKCmludCBtYWluKCkgewogICAgc3RkOjp2ZWN0b3I8TWFya2VyPiBtYXJrZXJzOwoKICAgIC8vIENhbGxzIHRoZSBkZWZhdWx0IGNvbnN0cnVjdG9yIChpZD0wLCBsYWJlbD0ibm9uZSIpCiAgICBtYXJrZXJzLmVtcGxhY2VfYmFjaygpOyAKCiAgICAvLyBDYWxscyB0aGUgcGFyYW1ldHJpemVkIGNvbnN0cnVjdG9yIGRpcmVjdGx5IGluIHRoZSB2ZWN0b3IgbWVtb3J5CiAgICBtYXJrZXJzLmVtcGxhY2VfYmFjaygxLCAiQ2hlY2twb2ludCIpOyAKfQ==",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "1994669e-183e-437b-b33d-479469360566",
     "template": "10",
     "title": "Repos",
