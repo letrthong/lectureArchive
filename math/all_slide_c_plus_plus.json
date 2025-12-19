@@ -82,7 +82,7 @@
   {
     "id": "6b51be1d-d504-46dd-8d8d-9cebdbc59f0d",
     "template": "17",
-    "title": "shared_ptr & make_shared",
+    "title": "C++11 shared_ptr & make_shared",
     "page": 17,
     "detail": "IApjbGFzcyBTdHVkZW50IHsKcHVibGljOgogICAgc3RkOjpzdHJpbmcgbmFtZTsKCiAgICAvLyBDb25zdHJ1Y3RvcgogICAgU3R1ZGVudChzdGQ6OnN0cmluZyBuKSA6IG5hbWUobikgewogICAgICAgIHN0ZDo6Y291dCA8PCAiW0NvbnN0cnVjdG9yXTogU3R1ZGVudCAiIDw8IG5hbWUgPDwgIiBjcmVhdGVkLlxuIjsKICAgIH0KCiAgICAvLyBEZXN0cnVjdG9yCiAgICB+U3R1ZGVudCgpIHsKICAgICAgICBzdGQ6OmNvdXQgPDwgIltEZXN0cnVjdG9yXTogU3R1ZGVudCAiIDw8IG5hbWUgPDwgIiBkZXN0cm95ZWQuXG4iOwogICAgfQoKICAgIHZvaWQgc3R1ZHkoKSB7CiAgICAgICAgc3RkOjpjb3V0IDw8IG5hbWUgPDwgIiBpcyBzdHVkeWluZyBoYXJkIVxuIjsKICAgIH0KfTsKCmludCBtYWluKCkgewogICAgLy8gMS4gUmVjb21tZW5kZWQ6IFVzaW5nIHN0ZDo6bWFrZV9zaGFyZWQKICAgIC8vIEVmZmljaWVudCBhbmQgc2FmZQogICAgYXV0byBzdHVkZW50UHRyMSA9IHN0ZDo6bWFrZV9zaGFyZWQ8U3R1ZGVudD4oIkFsaWNlIik7CgogICAgewogICAgICAgIC8vIDIuIFNoYXJlIG93bmVyc2hpcAogICAgICAgIHN0ZDo6c2hhcmVkX3B0cjxTdHVkZW50PiBzdHVkZW50UHRyMiA9IHN0dWRlbnRQdHIxOwogICAgICAgIAogICAgICAgIHN0ZDo6Y291dCA8PCAiVXNhZ2UgY291bnQ6ICIgPDwgc3R1ZGVudFB0cjEudXNlX2NvdW50KCkgPDwgIlxuIjsKICAgICAgICBzdHVkZW50UHRyMi0+c3R1ZHkoKTsKICAgIH0gLy8gc3R1ZGVudFB0cjIgaXMgZGVzdHJveWVkIGhlcmUsIGJ1dCB0aGUgU3R1ZGVudCBvYmplY3QgcmVtYWlucwoKICAgIHN0ZDo6Y291dCA8PCAiVXNhZ2UgY291bnQgYWZ0ZXIgc2NvcGU6ICIgPDwgc3R1ZGVudFB0cjEudXNlX2NvdW50KCkgPDwgIlxuIjsKCiAgICByZXR1cm4gMDsKfSAvLyBzdHVkZW50UHRyMSBpcyBkZXN0cm95ZWQgaGVyZSwgU3R1ZGVudCBvYmplY3QgaXMgZGVsZXRlZA==",
     "notes": "https://github.com/letrthong/DesignPatterns/blob/master/03.C%2B%2B11/make_shared.cpp",
@@ -92,10 +92,40 @@
   {
     "id": "6cecf54d-d495-4d9c-b8fe-f6ff254dff03",
     "template": "17",
-    "title": "allocate_shared",
-    "page": 17,
+    "title": "C++11 allocate_shared",
+    "page": 18,
     "detail": "Y2xhc3MgVGFzayB7CnB1YmxpYzoKICAgIGludCBpZDsKICAgIFRhc2soaW50IGkpIDogaWQoaSkgewogICAgICAgIHN0ZDo6Y291dCA8PCAiW0NvbnN0cnVjdG9yXTogVGFzayAiIDw8IGlkIDw8ICIgYWxsb2NhdGVkLlxuIjsKICAgIH0KICAgIH5UYXNrKCkgewogICAgICAgIHN0ZDo6Y291dCA8PCAiW0Rlc3RydWN0b3JdOiBUYXNrICIgPDwgaWQgPDwgIiBkZWFsbG9jYXRlZC5cbiI7CiAgICB9Cn07CgppbnQgbWFpbigpIHsKICAgIC8vIDEuIENyZWF0ZSBhIHN0YW5kYXJkIGFsbG9jYXRvciBmb3IgVGFzayBvYmplY3RzCiAgICBzdGQ6OmFsbG9jYXRvcjxUYXNrPiBteUFsbG9jOwoKICAgIC8vIDIuIFVzZSBhbGxvY2F0ZV9zaGFyZWQgaW5zdGVhZCBvZiBtYWtlX3NoYXJlZAogICAgLy8gU3ludGF4OiBzdGQ6OmFsbG9jYXRlX3NoYXJlZDxUeXBlPihBbGxvY2F0b3IsIENvbnN0cnVjdG9yX0FyZ3MuLi4pCiAgICBhdXRvIHRhc2tQdHIgPSBzdGQ6OmFsbG9jYXRlX3NoYXJlZDxUYXNrPihteUFsbG9jLCAxMDEpOwoKICAgIHN0ZDo6Y291dCA8PCAiVGFzayBJRDogIiA8PCB0YXNrUHRyLT5pZCA8PCAiXG4iOwogICAgc3RkOjpjb3V0IDw8ICJVc2FnZSBjb3VudDogIiA8PCB0YXNrUHRyLnVzZV9jb3VudCgpIDw8ICJcbiI7CgogICAgcmV0dXJuIDA7Cn0=",
     "notes": "https://github.com/letrthong/DesignPatterns/blob/master/03.C%2B%2B11/allocate_shared.cpp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "df085059-dfee-4ac0-9ceb-e2bf87e9ee59",
+    "template": "16",
+    "title": "C++11  std::regex",
+    "page": 19,
+    "detail": "",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "4a715dcc-3c00-4608-b12f-9e0d565a32f3",
+    "template": "16",
+    "title": "C++11 std::lock_guard",
+    "page": 20,
+    "detail": "",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "cde88ebb-949f-4cc5-b976-584b71e41e38",
+    "template": "16",
+    "title": "C++11 lambda",
+    "page": 21,
+    "detail": "",
+    "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
   },
