@@ -23,6 +23,10 @@
       {
         "order": 2,
         "text": "C++ 17"
+      },
+      {
+        "order": 3,
+        "text": "C++ 23"
       }
     ],
     "notes": "",
@@ -217,10 +221,30 @@
     "blocks": []
   },
   {
+    "id": "64da5a41-94eb-41c3-a24b-4a39b0a00a65",
+    "template": "4",
+    "title": "3",
+    "page": 50,
+    "detail": "C++ 23",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "d29376a5-10e0-46b3-9688-8c3a3276f453",
+    "template": "16",
+    "title": "C++23",
+    "page": 51,
+    "detail": "",
+    "notes": "https://cpp.sh/",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "1994669e-183e-437b-b33d-479469360566",
     "template": "10",
     "title": "Repos",
-    "page": 50,
+    "page": 100,
     "description": "",
     "content": [
       {
