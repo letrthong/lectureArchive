@@ -40,10 +40,30 @@
     "blocks": []
   },
   {
+    "id": "cfcf5b4c-3597-4845-90b7-79d359a79cb0",
+    "template": "16",
+    "title": "Qualcom CreatePoint",
+    "page": 20,
+    "detail": "https://createpoint.qti.qualcomm.com/ ",
+    "notes": "SA6155P",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "00bf65aa-5f29-4b06-a6a1-b1285c457354",
+    "template": "16",
+    "title": "QNX Software Center",
+    "page": 40,
+    "detail": "https://www.qnx.com/",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "995d53e2-c0f3-49c3-bd11-5e4bf04d8841",
     "template": "10",
     "title": "Reference links",
-    "page": 30,
+    "page": 50,
     "description": "",
     "content": [
       {
