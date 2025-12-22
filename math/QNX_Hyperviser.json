@@ -68,6 +68,31 @@
     "blocks": []
   },
   {
+    "id": "38faeaa8-48d9-4567-b62c-1f55532a96ea",
+    "template": "13",
+    "title": "logs",
+    "page": 10,
+    "description": "",
+    "detail": "slog2info | grep",
+    "content": [
+      {
+        "order": 1,
+        "text": "slog2info"
+      },
+      {
+        "order": 2,
+        "text": "journalctl"
+      },
+      {
+        "order": 3,
+        "text": "logcat"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "cfcf5b4c-3597-4845-90b7-79d359a79cb0",
     "template": "16",
     "title": "Qualcom CreatePoint",
