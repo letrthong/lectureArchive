@@ -57,6 +57,10 @@
       {
         "order": 3,
         "text": "https://www.qnx.com/developers/docs/8.0/com.qnx.doc.neutrino.io_sock/topic/overview_Filtering.html"
+      },
+      {
+        "order": 4,
+        "text": "https://www.qnx.com/developers/docs/7.1/index.html#com.qnx.doc.adas.system_services/topic/slm.html"
       }
     ],
     "notes": "",
