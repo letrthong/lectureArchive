@@ -258,6 +258,14 @@
       {
         "order": 3,
         "text": "https://github.com/letrthong/docker/tree/master/ubuntu-gcc"
+      },
+      {
+        "order": 4,
+        "text": "https://meetingcpp.com/mcpp/slides/"
+      },
+      {
+        "order": 5,
+        "text": "https://cpp.sh/"
       }
     ],
     "notes": "",
