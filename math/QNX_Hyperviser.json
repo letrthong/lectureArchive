@@ -140,6 +140,10 @@
       {
         "order": 3,
         "text": "https://www.qnx.com/developers/docs/8.0/com.qnx.doc.hypervisor.user/topic/build/linux.html"
+      },
+      {
+        "order": 4,
+        "text": "https://github.com/letrthong/QNX_Hyperviser/blob/main/TECHForum-Korea-2024-DigitalCockpit-Randy.pdf"
       }
     ],
     "notes": "",
