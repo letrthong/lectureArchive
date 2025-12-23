@@ -113,10 +113,20 @@
     "blocks": []
   },
   {
+    "id": "e920de52-d066-40fc-b949-0ee12944d410",
+    "template": "16",
+    "title": "Raspberry Pi 4 QNX 8.0 ",
+    "page": 50,
+    "detail": "https://gitlab.com/qnx/quick-start-images/raspberry-pi-qnx-8.0-quick-start-image/-/wikis/Raspberry%20Pi%204%20QNX%208.0%20Quick%20Start%20Target%20Image",
+    "notes": "https://gitlab.com/qnx/quick-start-images/raspberry-pi-qnx-8.0-quick-start-image/-/wikis/Raspberry%20Pi%204%20QNX%208.0%20Quick%20Start%20Target%20Image#required-hardware",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "995d53e2-c0f3-49c3-bd11-5e4bf04d8841",
     "template": "10",
     "title": "Reference links",
-    "page": 50,
+    "page": 60,
     "description": "",
     "content": [
       {
