@@ -18,17 +18,97 @@
     "content": [
       {
         "order": 1,
-        "text": "Linux Kernel"
+        "text": "Build an image"
       },
       {
         "order": 2,
-        "text": "Driver"
+        "text": "Flash"
       },
       {
         "order": 3,
-        "text": "Service"
+        "text": "Testing"
       }
     ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "688047c0-1451-4f35-a647-d3962bd868d5",
+    "template": "4",
+    "title": "1",
+    "page": 10,
+    "detail": "Build an image",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "85e61549-bf39-4605-8702-8cec45c62a81",
+    "template": "11",
+    "title": "Buildroot",
+    "page": 11,
+    "description": "",
+    "detail": "git clone https://github.com/buildroot/buildroot.git",
+    "content": [
+      {
+        "order": 1,
+        "text": "cd buildroot"
+      },
+      {
+        "order": 2,
+        "text": "make raspberrypi4_64_defconfig"
+      },
+      {
+        "order": 3,
+        "text": "make menuconfig"
+      },
+      {
+        "order": 4,
+        "text": "make"
+      },
+      {
+        "order": 5,
+        "text": "output/images/sdcard.img"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "c71379ea-639f-4c86-a911-f5cae474a2fd",
+    "template": "4",
+    "title": "2",
+    "page": 20,
+    "detail": "Flash",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "d207599c-950c-403d-9513-bfa0c84632a8",
+    "template": "13",
+    "title": "Etcher",
+    "page": 21,
+    "description": "",
+    "detail": "Write the file to SD card",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://etcher.balena.io/"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "b9393419-6cb5-439f-97a8-245baac3e45c",
+    "template": "4",
+    "title": "3",
+    "page": 30,
+    "detail": "Testing",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
