@@ -126,7 +126,7 @@
     "id": "995d53e2-c0f3-49c3-bd11-5e4bf04d8841",
     "template": "10",
     "title": "Reference links",
-    "page": 60,
+    "page": 100,
     "description": "",
     "content": [
       {
@@ -144,6 +144,10 @@
       {
         "order": 4,
         "text": "https://github.com/letrthong/QNX_Hyperviser/blob/main/TECHForum-Korea-2024-DigitalCockpit-Randy.pdf"
+      },
+      {
+        "order": 5,
+        "text": "https://www.linkedin.com/pulse/flashing-qnx-raspberry-pi-4-complete-guide-abdullah-abdelhakeem-zdkjf/"
       }
     ],
     "notes": "",
@@ -154,7 +158,7 @@
     "id": "cc4aeb4f-bfc6-4738-97d9-5520b7fd78c3",
     "template": "10",
     "title": "Repo",
-    "page": 70,
+    "page": 101,
     "description": "",
     "content": [
       {
