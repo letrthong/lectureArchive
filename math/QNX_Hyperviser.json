@@ -164,6 +164,10 @@
       {
         "order": 1,
         "text": "https://github.com/letrthong/docker/tree/master/ubuntu-qnx"
+      },
+      {
+        "order": 2,
+        "text": "https://fdbus.readthedocs.io/en/latest/index.html"
       }
     ],
     "notes": "",
