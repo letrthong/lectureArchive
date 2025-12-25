@@ -44,10 +44,38 @@
     "blocks": []
   },
   {
+    "id": "1aa81641-77d7-4e38-b8a6-f86f119bccee",
+    "template": "10",
+    "title": "buildroot raspberrypi3",
+    "page": 11,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "git clone https://github.com/buildroot/buildroot.git"
+      },
+      {
+        "order": 2,
+        "text": "make raspberrypi3_defconfig"
+      },
+      {
+        "order": 3,
+        "text": "make"
+      },
+      {
+        "order": 4,
+        "text": "output/images/sdcard.img"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "85e61549-bf39-4605-8702-8cec45c62a81",
     "template": "11",
-    "title": "Buildroot",
-    "page": 11,
+    "title": "buildroot raspberrypi4",
+    "page": 12,
     "description": "",
     "detail": "git clone https://github.com/buildroot/buildroot.git",
     "content": [
