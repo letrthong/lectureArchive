@@ -110,20 +110,10 @@
     "blocks": []
   },
   {
-    "id": "947e3b7a-e423-4aa9-a90e-2007ca3fc23e",
-    "template": "4",
-    "title": "2",
-    "page": 40,
-    "detail": "Máy băm dạng đĩa",
-    "notes": "",
-    "referenceImagesBase64": "",
-    "blocks": []
-  },
-  {
     "id": "7091d9bb-e451-4a18-88a4-aa673efd9336",
     "template": "10",
     "title": "Links",
-    "page": 100,
+    "page": 30,
     "description": "",
     "content": [
       {
@@ -139,6 +129,16 @@
         "text": "https://www.bigdutchman.asia/"
       }
     ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "947e3b7a-e423-4aa9-a90e-2007ca3fc23e",
+    "template": "4",
+    "title": "2",
+    "page": 40,
+    "detail": "Máy băm dạng đĩa",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
