@@ -1,0 +1,32 @@
+[
+  {
+    "id": "3e31f958-9dc5-41f6-a926-a2822057ae15",
+    "template": "2",
+    "title": "Neural Network",
+    "page": 1,
+    "detail": "",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "b82392e6-0464-426c-86c8-b7fee5a7c51e",
+    "template": "10",
+    "title": "Links",
+    "page": 20,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://www.baeldung.com/cs/neural-networks-neurons"
+      },
+      {
+        "order": 2,
+        "text": "https://www.geeksforgeeks.org/machine-learning/neural-networks-a-beginners-guide/"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  }
+]
