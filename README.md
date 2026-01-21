@@ -1,4 +1,4 @@
 # Thư viện mở
-Truy cập https://telua.co/learning và sử dụng "Công cụ -> Hiện bài giảng" để hiện thông tin slide
+Truy cập https://telua.vn/learning và sử dụng "Công cụ -> Hiện bài giảng" để hiện thông tin slide
 
 # ...
