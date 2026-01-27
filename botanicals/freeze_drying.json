@@ -42,5 +42,25 @@
     "notes": "Maltodextrin DE 10-12",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "3b167f13-8f87-42a3-9bc4-ad6826ff18c4",
+    "template": "16",
+    "title": "Maltodextrin ",
+    "page": 31,
+    "detail": " Maltodextrin là một loại carbohydrate được sản xuất từ tinh bột (thường là bắp, khoai mì, khoai tây hoặc gạo).\nNó được thủy phân để tạo thành chuỗi đường ngắn, vì vậy cơ thể hấp thụ rất nhanh – gần như đường glucose.",
+    "notes": "Maltodextrin an toàn khi dùng với lượng vừa phải. Tuy nhiên, vì nó làm tăng đường huyết nhanh, bạn nên cân nhắc nếu đang ăn kiêng hoặc có bệnh nền liên quan đến đường huyết.",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "19cd6338-70d9-4f33-8bef-950ed55b023e",
+    "template": "16",
+    "title": "Maltodextrin ",
+    "page": 32,
+    "detail": "Maltodextrin thường dùng trong thực phẩm để:\n\nTạo độ sánh, tăng kết cấu\nLàm chất độn, tăng thể tích\nTạo vị hơi ngọt\nỔn định sản phẩm",
+    "notes": "Sản phẩm thực tế sử dụng: \n\nSữa bột, ngũ cốc\nĐồ uống thể thao\nBánh kẹo, snack\nThực phẩm chức năng, whey protein",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
