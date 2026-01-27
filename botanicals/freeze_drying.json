@@ -2,9 +2,33 @@
   {
     "id": "6906df7e-86b7-4543-9c1b-feaf2c512ba7",
     "template": "1",
-    "title": "Sấy thăng hoa",
+    "title": "Các công nghệ sấy trong thực phẩm",
     "page": 1,
     "detail": "",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "c80d5c08-5162-4116-ba3a-aa57873337a7",
+    "template": "5",
+    "title": "Nội dung",
+    "page": 2,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Sấy nhiệt"
+      },
+      {
+        "order": 2,
+        "text": "Sấy lạnh"
+      },
+      {
+        "order": 3,
+        "text": "Sây thăng hoa"
+      }
+    ],
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
