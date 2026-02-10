@@ -54,6 +54,38 @@
     "blocks": []
   },
   {
+    "id": "1d23fd33-b166-4a45-b10a-62e09d72606a",
+    "template": "10",
+    "title": "Vì sao rau phơi nắng ngoài trời lại  mất sạch mùi ?",
+    "page": 11,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "Ánh nắng mặt trời làm bay hơi toàn bộ tinh dầu"
+      },
+      {
+        "order": 2,
+        "text": "Tia UV phá hủy hợp chất tạo mùi"
+      },
+      {
+        "order": 3,
+        "text": "Gió thổi liên tục mang mùi đi hết"
+      },
+      {
+        "order": 4,
+        "text": "Nhiệt độ cao phá hủy các hợp chất nhạy nhiệt"
+      },
+      {
+        "order": 5,
+        "text": "Oxy hóa làm mùi biến mất"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "db7264d5-1891-45e1-9e85-32d073293fc5",
     "template": "40",
     "title": "Máy sấy nhiệt",
