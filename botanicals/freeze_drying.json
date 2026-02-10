@@ -18,17 +18,27 @@
     "content": [
       {
         "order": 1,
-        "text": "Sấy nhiệt"
+        "text": "Sấy nhiệt - Hot Air Drying"
       },
       {
         "order": 2,
-        "text": "Sấy lạnh"
+        "text": "Sấy lạnh -  Cold Air Drying"
       },
       {
         "order": 3,
-        "text": "Sây thăng hoa"
+        "text": "Sây thăng hoa - Freeze Drying"
       }
     ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "6e1579b7-6459-478d-bf12-2a1db1273937",
+    "template": "50",
+    "title": "Công nghệ Sấy",
+    "page": 4,
+    "detail": "WwogIHsKICAgICJjb2wxIjogIlRpw6p1IGNow60iLAogICAgImNvbDIiOiAiU+G6pXkgdGjEg25nIGhvYSIsCiAgICAiY29sMyI6ICJT4bqleSBs4bqhbmgiLAogICAgImNvbDQiOiAiU+G6pXkgbmhp4buHdCIKICB9LAogIHsKICAgICJjb2wxIjogIkdp4buvIG3DoHUiLAogICAgImNvbDIiOiAi4q2Q4q2Q4q2Q4q2QIiwKICAgICJjb2wzIjogIuKtkOKtkOKtkCIsCiAgICAiY29sNCI6ICLirZDigJPirZDirZAiCiAgfSwKICB7CiAgICAiY29sMSI6ICJHaeG7ryBkaW5oIGTGsOG7oW5nIiwKICAgICJjb2wyIjogIuKtkOKtkOKtkOKtkCAodOG7kXQgbmjhuqV0KSIsCiAgICAiY29sMyI6ICLirZDirZDirZAiLAogICAgImNvbDQiOiAi4q2Q4oCT4q2Q4q2QIgogIH0sCiAgewogICAgImNvbDEiOiAiSMawxqFuZyB24buLIiwKICAgICJjb2wyIjogIlLhuqV0IGfhuqduIG5ndXnDqm4gYuG6o24iLAogICAgImNvbDMiOiAiR+G6p24gdOG7sSBuaGnDqm4iLAogICAgImNvbDQiOiAiVGhheSDEkeG7lWksIMSRw7RpIGtoaSBraMOpdCIKICB9LAogIHsKICAgICJjb2wxIjogIsSQ4buZIOG6qW0gY3Xhu5FpIiwKICAgICJjb2wyIjogIjHigJMzJSIsCiAgICAiY29sMyI6ICIz4oCTOCUiLAogICAgImNvbDQiOiAiNuKAkzE1JSIKICB9LAogIHsKICAgICJjb2wxIjogIkLhuqNvIHF14bqjbiIsCiAgICAiY29sMiI6ICIx4oCTMyBuxINtIiwKICAgICJjb2wzIjogIjbigJMxMiB0aMOhbmciLAogICAgImNvbDQiOiAiM+KAkzYgdGjDoW5nIgogIH0sCiAgewogICAgImNvbDEiOiAiQ+G6pXUgdHLDumMgc+G6o24gcGjhuqltIiwKICAgICJjb2wyIjogIkdp4buvIG5ndXnDqm4gOTXigJMxMDAlIiwKICAgICJjb2wzIjogIkjGoWkgY28gbmjhurkiLAogICAgImNvbDQiOiAiQ28gdMOzcCBt4bqhbmgiCiAgfSwKICB7CiAgICAiY29sMSI6ICJHacOhIG3DoXkiLAogICAgImNvbDIiOiAiODDigJM1MDAgdHJp4buHdSAobWluaSkgxJHhur9uIHbDoGkgdOG7tyIsCiAgICAiY29sMyI6ICIxNeKAkzE1MCB0cmnhu4d1IiwKICAgICJjb2w0IjogIjXigJM1MCB0cmnhu4d1IgogIH0sCiAgewogICAgImNvbDEiOiAixJBp4buHbiBuxINuZyIsCiAgICAiY29sMiI6ICJDYW8gbmjhuqV0IiwKICAgICJjb2wzIjogIlRydW5nIGLDrG5oIiwKICAgICJjb2w0IjogIlRo4bqlcCIKICB9LAogIHsKICAgICJjb2wxIjogIuG7qG5nIGThu6VuZyIsCiAgICAiY29sMiI6ICJExrDhu6NjIGxp4buHdSBjYW8gY+G6pXAsIHJhdSBjYW8gY+G6pXAsIHRo4buxYyBwaOG6qW0gY2jhu6ljIG7Eg25nIiwKICAgICJjb2wzIjogIlJhdSBj4bunIGNhbyBj4bqlcCwgdHLDoWkgY8OieSBtaeG6v25nLCBnaWEgduG7iyIsCiAgICAiY29sNCI6ICJSYXUgcGjhu5UgdGjDtG5nLCBz4bqleSBraOG7kWkgbMaw4bujbmcgbOG7m24iCiAgfQpd",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
