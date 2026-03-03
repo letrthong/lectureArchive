@@ -48,5 +48,15 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "dbcfb519-3b7d-4dc0-b6ce-a52be4e97dc9",
+    "template": "16",
+    "title": "VITE",
+    "page": 300,
+    "detail": "https://vite.dev/",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
