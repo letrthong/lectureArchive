@@ -1,0 +1,42 @@
+[
+  {
+    "id": "45d75dcf-e122-436a-8a8c-7819f8900ab8",
+    "template": "2",
+    "title": "NodeJS",
+    "page": 1,
+    "detail": "",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "ad0c26dd-601a-46a3-8666-2a5fece32914",
+    "template": "16",
+    "title": "Cài đặt môi trường",
+    "page": 10,
+    "detail": "Cài đặt toàn cục  <br>\nnpm install -g typescript ",
+    "notes": "Cài đặt trong dự án <br>\nnpm install --save-dev typescript",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "7be1b3ec-360f-41ce-ae2e-fb9c4591d766",
+    "template": "16",
+    "title": "Biên dịch file",
+    "page": 11,
+    "detail": "tsc script.ts --outfile static/js/script.js",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "bfec707c-1644-43d0-9b84-34e155b89ac3",
+    "template": "16",
+    "title": "Tạo file cấu hình tsconfig.json ",
+    "page": 12,
+    "detail": "Thay vì gõ lệnh dài dòng, bạn nên tạo một file cấu hình để Node.js biết cần convert file nào và đưa vào  đâu.",
+    "notes": " Chạy lệnh: tsc --init để tạo tsconfig.json  <br> <br>\n\nCác cách Convert (Biên dịch) <br>\ntsc",
+    "referenceImagesBase64": "",
+    "blocks": []
+  }
+]
