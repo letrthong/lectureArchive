@@ -38,5 +38,15 @@
     "notes": " Chạy lệnh: tsc --init để tạo tsconfig.json  <br> <br>\n\nCác cách Convert (Biên dịch) <br>\ntsc",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "5c859050-9df8-43a6-aea2-b052cc2fc30a",
+    "template": "18",
+    "title": "tsconfig.app.json",
+    "page": 20,
+    "detail": "ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAib3V0RGlyIjogIi4vc3RhdGljL2Rpc3QiLCAgICAgIC8vIFFVQU4gVFLhu4xORzogTsahaSBGbGFzayBz4bq9IMSR4buNYyBmaWxlIEpTCiAgICAicm9vdERpciI6ICIuL3NyYyIsICAgICAgICAgICAgIC8vIE7GoWkgYuG6oW4gdmnhur90IGNvZGUgVFMKICAgICJtb2R1bGUiOiAiRVNOZXh0IiwKICAgICJ0YXJnZXQiOiAiRVM2IiwKICAgICJtb2R1bGVSZXNvbHV0aW9uIjogImJ1bmRsZXIiLAogICAgImFsbG93SW1wb3J0aW5nVHNFeHRlbnNpb25zIjogdHJ1ZSwKICAgICJub0VtaXQiOiBmYWxzZSAgICAgICAgICAgICAgICAgLy8gUEjhuqJJIMSQ4buCIEZBTFNFIMSR4buDIE5vZGUuanMgY8OzIHRo4buDIHh14bqldCBmaWxlIC5qcwogIH0sCiAgImluY2x1ZGUiOiBbInNyYy8qKi8qLnRzIl0KfQ==",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
