@@ -55,7 +55,7 @@
     "title": "VITE",
     "page": 300,
     "detail": "https://vite.dev/",
-    "notes": "npm install vite-plugin-singlefile",
+    "notes": "npm install vite-plugin-singlefile \n<br>\nvite.config.ts",
     "referenceImagesBase64": "",
     "blocks": []
   }
