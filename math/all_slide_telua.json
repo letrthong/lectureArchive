@@ -8,5 +8,15 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "791d71ff-41e3-408b-a089-5578c69a5d1c",
+    "template": "19",
+    "title": "Background color, Text color",
+    "page": 4,
+    "detail": "QmFja2dyb3VuZCA6ICAjMzU3QTEwICAgRm9yZXN0IEdyZWVuIAogClRleHQgOiAjRkJGRkI3IENyZWFteSBZZWxsb3cK",
+    "notes": "https://htmlcolorcodes.com/color-picker/",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
