@@ -1,0 +1,22 @@
+[
+  {
+    "id": "21edf738-c71d-42b5-8b1b-b3e5d4157d42",
+    "template": "3",
+    "title": "Gemini API",
+    "page": 1,
+    "detail": "https://ai.google.dev/ ",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "15ede1b3-f590-4054-b38a-ac995f54b611",
+    "template": "16",
+    "title": "Caching",
+    "page": 4,
+    "detail": "https://ai.google.dev/gemini-api/docs/caching",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  }
+]
