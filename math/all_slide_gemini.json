@@ -34,7 +34,7 @@
     "template": "16",
     "title": "MCP (Model Context Protocol)",
     "page": 4,
-    "detail": "",
+    "detail": "https://modelcontextprotocol.io/docs/getting-started/intro",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
@@ -45,7 +45,7 @@
     "title": "Agent Skill",
     "page": 7,
     "detail": "https://ai.google.dev/gemini-api/docs/coding-agents",
-    "notes": "",
+    "notes": "https://ai-sdk.dev/docs/agents/overview <br>\n\nhttps://github.com/cline/cline",
     "referenceImagesBase64": "",
     "blocks": []
   },
