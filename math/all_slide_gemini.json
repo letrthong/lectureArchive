@@ -30,11 +30,11 @@
     "blocks": []
   },
   {
-    "id": "15ede1b3-f590-4054-b38a-ac995f54b611",
+    "id": "c37a9e2e-555e-48f5-b8f2-e97f29ea1a28",
     "template": "16",
-    "title": "Caching",
+    "title": "MCP (Model Context Protocol)",
     "page": 4,
-    "detail": "https://ai.google.dev/gemini-api/docs/caching",
+    "detail": "",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
@@ -42,9 +42,19 @@
   {
     "id": "8c6607e9-9120-41d4-b070-c0e5a3f20067",
     "template": "16",
-    "title": "Agents",
-    "page": 4,
+    "title": "Agent Skill",
+    "page": 7,
     "detail": "https://ai.google.dev/gemini-api/docs/coding-agents",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "15ede1b3-f590-4054-b38a-ac995f54b611",
+    "template": "16",
+    "title": "Caching",
+    "page": 8,
+    "detail": "https://ai.google.dev/gemini-api/docs/caching",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
