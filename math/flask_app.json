@@ -78,5 +78,15 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "9c9e0231-97a2-40c9-9ae0-538f63b2d718",
+    "template": "16",
+    "title": " SSE trong Python Flask  ",
+    "page": 11,
+    "detail": "Server-Sent Events (SSE) là một công nghệ web cho phép máy chủ (server) chủ động đẩy (push) dữ liệu về cho trình duyệt (client) theo thời gian thực (real-time) thông qua một kết nối HTTP duy nhất được giữ mở.",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
