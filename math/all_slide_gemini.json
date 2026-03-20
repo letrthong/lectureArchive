@@ -108,5 +108,73 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "8d8842b0-f2fb-4c23-aaa6-4375f33e38d1",
+    "template": "5",
+    "title": "AI",
+    "page": 40,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "OpenClaw"
+      },
+      {
+        "order": 2,
+        "text": "MOJJU"
+      },
+      {
+        "order": 3,
+        "text": "NemoClaw"
+      },
+      {
+        "order": 4,
+        "text": "Runway Gen-4 & Runway"
+      },
+      {
+        "order": 5,
+        "text": "Kling 2 & Hailuo Minimax 2"
+      },
+      {
+        "order": 6,
+        "text": "Veo 3"
+      },
+      {
+        "order": 7,
+        "text": "Midjourney"
+      },
+      {
+        "order": 8,
+        "text": "Suno AI"
+      },
+      {
+        "order": 9,
+        "text": "ElevenLabs"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "2ab18fcc-7634-4eb1-8422-a9b1715b17e7",
+    "template": "10",
+    "title": "Website",
+    "page": 41,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://lovable.dev/"
+      },
+      {
+        "order": 2,
+        "text": "https://nemoclaw.bot/"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
