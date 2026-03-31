@@ -53,9 +53,25 @@
     "id": "dbcfb519-3b7d-4dc0-b6ce-a52be4e97dc9",
     "template": "16",
     "title": "VITE",
-    "page": 300,
+    "page": 30,
     "detail": "https://vite.dev/",
     "notes": "npm install vite-plugin-singlefile \n<br>\nvite.config.ts",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "7c4cfd73-2e3d-4dfe-b332-3d792ce1a329",
+    "template": "12",
+    "title": "Links",
+    "page": 31,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://github.com/letrthong/docker/tree/master/ubuntu_nodejs"
+      }
+    ],
+    "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
   }
