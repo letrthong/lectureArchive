@@ -23,6 +23,10 @@
       {
         "order": 2,
         "text": "Kích thước"
+      },
+      {
+        "order": 3,
+        "text": "Cách thi công"
       }
     ],
     "notes": "",
@@ -75,6 +79,16 @@
     "title": "2",
     "page": 20,
     "detail": "Kích thước ",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "af8996c7-a113-44d6-84a5-8c25fcec478d",
+    "template": "4",
+    "title": "3",
+    "page": 30,
+    "detail": "Cách thi công",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
