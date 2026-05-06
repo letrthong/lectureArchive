@@ -30,10 +30,20 @@
     "blocks": []
   },
   {
+    "id": "060e428e-19a6-4f11-9959-53543277843a",
+    "template": "16",
+    "title": "Config docker ",
+    "page": 10,
+    "detail": "~/.docker/config.json",
+    "notes": "{\n\t\"auths\": {\n\t\t\"repo.xyz.com\": {\n\t\t\t\"auth\": \"ZXRyMWhjOjA4MjAxNjNAVGVsdWE=\"\n\t\t}\n\t},\n\t\"proxies\": {\n\t\t\t\"default\": {\n\t\t\t\t\t\"httpProxy\": \"http://172.17.0.x:3128\",\n\t\t\t\t\t\"httpsProxy\": \"http://172.17.0.x:3128\",\n\t\t\t\t\t\"noProxy\": \"localhost,127.0.0.*,*.xyz.com\",\n\t\t\t\t\t\"ftpProxy\": \"http://172.17.0.x:3128\"\n\t\t\t}\n\t}\n}",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "06b1a053-6ad9-4827-9087-25e850e0afbe",
     "template": "10",
     "title": "Repo",
-    "page": 10,
+    "page": 20,
     "description": "",
     "content": [
       {
