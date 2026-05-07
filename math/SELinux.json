@@ -18,5 +18,25 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "224b45f2-cb68-4f67-8e42-f98eae5c2383",
+    "template": "10",
+    "title": "Links",
+    "page": 10,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux"
+      },
+      {
+        "order": 2,
+        "text": "https://docs.kernel.org/next/admin-guide/LSM/SELinux.html"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
