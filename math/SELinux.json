@@ -4,7 +4,17 @@
     "template": "1",
     "title": "SELinux",
     "page": 1,
-    "detail": "",
+    "detail": "Security-Enhanced Linux ",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "a71ae74f-2aec-4511-a613-85755b5894f9",
+    "template": "50",
+    "title": "Linux - SELinux  ",
+    "page": 4,
+    "detail": "ICBbCiAgewogICAgImNvbDEiOiAiTGludXgiLAogICAgImNvbDIiOiAiU0VMaW51eCIgCiAgfSwKICB7CiAgICAiY29sMSI6ICJEQUMgLSBEaXNjcmV0aW9uYXJ5IEFjY2VzcyBDb250cm9sIiwKICAgICJjb2wyIjogIk1BQyAtIE1hbmRhdG9yeSBBY2Nlc3MgQ29udHJvbCIgCiAgfQpd",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
