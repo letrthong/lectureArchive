@@ -70,6 +70,16 @@
     "blocks": []
   },
   {
+    "id": "add15339-7d62-44a6-8063-b44339c59abf",
+    "template": "16",
+    "title": "my_app",
+    "page": 21,
+    "detail": "my_app.py \nmy_app.te",
+    "notes": "make -f /usr/share/selinux/devel/Makefile my_app.pp",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "224b45f2-cb68-4f67-8e42-f98eae5c2383",
     "template": "10",
     "title": "Links",
