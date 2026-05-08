@@ -50,6 +50,16 @@
     "blocks": []
   },
   {
+    "id": "8817304d-44b7-4b75-b557-7ce52ca5fe72",
+    "template": "16",
+    "title": "Mã nguồn",
+    "page": 16,
+    "detail": "1. Kernel SELinux  </br>\nkernel/kernel-6.12/.../security/selinux/ </br>\n\nhttps://github.com/torvalds/linux/tree/master/security/selinux",
+    "notes": "2. Userspace SELinux (Yocto meta-layer) </br>\nlinux/.../meta-selinux/ <br>\n ",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "50fc1695-b4ce-40d3-8fef-817ec0e1cc56",
     "template": "40",
     "title": "Quy trình Triển khai",
