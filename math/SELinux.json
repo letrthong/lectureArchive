@@ -140,10 +140,30 @@
     "blocks": []
   },
   {
+    "id": "f43344da-a86a-4a07-a6af-c7fd79dacf65",
+    "template": "10",
+    "title": "Repo",
+    "page": 50,
+    "description": "",
+    "content": [
+      {
+        "order": 1,
+        "text": "https://github.com/letrthong/docker/tree/master/selinux_centOS"
+      },
+      {
+        "order": 2,
+        "text": "https://github.com/letrthong/docker/tree/master/selinux_centos_socket"
+      }
+    ],
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "224b45f2-cb68-4f67-8e42-f98eae5c2383",
     "template": "10",
     "title": "Links",
-    "page": 50,
+    "page": 51,
     "description": "",
     "content": [
       {
