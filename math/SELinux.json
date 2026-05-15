@@ -120,12 +120,22 @@
     "blocks": []
   },
   {
-    "id": "8b941289-a018-488b-a4fe-58cdf1de48ae",
+    "id": "4167c102-b36a-4b7b-b5a9-7143a969ddcf",
     "template": "16",
-    "title": "centos",
+    "title": "centos ",
     "page": 41,
-    "detail": "dnf install git -y \ndnf install -y make selinux-policy-devel",
-    "notes": "make -f /usr/share/selinux/devel/Makefile my_app.pp  </br>\n </br>\nCompiling targeted my_app module  </br>\nCreating targeted my_app.pp policy package  </br>\nrm tmp/my_app.mod.fc tmp/my_app.mod  </br>",
+    "detail": "[root@instance-20260515-004423 selinux_centOS]# make -f /usr/share/selinux/devel/Makefile my_app.pp  </br>\nCompiling targeted my_app module  </br>\nCreating targeted my_app.pp policy package  </br>\nrm tmp/my_app.mod.fc tmp/my_app.mod  </br>",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "a918ca2f-14e2-4f88-a287-e8bf66cd3bef",
+    "template": "16",
+    "title": "tcp socket",
+    "page": 42,
+    "detail": "[root@instance-20260515-004423 selinux_centos_socket]# make -f /usr/share/selinux/devel/Makefile  -C ./policy  my_app_socket.pp  </br>\nmake: Entering directory '/opt/docker/selinux_centos_socket/policy' </br>\nCompiling targeted my_app_socket module  </br>\nCreating targeted my_app_socket.pp policy package  </br>\nrm tmp/my_app_socket.mod tmp/my_app_socket.mod.fc  </br>\nmake: Leaving directory '/opt/docker/selinux_centos_socket/policy' </br>",
+    "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
   },
