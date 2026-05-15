@@ -30,6 +30,16 @@
     "blocks": []
   },
   {
+    "id": "4b9f180f-5ec7-415b-a137-62bb1b3c45b6",
+    "template": "16",
+    "title": "GloDroid",
+    "page": 20,
+    "detail": "git clone https://github.com/GloDroidCommunity/raspberry-pi    </br>\ncd raspberry-pi </br>\n./unfold_aosp.sh </br>\n./build.sh  </br>\n\n",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "9aeebfef-4572-4a0f-b2e5-3f1cc90f6d9e",
     "template": "10",
     "title": "Repo",
