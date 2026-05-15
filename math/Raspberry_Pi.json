@@ -34,7 +34,7 @@
     "template": "16",
     "title": "GloDroid",
     "page": 20,
-    "detail": "git clone https://github.com/GloDroidCommunity/raspberry-pi    </br>\ncd raspberry-pi </br>\n./unfold_aosp.sh </br>\n./build.sh  </br>\n\n",
+    "detail": "git clone https://github.com/GloDroidCommunity/raspberry-pi.git   </br>\ncd raspberry-pi </br>\n./unfold_aosp.sh </br>\n./build.sh  </br>\n\n",
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
