@@ -58,5 +58,15 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "5673ee0a-2aa7-4240-9b6b-47d178efa458",
+    "template": "16",
+    "title": "Grafana ",
+    "page": 31,
+    "detail": "Filebeat (Đi kèm với Elastic Stack - ELK)",
+    "notes": "Promtail (Đi kèm với hệ sinh thái Grafana Loki)",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
