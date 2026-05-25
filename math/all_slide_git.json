@@ -64,5 +64,15 @@
     "notes": "",
     "referenceImagesBase64": "",
     "blocks": []
+  },
+  {
+    "id": "5b93da49-daf2-4478-ac4f-7c80dcc1adc6",
+    "template": "16",
+    "title": "git format-patch",
+    "page": 20,
+    "detail": "-Tạo Path </br>\ngit add . </br>\ngit commit -m \"Fix all unused parameter warnings and clean build\" </br>\ngit format-patch -1  </br>\n</br>",
+    "notes": "-Tích hợp Path </br>\ngit am < tên_file.patch",
+    "referenceImagesBase64": "",
+    "blocks": []
   }
 ]
