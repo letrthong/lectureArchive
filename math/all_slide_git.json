@@ -70,7 +70,7 @@
     "template": "16",
     "title": "git format-patch",
     "page": 20,
-    "detail": "1/ Tạo Path </br>\ngit add . </br>\ngit commit -m \"Fix all unused parameter warnings and clean build\" </br>\ngit format-patch -1  </br>\n</br>\n</br>\ngit commit --amend --author=\" name email\" --no-edit </br>\ngit commit --amend --no-edit  </br>\n</br>\n Reset src/xyz.c </br>\n git checkout HEAD~1 -- src/xyz.c </br>",
+    "detail": "1/ Tạo Path </br>\ngit add . </br>\ngit commit -m \"Fix all unused parameter warnings and clean build\" </br>\ngit format-patch -1  </br>\n</br>\n</br>\ngit commit --amend --author=\" name email\" --no-edit </br>\ngit commit --amend --no-edit  </br>\n</br>\n Lấy lại file từ commit trước đó  </br>\n git checkout HEAD~1 -- src/xyz.c </br>",
     "notes": "2/ Tích hợp Path </br>\ngit am < tên_file.patch",
     "referenceImagesBase64": "",
     "blocks": []
