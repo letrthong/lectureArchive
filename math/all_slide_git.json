@@ -58,7 +58,7 @@
     "content": [
       {
         "order": 1,
-        "text": "repo sync -d"
+        "text": "repo sync -d  # -d detach"
       }
     ],
     "notes": "",
