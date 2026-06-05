@@ -66,6 +66,16 @@
     "blocks": []
   },
   {
+    "id": "bc705d72-d5ea-499f-8c5e-5bf58a2a5faa",
+    "template": "16",
+    "title": "Revert to commit id on repo",
+    "page": 13,
+    "detail": " cd .repo/manifest </br>\n</br>\ngit log </br>\n</br>\ngit checkout commit_id</br>\n</br>\ncd ../..</br>\nrepo sync -l  # Lấy code đã tải xếp ra ngoài thư mục làm việc theo đúng manifest cũ của bạn </br>\nrepo sync -n  # Chỉ tải các object/commit còn thiếu từ mạng về kho ẩn, không làm thay đổi manifest  </br>",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
     "id": "5b93da49-daf2-4478-ac4f-7c80dcc1adc6",
     "template": "16",
     "title": "git format-patch",
