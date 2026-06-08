@@ -1,0 +1,22 @@
+[
+  {
+    "id": "a851b7d3-5628-417e-a34f-25abb8890cd3",
+    "template": "1",
+    "title": "Build Yocto Project",
+    "page": 1,
+    "detail": "",
+    "notes": "",
+    "referenceImagesBase64": "",
+    "blocks": []
+  },
+  {
+    "id": "4d10ec5d-bd79-47b8-8497-164aaf6b5bf7",
+    "template": "16",
+    "title": "Xóa file",
+    "page": 4,
+    "detail": "- Xóa Cache cấu hình </br>\nrm -rf cache  </br>\n </br>\n-Xóa các file build tạm thời </br>\nrm -rf tmp </br>\n  </br>",
+    "notes": "-Xóa SSTATE Cache</br>\nrm -rf sstate-cache </br>\n </br>\n-Xóa cache của một Recipe cụ thể </br>\nbitbake -c cleansstate <tên_recipe>  </br>\nbitbake -c cleanall <tên_recipe>\n",
+    "referenceImagesBase64": "",
+    "blocks": []
+  }
+]
